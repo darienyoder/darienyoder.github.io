@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<title>Darien Yoder's Portfolio</title>
+		<link rel="stylesheet" href="file:\\\C:\Users\Darien\Documents\GitHub\darienyoder.github.io\index.css">
+		<link rel="stylesheet" href="file:\\\C:\Users\Darien\Documents\GitHub\darienyoder.github.io\category-list.css">
+		<script type="text/javascript" src="main.js"></script>
+	</head>
+	<body onload="add_portfolio_items()">
+		<nav>
+			<a href="#cover-image">Home</a>
+			<a href="#portfolio-filters">Portfolio</a>
+			<a href="#contact">Contact</a>
+		</nav>
+		<div id="cover-image">
+			<header>
+				<h1>Sketches</h1>
+				<!-- <h2>Actor | Animator | Programmer</h2> -->
+			</header>
+		</div>
+		<p id="welcome-text">
+			Hi, my name is Darien, and here is where I will put an introduction or something once I make it.
+		</p>
+		<!-- <div id="portfolio-filters">
+			<button class="filter-button" name="everything" onclick="filter(this.name)">Everything</button>
+			<button class="filter-button" name="acting" onclick="filter(this.name)">Acted In</button>
+			<button class="filter-button" name="animation" onclick="filter(this.name)">Animated</button>
+			<button class="filter-button" name="code" onclick="filter(this.name)">Coded</button>
+		</div> -->
+		<div id="portfolio-grid">
+			<!-- Items will autofill here -->
+			<div class="portfolio-item-detailed">
+				<h1>Title</h1>
+				<img src="" alt="">
+				<ul>
+					<li>Writer</li>
+					<li>Writer</li>
+					<li>Writer</li>
+				</ul>
+			</div>
+		</div>
+		<footer>
+			<h1>Contact</h1>
+			<form id="contact" action="index.html" method="post">
+				<div class="contact-row">
+					<span class="contact-row">
+						<label class="contact-input-label" for="name"></label>
+						<input class="contact-input" type="text" name="name" value="" placeholder="Name">
+					</span>
+					<span class="contact-row">
+						<label class="contact-input-label" for="name"></label>
+						<input class="contact-input" type="email" name="email" value="" placeholder="Email">
+					</span>
+				</div>
+				<br>
+				<div class="contact-row">
+					<label class="contact-input-label" for="name"></label>
+					<input id="contact-subject" class="contact-input" type="text" name="subject" value="" placeholder="Subject">
+				</div>
+				<br>
+				<div class="contact-row">
+					<label class="contact-input-label" for="name"></label>
+					<input id="contact-message" class="contact-input" type="text" name="message" value="" placeholder="Message">
+				</div>
+				<button class="contact-input" type="submit" name="submit">Submit</button>
+			</form>
+		</footer>
+	</body>
+</html>
