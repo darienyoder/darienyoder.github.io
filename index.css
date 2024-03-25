@@ -18,7 +18,7 @@ html, body {
     float: auto;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 1000px) {
     .side {
         float: left;
         width: 50%;
