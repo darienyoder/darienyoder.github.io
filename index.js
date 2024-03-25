@@ -13,6 +13,7 @@ function dropdownmenu(index)
 
 function main()
 {
+    alert(document.getElementById('right-side').offsetWidth);
     for (let i = 0; i < document.getElementsByClassName("dropdown-header").length; i++)
     {
         document.getElementsByClassName("dropdown-header")[i].onclick = function() {dropdownmenu(i)};
