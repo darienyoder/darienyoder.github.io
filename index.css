@@ -13,16 +13,16 @@ html, body {
 }
 
 .side {
-    float: left;
-    width: 50%;
-    height: 100%;
+    width: 100%;
+    height: auto;
+    float: auto;
 }
 
-@media (max-width: 8in) {
+@media (min-width: 8in) {
     .side {
-        width: 100%;
-        height: auto;
-        float: auto;
+        float: left;
+        width: 50%;
+        height: 100%;
     }
 }
 
