@@ -11,11 +11,47 @@ function dropdownmenu(index)
     }
 }
 
+function show_highlights()
+{
+    document.getElementById("highlights").style.display = "block";
+    document.getElementById("about-me").style.display = "none";
+    document.getElementById("resume").style.display = "none";
+    document.getElementById("contact").style.display = "none";
+}
+
+function show_about_me()
+{
+    document.getElementById("highlights").style.display = "none";
+    document.getElementById("about-me").style.display = "flex";
+    document.getElementById("resume").style.display = "none";
+    document.getElementById("contact").style.display = "none";
+}
+
+
+function show_resume()
+{
+    document.getElementById("highlights").style.display = "none";
+    document.getElementById("about-me").style.display = "none";
+    document.getElementById("resume").style.display = "block";
+    document.getElementById("contact").style.display = "none";
+    window.scrollTo(0, 0);
+}
+
+
+function show_contact()
+{
+    document.getElementById("highlights").style.display = "none";
+    document.getElementById("about-me").style.display = "none";
+    document.getElementById("resume").style.display = "none";
+    document.getElementById("contact").style.display = "block";
+}
+
+
 function main()
 {
-    alert(document.getElementById('right-side').offsetWidth);
     for (let i = 0; i < document.getElementsByClassName("dropdown-header").length; i++)
     {
         document.getElementsByClassName("dropdown-header")[i].onclick = function() {dropdownmenu(i)};
     }
+    show_about_me();
 }

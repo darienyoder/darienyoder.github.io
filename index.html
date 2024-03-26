@@ -1,65 +1,121 @@
-<head>
-	<title>Darien Yoder</title>
-	<!-- <link rel="icon" type="image/x-icon" href="favicon.png"> -->
-	<link rel="stylesheet" href="index.css">
-	<script src="index.js"></script>
-</head>
-<body onload="main()">
-    <div id="row">
-        <div id="left-side" class="side">
-            <div class="center-content">
-                <div>
-                    <h1>Hi, I'm Darien</h1>
-                    <p>I'm a Computer Science student</p>
-                    <a class="link" href="#">Resume</a><br>
-                    <a class="link" href="#">About me</a><br>
-                    <a class="link" href="#">Contact</a>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+    	<title>Darien Yoder</title>
+    	<!-- <link rel="icon" type="image/x-icon" href="favicon.png"> -->
+    	<link rel="stylesheet" href="index.css">
+    	<script src="index.js"></script>
+    </head>
+    <body onload="main()">
+        <div id="row">
+            <div id="left-side" class="side">
+                <div class="center-content" style="align-items:flex-end;">
+                    <div class="left-container">
+                        <h1 class="outline-2">Darien Yoder</h1>
+                        <p class="outline-1">I'm a Computer Science student</p>
+                        <table>
+                            <tr>
+                                <td>
+                                    <a class="link" onclick="show_about_me()" href="#about-me">About Me</a>
+                                </td>
+                                <td>
+                                    <a class="link" onclick="show_highlights()" href="#highlights">Highlights</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <a class="link" onclick="show_resume()" href="#resume">Resume</a>
+                                </td>
+                                <td>
+                                    <a class="link" onclick="show_contact()" href="#contact">Contact</a>
+                                </td>
+                            </tr>
+                        </table>
+                        <br>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div id="right-side" class="side" onload="alert(document.getElementById('right-side').offsetWidth)">
-            <div class="center-x">
+            <div id="right-side" class="side">
+                <div id="highlights" class="center-x right-wrapper">
+                    <h1>Here's some noteworthy stuff I worked on:</h1>
+                    <div class="folio-item">
+                        <div class="dropdown-header">
+                            <h2>Producing</h2>
+                        </div>
+                        <div class="dropdown-wrapper">
+                            <div class="dropdown">
+                                <p>
 
-                <div class="folio-item">
-                    <div class="dropdown-header">
-                        <h2>Producing</h2>
-                    </div>
-                    <div class="dropdown-wrapper">
-                        <div class="dropdown">
-                            <p>
-                                
-                            </p>
+                                </p>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="folio-item">
-                    <div class="dropdown-header">
-                        <h2>Graphic Design</h2>
-                    </div>
-                    <div class="dropdown-wrapper">
-                        <div class="dropdown">
-                            <p>
+                    <div class="folio-item">
+                        <div class="dropdown-header">
+                            <h2>Graphic Design</h2>
+                        </div>
+                        <div class="dropdown-wrapper">
+                            <div class="dropdown">
+                                <p>
 
-                            </p>
+                                </p>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="folio-item">
-                    <div class="dropdown-header">
-                        <h2>Writing</h2>
-                    </div>
-                    <div class="dropdown-wrapper">
-                        <div class="dropdown">
-                            <p>
+                    <div class="folio-item">
+                        <div class="dropdown-header">
+                            <h2>Writing</h2>
+                        </div>
+                        <div class="dropdown-wrapper">
+                            <div class="dropdown">
+                                <p>
 
-                            </p>
+                                </p>
+                            </div>
                         </div>
                     </div>
-                </div>
 
+                </div>
+                <div id="about-me" class="center-content">
+                    <div>
+                        <h1>Nice to meet ya, I'm Darien.</h1>
+                        <p>I'm a computer science student with a passion for film-making.</p>
+                    </div>
+                </div>
+                <div id="resume" class="right-wrapper">
+
+                    <h2><i>Sprocket</i> (2023)</h2>
+                    <p>Puppet Designer</p>
+
+                    <h2><i>Powerball</i> (2023)</h2>
+                    <p>Production Assistant<br>Graphics</p>
+
+                    <h2><i>How to be a Productive Member of Society</i> (2023)</h2>
+                    <p>Boom Operator</p>
+
+                    <h2><i>Bunkers</i> (2024)</h2>
+                    <p>Writer<br>Camera Assistant</p>
+
+                    <h2><i>Rinse and Repeat</i> (2024)</h2>
+                    <p>Boom Operator</p>
+
+                                    <h2><i>Bunkers</i> (2024)</h2>
+                                    <p>Writer<br>Camera Assistant</p>
+
+                                                    <h2><i>Bunkers</i> (2024)</h2>
+                                                    <p>Writer<br>Camera Assistant</p>
+
+                    <h2><i>The Agenda</i> (2024)</h2>
+                    <p>Writer<br>Camera Assistant</p>
+
+                </div>
+                <div id="contact" class="right-wrapper">
+                    contact
+                </div>
             </div>
-        </div>
-    <div>
-</body>
+        <div>
+    </body>
+</html>
