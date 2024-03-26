@@ -51,6 +51,7 @@ html {
     align-items: center;
     overflow-y: auto;
     color: #0d0d0d;
+    min-height: 100%;
 }
 
 .right-wrapper {
