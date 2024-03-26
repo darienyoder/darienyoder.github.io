@@ -65,5 +65,4 @@ function main()
             document.getElementsByClassName("side")[i].style.height = "100%";
         }
     }
-    alert(window.innerWidth);
 }

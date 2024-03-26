@@ -7,7 +7,7 @@ html {
 	margin: 0;
 	height: 100%;
     font-family: sans-serif;
-    color: white; */
+    color: white;
 }
 
 #row {
@@ -88,9 +88,9 @@ h1 {
 }
 
 .outline-1 {
-    display: none;
-    color: black;
-    font-size: 35px;
+    /* display: none; */
+    /* color: black; */
+    font-size: 22px;
     margin-top: 10px;
     /* -webkit-text-stroke: 1px white; */
     /* text-shadow: -1px 1px 0 #000,
