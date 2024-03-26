@@ -56,7 +56,7 @@ function main()
 
     show_about_me();
 
-    if (window.innerWidth > 800)
+    if (window.innerWidth > 1000)
     {
         for (let i = 0; i < document.getElementsByClassName("side").length; i++)
         {
