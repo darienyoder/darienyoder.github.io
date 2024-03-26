@@ -29,13 +29,13 @@ html {
     float: auto;
 }
 
-@media (min-width: 800px) {
+/* @media (min-width: 800px) {
     .side {
         float: left;
         width: 50%;
         height: 100%;
     }
-}
+} */
 
 #left-side {
     background-color: black;

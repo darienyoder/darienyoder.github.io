@@ -54,4 +54,14 @@ function main()
         document.getElementsByClassName("dropdown-header")[i].onclick = function() {dropdownmenu(i)};
     }
     show_about_me();
+
+    if (window.innerWidth > 800)
+    {
+        for (let i = 0; i < document.getElementsByClassName("side").length; i++)
+        {
+            document.getElementsByClassName("side")[i].style.float = "left";
+            document.getElementsByClassName("side")[i].style.width = "50%";
+            document.getElementsByClassName("side")[i].style.height = "100%";
+        }
+    }
 }
