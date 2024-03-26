@@ -53,6 +53,7 @@ function main()
     {
         document.getElementsByClassName("dropdown-header")[i].onclick = function() {dropdownmenu(i)};
     }
+
     show_about_me();
 
     if (window.innerWidth > 800)
@@ -64,4 +65,5 @@ function main()
             document.getElementsByClassName("side")[i].style.height = "100%";
         }
     }
+    print(window.innerWidth);
 }
