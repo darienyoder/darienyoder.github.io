@@ -65,5 +65,5 @@ function main()
             document.getElementsByClassName("side")[i].style.height = "100%";
         }
     }
-    print(window.innerWidth);
+    alert(window.innerWidth);
 }
