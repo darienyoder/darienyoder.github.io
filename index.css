@@ -193,3 +193,7 @@ table {
 #resume p {
     margin-top: 10px;
 }
+
+#highlights td {
+    margin: 0px;
+}

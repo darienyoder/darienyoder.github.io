@@ -43,7 +43,7 @@ function show_contact()
     document.getElementById("highlights").style.display = "none";
     document.getElementById("about-me").style.display = "none";
     document.getElementById("resume").style.display = "none";
-    document.getElementById("contact").style.display = "block";
+    document.getElementById("contact").style.display = "flex";
 }
 
 
@@ -65,4 +65,9 @@ function main()
             document.getElementsByClassName("side")[i].style.height = "100%";
         }
     }
+
+    // for (let i = 0; i < document.getElementsByClassName("square").length; i++)
+    // {
+    //     document.getElementsByClassName("square")[i].style.height = document.getElementsByClassName("square")[i].offsetwidth;
+    // }
 }
