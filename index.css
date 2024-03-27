@@ -197,3 +197,7 @@ table {
 #highlights td {
     margin: 0px;
 }
+
+iframe {
+    aspect-ratio: 16 / 9;
+}

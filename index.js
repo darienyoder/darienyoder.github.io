@@ -54,7 +54,7 @@ function main()
         document.getElementsByClassName("dropdown-header")[i].onclick = function() {dropdownmenu(i)};
     }
 
-    show_about_me();
+    show_highlights();
 
     if (window.innerWidth > 1000)
     {
