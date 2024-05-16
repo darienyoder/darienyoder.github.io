@@ -1,7 +1,32 @@
 var portfolio_items =
 {
-	"Logo Design": {
-		name: "Logo\nRedesign",
+	"Sandbox": {
+		name: "Sandbox",
+		image: "sandbox.png",
+		tags: ["code"],
+		link: "sandbox",
+	},
+	"SDL Chess": {
+		name: "SDL\nChess",
+		image: "chess.png",
+		tags: ["animation"],
+		link: "sdl-chess",
+	},
+	"DestroyDog Bookmarklet": {
+		name: "DestroyDog\nBookmarklet",
+		image: "destroy-dog.png",
+		tags: ["code"],
+		link: "destroydog",
+	},
+	"Markdown Reader": {
+		name: "Markdown\nReader",
+		image: "markdown.png",
+		tags: ["acting"],
+		link: "markdown-reader",
+	},
+
+    "Logo Design": {
+		name: "Logo\nDesign",
 		image: "graphic-design.png",
 		tags: ["code"],
 		link: "logo-design",

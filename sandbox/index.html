@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<title>Darien Yoder's Portfolio</title>
+		<link rel="stylesheet" href="../index.css">
+		<script type="text/javascript" src="main.js"></script>
+	</head>
+	<body>
+
+        <!-- Top-bar -->
+        <div id="navbar">
+            <h3><a href="/">Darien Yoder</a></h3>
+            <nav>
+    			<a href="/">Home</a>
+    			<span class="dropdown">
+                    <span>My Projects</span>
+                    <div class="dropdown-content">
+                        <a href="/sandbox">Sandbox</a>
+            			<a href="/sdl-chess">SDL Chess</a>
+                        <a href="/destroydog">DestroyDog</a>
+            			<a href="/markdown-reader">Markdown Reader</a>
+                        <a href="/logo-design">Logo Design</a>
+            			<a href="/tv-bumpers">TV Bumpers</a>
+                        <a href="/games">Browser Games</a>
+            			<a href="/sketches">Sketch Comedy</a>
+                    </div>
+                </span>
+    			<a href="/about-me">About Me</a>
+    			<a href="/#contact">Contact</a>
+            </nav>
+		</div>
+
+
+        <h1 id="sandbox">Sandbox</h1>
+
+<div style="text-align:left;margin:0px 100px;">
+
+<h2><a href="https://github.com/darienyoder/sandbox">Source code</a></h2>
+
+<p>This is a <a style="color:#4785b2;" href="https://en.wikipedia.org/wiki/Falling-sand_game">falling sand simulation</a> made with SDL.
+The user can select an element from the right sidebar and click on the canvas to create particles of that element.</p>
+<div class="gallery-item"><img src="https://github.com/darienyoder/sandbox/assets/116597751/20c37825-f73b-4929-bd1a-9a0e200e388c" alt="sand"></div>
+<h2 id="how-it-works">How it works</h2>
+<p>Each particle on the grid has a <strong>material</strong> (sand, water, stone, etc.) and a <strong>state</strong> (solid, liquid, gas).</p>
+<ol>
+<li><strong>Solids</strong> first look at the space below them and fill that space if it is empty.
+If not, they attempt to move into the tiles down and to the side of them.
+This results in pyramid-shaped piles.</li>
+<li><strong>Liquids</strong> behave the same as solids, but can also move horizontally, resulting in flatter surfaces.</li>
+<li><strong>Gases</strong> flutter around randomly while trending slightly upward.</li>
+</ol>
+<p>Particles will exchange heat with surrounding particles, and can change state depending on their temperature and material.</p>
+<table>
+<thead>
+<tr>
+<th>Material</th>
+<th>Solid<br>Name(Color)</th>
+<th style="text-align:right">Melting Point</th>
+<th>Liquid<br>Name(Color)</th>
+<th style="text-align:right">Boiling Point</th>
+<th>Gas<br>Name(Color)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Water</td>
+<td>Ice (Light Blue)</td>
+<td style="text-align:right">0</td>
+<td>Water (Dark Blue)</td>
+<td style="text-align:right">100</td>
+<td>Steam (Light Gray)</td>
+</tr>
+<tr>
+<td>Sand</td>
+<td>Sand (Yellow)</td>
+<td style="text-align:right">1000</td>
+<td>Lava (Orange)</td>
+<td style="text-align:right">2500</td>
+<td>Smoke (Dark Gray)</td>
+</tr>
+<tr>
+<td>Stone</td>
+<td>Stone (Dark Gray)</td>
+<td style="text-align:right">1000</td>
+<td>Lava (Orange)</td>
+<td style="text-align:right">2500</td>
+<td>Smoke (Dark Gray)</td>
+</tr>
+<tr>
+<td>Wood</td>
+<td>Wood (Brown)</td>
+<td style="text-align:right">200</td>
+<td>*</td>
+<td style="text-align:right">200</td>
+<td>Smoke (Dark Gray)</td>
+</tr>
+</tbody>
+</table>
+<p>* The melting point of wood is the same as its boiling point to give the appearance of smoke coming off the wood as it burns.
+  Because of this, it has no liquid state.</p>
+
+</div>
+
+	</body>
+</html>

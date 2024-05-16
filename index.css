@@ -80,6 +80,7 @@ nav a:hover, .dropdown span:hover {
     background-color: #3e4a68;
     margin-top: 10px;
     border-top: 1px solid white;
+    width: max-content;
 }
 
 .dropdown:hover .dropdown-content {
@@ -205,7 +206,8 @@ footer {
 }
 
 h2 a {
-    color: #5b6d99;
+    /* color: #5b6d99; */
+    color: #4785b2;
 }
 
 .contact-link {
@@ -277,4 +279,12 @@ form {
 .gallery-item iframe, .gallery-item video {
     width: 100%;
     aspect-ratio: 16 / 9;
+}
+
+.gallery-item img {
+    width: 100%;
+}
+
+td {
+    border: 1px solid white;
 }
