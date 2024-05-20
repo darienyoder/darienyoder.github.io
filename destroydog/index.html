@@ -67,11 +67,11 @@
     <li>Click the bookmark whenever a website gets on your nerves.</li>
 </ol>
 
-<button id="copy-button" onclick="navigator.clipboard.writeText(document.getElementById('dd-text').innerText); document.getElementById('copy-confirm').style.display = 'inline';">Copy</button>
+<button id="copy-button" onclick="/*navigator.clipboard.writeText(document.getElementById('dd-text').innerText);*/ document.getElementById('dd-text').select(); document.execCommand('copy'); document.getElementById('copy-confirm').style.display = 'inline';">Copy</button>
 
 <span id="copy-confirm" style="display:none; font-size:16pt; font-weight:bold; color:#4785b2; margin-left: 10px;">Copied!</span>
 
-<p id="dd-text" style="white-space:pre;font-family:monospace;font-size:12pt;background-color:#303030;border:solid 2px white;border-radius:20px;padding:20px;overflow-x:scroll;">
+<textarea readonly id="dd-text" style="width:100%;height:3650px;margin-top:10px;color:white;display:block;white-space:pre;font-family:monospace;font-size:12pt;background-color:#303030;border:solid 2px white;border-radius:20px;padding:20px;overflow-x:scroll;">
 javascript:
 
 var dd_canvas;
@@ -265,7 +265,7 @@ if (confirm("Launch DestroyDog?"))
 {
 	dd_main();
 }
-</p>
+</textarea>
 
 </div>
 
