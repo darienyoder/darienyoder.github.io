@@ -7,7 +7,7 @@
 		<script type="text/javascript" src="main.js"></script>
 	</head>
 	<style id="portfolio-item-stylesheet"></style>
-	<body onload="add_portfolio_items();">
+	<body onload="add_portfolio_items();reduce_spam();">
 
         <!-- Top-bar -->
         <div id="navbar">
@@ -56,20 +56,24 @@
 		</div>
 		<footer>
 			<h1 id="contact">Contact</h1>
-            <h2>
-                Thanks for checking out my work! If you want to contact me, you can email me at <a href="mailto:darienyoder@protonmail.com">darienyoder@protonmail.com</a>,
-                or message me using this form:
-            </h2>
+      <h2>
+          Thanks for checking out my work! If you want to contact me, you can email me at <a id="mail-link" href="mailto:hevmir2shiv@tvsxsrqemp.com">hevmir2shiv@tvsxsrqemp.com</a>,
+          or message me using this form:
+      </h2>
 
-            <form action="https://web.cs.kent.edu/~dyoder18/mail" method="get">
+      <form action="https://web.cs.kent.edu/~dyoder18/mail" method="get">
 				<div class="contact-row">
-					<span class="contact-row">
+					<span class="contact-row form-details">
+						<label class="contact-input-label" for="email"></label>
+						<input class="contact-input" type="text" name="email" value="" placeholder="Email">
+					</span>
+					<span class="contact-row form-details">
 						<label class="contact-input-label" for="name"></label>
 						<input class="contact-input" type="text" name="name" value="" placeholder="Name">
 					</span>
-					<span class="contact-row">
-						<label class="contact-input-label" for="name"></label>
-						<input class="contact-input" type="email" name="email" value="" placeholder="Email">
+					<span class="contact-row form-details">
+						<label class="contact-input-label" for="extra"></label>
+						<input class="contact-input" type="email" name="extra" value="" placeholder="Email">
 					</span>
 				</div>
 				<br>

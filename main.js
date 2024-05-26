@@ -124,3 +124,18 @@ function update_portfolio_scale()
 // 		}
 // 	}
 // }
+
+function reduce_spam()
+{
+	let decrypted = "hevmir2shiv@tvsxsrqemp.com"
+	let encrypted = "";
+	for (let i = 0; i < decrypted.length; i++)
+	{
+		if (decrypted[i] != "@" && decrypted[i] != "." && decrypted.length - i > 3)
+   		encrypted += ((parseInt(decrypted[i], 36) + 36 - 4) % 36).toString(36);
+		else
+			encrypted += decrypted[i];
+	 }
+	document.getElementById("mail-link").innerText = encrypted;
+	document.getElementById("mail-link").href = "mailto:" + encrypted;
+}
