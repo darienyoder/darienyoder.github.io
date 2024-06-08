@@ -79,26 +79,8 @@ function update_portfolio_scale()
 	var width;
     grid_width = document.getElementById("portfolio-grid").offsetWidth;
 
-    if (grid_width <= 350)
-    {
-        width = grid_width;
-    }
-	else if (grid_width / 2 <= 350)
-	{
-		width = grid_width / 2 - 1;
-	}
-	else if (grid_width / 3 <= 350)
-	{
-		width = grid_width / 3 - 1;
-	}
-	else if (grid_width / 4 <= 350)
-	{
-		width = grid_width / 4 - 1;
-	}
-	else if (grid_width / 5 <= 350)
-	{
-		width = grid_width / 5 - 1;
-	}
+    width = grid_width / Math.ceil(grid_width / 350) - 1;
+    
 	document.getElementById("portfolio-item-stylesheet").innerHTML = ".portfolio-grid-item {width: " + width + "px; height: " + width + "px;}";
 }
 
@@ -124,18 +106,3 @@ function update_portfolio_scale()
 // 		}
 // 	}
 // }
-
-function reduce_spam()
-{
-	let decrypted = "hevmir2shiv@tvsxsrqemp.com"
-	let encrypted = "";
-	for (let i = 0; i < decrypted.length; i++)
-	{
-		if (decrypted[i] != "@" && decrypted[i] != "." && decrypted.length - i > 3)
-   		encrypted += ((parseInt(decrypted[i], 36) + 36 - 4) % 36).toString(36);
-		else
-			encrypted += decrypted[i];
-	 }
-	document.getElementById("mail-link").innerText = encrypted;
-	document.getElementById("mail-link").href = "mailto:" + encrypted;
-}
