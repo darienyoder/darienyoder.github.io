@@ -56,7 +56,7 @@ function add_portfolio_items()
 	for (var item in portfolio_items) {
 		var new_block = document.createElement("div");
 		new_block.classList.add("portfolio-grid-item");
-		new_block.innerHTML = "<div class='portfolio-item-cover'></div><a href='" + portfolio_items[item].link + "'>" + portfolio_items[item].name + "</a>";
+		new_block.innerHTML = "<div class='portfolio-item-cover'></div><a href='" + portfolio_items[item].link + "'>" + portfolio_items[item].name.replace("\n", "<br>") + "</a>";
 		new_block.style.backgroundImage = "url(" + portfolio_items[item].image + ")";
 		// for (var tag in portfolio_items[item].tags)
         // {
@@ -120,4 +120,100 @@ function reduce_spam()
 	 }
 	document.getElementById("mail-link").innerText = encrypted;
 	document.getElementById("mail-link").href = "mailto:" + encrypted;
+}
+
+var canvas;
+var ctx;
+var particles = [];
+const particleSpeed = 100.0 / 60.0;
+const max_particles = 10000;
+
+function init_canvas()
+{
+	canvas = document.getElementById("cover-canvas");
+	ctx = canvas.getContext("2d");
+
+	setInterval(update_canvas, 1000 / 60);
+
+	for (var i = 0; i < 180; i++)
+	{
+		update_canvas();
+	}
+}
+
+function update_canvas()
+{
+	canvas.setAttribute('width', canvas.offsetWidth);
+	canvas.setAttribute('height', canvas.offsetHeight);
+
+	ctx.clearRect(0, 0, canvas.offsetWidth, canvas.offsetHeight);
+
+	if (particles.length < max_particles)
+	{
+		create_particle();
+		create_particle();
+		create_particle();
+		create_particle();
+		create_particle();
+		create_particle();
+	}
+
+	for (var i = particles.length - 1; i >= 0; i--) {
+		let distance = Math.abs(particles[i].x / canvas.offsetWidth - 0.5);
+		if (particles[i].opacity <= 0.05)//(distance < particles[i].lifespan)
+		{
+			particles.splice(i, 1);
+		}
+		else
+		{
+			let particle = particles[i];
+
+			particle.x += particle.velX;
+
+			ctx.beginPath();
+			ctx.arc(particle.x, particle.y, 10 * (particle.speed / (particleSpeed * 2.0)) * particle.opacity, 0, 2 * Math.PI);
+			// let opacity = inverse_lerp(particle.lifespan, 0.5, distance);//(distance - particle.lifespan) / -(distance - particle.lifespan);
+			particle.opacity -= Math.abs((particle.speed / canvas.offsetWidth) / (0.5 - particle.lifespan));
+			particle.opacity = Math.max(0.0, Math.min(0.99, particle.opacity));
+
+			if (particle.opacity > 0.0)
+			{
+				ctx.fillStyle = "rgba(255, 255, 255, " + Math.floor(255.0 * particle.opacity).toString() + ")";
+				ctx.fill();
+			}
+
+			// if (opacity > 0.5)
+			// {
+			// 	opacity = 0.99;
+			// }
+			// else
+			// {
+			// 	opacity *= 2.0;
+			// }
+
+		}
+	}
+}
+
+function create_particle()
+{
+	let particle = {};
+	particle.x = canvas.offsetWidth * Math.floor(Math.random() * 2.0);
+	particle.y = canvas.offsetHeight * Math.random();
+	particle.lifespan = Math.random() * 0.1 + 0.05;
+	particle.speed = particleSpeed + Math.random() * particleSpeed;
+	particle.opacity = 0.99;
+	particle.velX = particle.speed * Math.sign(100 - particle.x);
+	particle.velY = 0;
+	particles.push(particle);
+}
+
+function lerp(v1, v2, w)
+{
+	return v1 + (v2 - v1) * w;
+}
+
+function inverse_lerp(v1, v2, w)
+{
+	return (w - v1) / (v2 - v1)
 }
