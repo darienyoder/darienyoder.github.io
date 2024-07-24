@@ -137,7 +137,7 @@ function init_canvas()
 
 	for (var i = 0; i < 180; i++)
 	{
-		update_canvas();
+		// update_canvas();
 	}
 }
 
@@ -158,6 +158,12 @@ function update_canvas()
 		create_particle();
 	}
 
+	mouseWeight = Math.max(0.0, mouseWeight - 6.0 / 60.0)
+
+	// ctx.arc(mouseX, mouseY, 10, 0, 2 * Math.PI);
+	// ctx.fillStyle = "red";
+	// ctx.fill();
+
 	for (var i = particles.length - 1; i >= 0; i--) {
 		let distance = Math.abs(particles[i].x / canvas.offsetWidth - 0.5);
 		if (particles[i].opacity <= 0.05)//(distance < particles[i].lifespan)
@@ -169,6 +175,17 @@ function update_canvas()
 			let particle = particles[i];
 
 			particle.x += particle.velX;
+			particle.y += particle.velY;
+
+			if (distance_to(particle.x, particle.y, mouseX, mouseY) < 100)
+			{
+				let direction = direction_to(mouseX, mouseY, particle.x, particle.y);
+				let fleeSpeed = 3 / (distance_to(mouseX, mouseY, particle.x, particle.y) / 20) * mouseWeight * 2.0;
+				particle.velX = lerp(particle.velX, direction.x * particle.speed * fleeSpeed, mouseWeight);
+				particle.velY = lerp(particle.velY, direction.y * particle.speed * fleeSpeed, mouseWeight);
+				if (mouseWeight > 0.5)
+					particle.color = "red";
+			}
 
 			ctx.beginPath();
 			ctx.arc(particle.x, particle.y, 10 * (particle.speed / (particleSpeed * 2.0)) * particle.opacity, 0, 2 * Math.PI);
@@ -178,7 +195,7 @@ function update_canvas()
 
 			if (particle.opacity > 0.0)
 			{
-				ctx.fillStyle = "rgba(255, 255, 255, " + Math.floor(255.0 * particle.opacity).toString() + ")";
+				ctx.fillStyle = particle.color; //"rgba(255, 255, 255, " + Math.floor(255.0 * particle.opacity).toString() + ")";
 				ctx.fill();
 			}
 
@@ -205,6 +222,7 @@ function create_particle()
 	particle.opacity = 0.99;
 	particle.velX = particle.speed * Math.sign(100 - particle.x);
 	particle.velY = 0;
+	particle.color = "white";
 	particles.push(particle);
 }
 
@@ -216,4 +234,31 @@ function lerp(v1, v2, w)
 function inverse_lerp(v1, v2, w)
 {
 	return (w - v1) / (v2 - v1)
+}
+
+function distance_to(x1, y1, x2, y2)
+{
+	return Math.sqrt((x1 - x2) * (x1 - x2) + (y1 - y2) * (y1 - y2));
+}
+
+function direction_to(x1, y1, x2, y2)
+{
+	let length = Math.sqrt((x1 - x2) * (x1 - x2) + (y1 - y2) * (y1 - y2));
+	return { "x": (x2 - x1) / length, "y": (y2 - y1) / length };
+}
+
+var mouseX = 0;
+var mouseY = 10000;
+var mouseWeight = 1.0;
+
+function canvas_on_mouse_move(event)
+{
+	mouseX = event.offsetX;
+	mouseY = event.offsetY;
+	mouseWeight = 1.0;
+}
+
+function canvas_on_mouse_out()
+{
+	mouseY = 10000;
 }
