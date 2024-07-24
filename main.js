@@ -54,21 +54,21 @@ var portfolio_items =
 function add_portfolio_items()
 {
 	for (var item in portfolio_items) {
-		var new_block = document.createElement("a");
+		var new_block = document.createElement("div");
 		new_block.classList.add("portfolio-grid-item");
-		new_block.innerText = portfolio_items[item].name;
+		new_block.innerHTML = "<div class='portfolio-item-cover'></div><a href='" + portfolio_items[item].link + "'>" + portfolio_items[item].name + "</a>";
 		new_block.style.backgroundImage = "url(" + portfolio_items[item].image + ")";
 		// for (var tag in portfolio_items[item].tags)
         // {
 		// 	new_block.classList.add(portfolio_items[item].tags[tag]);
 		// }
 
-		new_block.href = portfolio_items[item].link;
+		// new_block.href = portfolio_items[item].link;
 
 		document.getElementById("portfolio-grid").appendChild(new_block);
 	}
 
-	setInterval(update_portfolio_scale, 10);
+	// setInterval(update_portfolio_scale, 10);
 
 }
 
@@ -80,7 +80,7 @@ function update_portfolio_scale()
     grid_width = document.getElementById("portfolio-grid").offsetWidth;
 
     width = grid_width / Math.ceil(grid_width / 350) - 1;
-    
+
 	document.getElementById("portfolio-item-stylesheet").innerHTML = ".portfolio-grid-item {width: " + width + "px; height: " + width + "px;}";
 }
 
