@@ -123,7 +123,7 @@ nav a:hover, .dropdown span:hover {
 header {
     font-size: 16pt;
     --shadow-color: black;
-    text-shadow: 1px 1px 0 var(--shadow-color);/*, 1px 1px 0 var(--shadow-color), 1px -1px 0 var(--shadow-color), -1px -1px 0 var(--shadow-color);*/
+    text-shadow: 1px 1px 0 var(--shadow-color), 1px 1px 0 var(--shadow-color), 1px -1px 0 var(--shadow-color), -1px -1px 0 var(--shadow-color);
     position: relative;
     /* top: 100%; */
     /* left: 50%; */

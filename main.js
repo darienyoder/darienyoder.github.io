@@ -135,9 +135,9 @@ function init_canvas()
 
 	setInterval(update_canvas, 1000 / 60);
 
-	for (var i = 0; i < 180; i++)
+	for (var i = 0; i < 360; i++)
 	{
-		// update_canvas();
+		update_canvas();
 	}
 }
 
@@ -166,7 +166,7 @@ function update_canvas()
 
 	for (var i = particles.length - 1; i >= 0; i--) {
 		let distance = Math.abs(particles[i].x / canvas.offsetWidth - 0.5);
-		if (particles[i].opacity <= 0.05)//(distance < particles[i].lifespan)
+		if (particles[i].opacity <= 0.05 || particles[i].x < -50 || particles.y < -50 || particles.x > canvas.offsetWidth + 50 || particles.y > canvas.offsetHeight + 50)//(distance < particles[i].lifespan)
 		{
 			particles.splice(i, 1);
 		}
@@ -217,12 +217,13 @@ function create_particle()
 	let particle = {};
 	particle.x = canvas.offsetWidth * Math.floor(Math.random() * 2.0);
 	particle.y = canvas.offsetHeight * Math.random();
-	particle.lifespan = Math.random() * 0.1 + 0.05;
+	particle.lifespan = Math.random() * 0.1 + 0.2;
+	particle.lifespan -= 0.3 * Math.pow(Math.abs(particle.y / canvas.offsetHeight - 0.5) * 2.0, 2.0);
 	particle.speed = particleSpeed + Math.random() * particleSpeed;
 	particle.opacity = 0.99;
 	particle.velX = particle.speed * Math.sign(100 - particle.x);
 	particle.velY = 0;
-	particle.color = "white";
+	particle.color = "lightgray";//"hsl(0, 0%, " + Math.floor((particle.speed / particleSpeed / 2.0) * 100).toString() + "%)";
 	particles.push(particle);
 }
 
@@ -261,4 +262,18 @@ function canvas_on_mouse_move(event)
 function canvas_on_mouse_out()
 {
 	mouseY = 10000;
+}
+
+function canvas_on_click()
+{
+	for (var i = 0; i < particles.length; i++)
+	{
+		if (distance_to(particles[i].x, particles[i].y, mouseX, mouseY) < 500)
+		{
+			let direction = direction_to(particles[i].x, particles[i].y, mouseX + 10 * (Math.random() * 2 - 1), mouseY + 10 * (Math.random() * 2 - 1));
+			particles[i].velX = direction.x * 20;
+			particles[i].velY = direction.y * 20;
+			particles[i].color = "blue";
+		}
+	}
 }
