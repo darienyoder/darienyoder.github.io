@@ -10,30 +10,10 @@
 	<style id="portfolio-item-stylesheet"></style>
 	<body onload="add_portfolio_items();reduce_spam();init_canvas();">
 
-        <!-- Top-bar -->
-        <div id="navbar">
-            <h3><a href="/">Darien Yoder</a></h3>
-            <nav>
-    			<a href="/">Home</a>
-    			<span class="dropdown">
-                    <span>My Projects</span>
-                    <div class="dropdown-content">
-                        <a href="/sandbox">Sandbox</a>
-            			<a href="/sdl-chess">SDL Chess</a>
-                        <a href="/destroydog">DestroyDog</a>
-            			<a href="/markdown-reader">Markdown Reader</a>
-                        <a href="/logo-design">Logo Design</a>
-            			<a href="/tv-bumpers">TV Bumpers</a>
-                        <a href="/games">Browser Games</a>
-            			<a href="/sketches">Sketch Comedy</a>
-                    </div>
-                </span>
-    			<a href="/about-me">About Me</a>
-    			<a href="/#contact">Contact</a>
-            </nav>
-		</div>
+        <!-- Header -->
+        <div id="navbar"></div>
 
-        <!-- Header Image -->
+        <!-- Banner Image -->
 		<div id="cover-image">
 			<canvas id="cover-canvas" onmousemove="canvas_on_mouse_move(event);" onmouseout="canvas_on_mouse_out();" onclick="canvas_on_click();"></canvas>
 			<header>
