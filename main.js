@@ -74,8 +74,6 @@ function add_portfolio_items()
 		document.getElementById("portfolio-grid").appendChild(new_block);
 	}
 
-    add_header();
-
 	// setTimeout(update_portfolio_scale, 10);
 
 }
@@ -284,27 +282,4 @@ function canvas_on_click()
 			particles[i].color = "blue";
 		}
 	}
-}
-
-function add_header()
-{
-    let links = "";
-    for (item in portfolio_items)
-    {
-        links += "<a href='/" + portfolio_items[item].link + "'>" + item + "</a>";
-    }
-
-    document.getElementById("navbar").innerHTML = `
-    <h3><a href="/">Darien Yoder</a></h3>
-    <nav>
-        <a href="/">Home</a>
-        <span class="dropdown">
-            <span>My Projects</span>
-            <div class="dropdown-content">` + links + `
-            </div>
-        </span>
-        <a href="/about-me">About Me</a>
-        <a href="/#contact">Contact</a>
-    </nav>
-    `;
 }
