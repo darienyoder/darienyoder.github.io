@@ -32,28 +32,33 @@ function update_portfolio_scale()
 	document.getElementById("portfolio-item-stylesheet").innerHTML = ".portfolio-grid-item {width: " + width.toString() + "px;}";
 }
 
-// function filter(tagName) {
-// 	filterTag = tagName
-// 	document.querySelector(':root').style.setProperty('--chosen-filter', tagName);
-//
-// 	var oldButton = document.getElementById("chosen-filter")
-// 	if (oldButton != null) {oldButton.id = ""}
-// 	document.getElementById("portfolio-filters").children[filterList.indexOf(tagName)].id = "chosen-filter"
-//
-// 	for (var itemIndex in document.getElementsByClassName("portfolio-grid-item"))
-// 	{
-// 		item = document.getElementsByClassName("portfolio-grid-item")[itemIndex]
-//
-// 		if (item.classList.contains(filterTag) || filterTag == "everything")
-// 		{
-// 			item.style.display = "inline-flex"
-// 		}
-// 		else
-// 		{
-// 			item.style.display = "none"
-// 		}
-// 	}
-// }
+var filterTag;
+
+function filter(tagName)
+{
+    for (var filter of document.getElementsByClassName("filter-button"))
+    {
+        if (filter.name == tagName)
+        {
+            filter.id = "chosen-filter";
+        }
+        else
+        {
+            filter.id = "";
+        }
+    }
+    for (var item in Object.keys(portfolio_items))
+    {
+        if (tagName == "everything" || portfolio_items[Object.keys(portfolio_items)[item]].tags.includes(tagName))
+        {
+            document.getElementById("portfolio-grid").children[item].style.display = "block";
+        }
+        else
+        {
+            document.getElementById("portfolio-grid").children[item].style.display = "none";
+        }
+    }
+}
 
 function reduce_spam()
 {

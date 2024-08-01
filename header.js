@@ -81,6 +81,6 @@ function add_header()
     `;
 }
 
-window.addEventListener("load", event => {
+addEventListener("load", event => {
     add_header();
 });
