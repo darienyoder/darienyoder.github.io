@@ -4,31 +4,31 @@ var portfolio_items =
 	"Crossword Builder": {
 		name: "Crossword\nBuilder",
 		image: "crossword.png",
-		tags: ["code"],
+		tags: ["Software"],
 		link: "crossword-builder",
 	},
 	"Sandbox": {
 		name: "Sandbox",
 		image: "sandbox.png",
-		tags: ["code"],
+		tags: ["Software"],
 		link: "sandbox",
 	},
 	"SDL Chess": {
 		name: "SDL\nChess",
 		image: "chess.png",
-		tags: ["code"],
+		tags: ["Software"],
 		link: "sdl-chess",
 	},
 	"DestroyDog Bookmarklet": {
 		name: "DestroyDog\nBookmarklet",
 		image: "destroy-dog.png",
-		tags: ["code"],
+		tags: ["Software"],
 		link: "destroydog",
 	},
 	"Markdown Reader": {
 		name: "Markdown\nReader",
 		image: "markdown.png",
-		tags: ["code"],
+		tags: ["Software"],
 		link: "markdown-reader",
 	},
 
@@ -41,19 +41,19 @@ var portfolio_items =
 	"TV Bumpers": {
 		name: "TV\nBumpers",
 		image: "tv-bumps.png",
-		tags: ["video"],
+		tags: ["Video"],
 		link: "tv-bumpers",
 	},
 	"Browser Games": {
 		name: "Browser\nGames",
 		image: "browsergames.png",
-		tags: ["code", "game"],
+		tags: ["Game"],
 		link: "games",
 	},
 	"Sketch Comedy": {
 		name: "Sketch\nComedy",
 		image: "sketch-comedy.png",
-		tags: ["video"],
+		tags: ["Video", "Acting"],
 		link: "sketches",
 	},
 };

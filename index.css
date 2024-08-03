@@ -173,6 +173,11 @@ header {
 	display: flex;
 	flex-wrap: wrap;
 	text-align: left;
+    /* margin-left: 50px;
+    margin-right: 50px;
+    padding-left: 50px;
+    padding-right: 50px; */
+    overflow: hidden;
 }
 
 .portfolio-grid-item {
@@ -189,6 +194,9 @@ header {
 	background-blend-mode: color;
 	transition: background-size 1s ease, background-color 1s ease, left 1s ease;
 	background-position: center;
+
+    /* margin: 5px; */
+    /* border: 5px solid transparent; */
 }
 
 .portfolio-grid-item:hover, .portfolio-grid-item:focus {
@@ -227,6 +235,25 @@ header {
 	/*text-shadow: -1px 1px 0 var(--shadow-color), 1px 1px 0 var(--shadow-color), 1px -1px 0 var(--shadow-color), -1px -1px 0 var(--shadow-color);*/
 }
 
+.category-popup {
+    display: block;
+    opacity: 0%;
+    transition: opacity 0.3s;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    background-color: black;
+    color: white;
+    font-size: 24px;
+    z-index: 10;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+img:hover + .category-popup {
+    display: block;
+    opacity: 80%;
+}
 
 .gradient {
 	--gradient-color: #001d68;
