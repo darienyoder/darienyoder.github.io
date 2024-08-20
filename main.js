@@ -11,7 +11,7 @@ function add_portfolio_items()
 	for (var item in portfolio_items) {
 		var new_block = document.createElement("div");
 		new_block.classList.add("portfolio-grid-item");
-		new_block.innerHTML = "<div class='portfolio-item-cover'></div><a href='" + portfolio_items[item].link + "'>" + portfolio_items[item].name.replace("\n", "<br>") + "</a>";// + portfolio_items[item].tags.map(function(tag){return "<span style='float:right;position:relative;'><img src='" + categoryIcons[tag] + "'><span class = 'category-popup'>" + tag + "</span></span>"});
+		new_block.innerHTML = "<div class='portfolio-item-cover'></div><a href='" + portfolio_items[item].link + "'>" + portfolio_items[item].name.replace("\n", "<br>") + "</a>" + portfolio_items[item].tags.map(function(tag){return "<span class='portfolio-item-tag' style='float:right;position:relative;background-color:#000000c0;'><img src='" + categoryIcons[tag] + "'><span class = 'category-popup'>" + tag + "</span></span>"});
 		new_block.style.backgroundImage = "url(" + portfolio_items[item].image + ")";
 		// for (var tag in portfolio_items[item].tags)
         // {

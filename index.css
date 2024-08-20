@@ -235,12 +235,16 @@ header {
 	/*text-shadow: -1px 1px 0 var(--shadow-color), 1px 1px 0 var(--shadow-color), 1px -1px 0 var(--shadow-color), -1px -1px 0 var(--shadow-color);*/
 }
 
+.portfolio-item-tag:last-of-type {
+    border-radius: 0px 0px 0px 10px;
+}
+
 .category-popup {
     display: block;
     opacity: 0%;
     transition: opacity 0.3s;
     position: absolute;
-    top: 100%;
+    top: calc(100% + 5px);
     left: 0px;
     background-color: black;
     color: white;
@@ -248,6 +252,7 @@ header {
     z-index: 10;
     padding: 5px;
     border-radius: 5px;
+    pointer-events: none;
 }
 
 img:hover + .category-popup {
