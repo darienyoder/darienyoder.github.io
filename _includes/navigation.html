@@ -1,0 +1,20 @@
+<nav><a id="nav-title" href="/"
+    >Darien Yoder</a
+    ><div
+    >
+    {% for item in site.data.navigation %}
+    {% if item.name == "Projects" %}
+    <span class="nav-submenu">
+        <span>{{ item.name }}</span>
+        <div>
+            {% for item in site.data.portfolio-categories %}<a href="/category:{{ item.link }}">{{ item.name }}</a>{% endfor %}
+        </div>
+    </span
+>
+{% else %}
+<a
+        href="{{ item.link }}">{{ item.name }}</a
+>
+{% endif %}
+{% endfor %}
+</div></nav>

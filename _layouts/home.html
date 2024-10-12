@@ -1,0 +1,17 @@
+---
+layout: base
+---
+
+{%- include big-header.html -%}
+
+<main>
+
+    <h1>Hi! I'm Darien.<br>Welcome to my webspace.</h1>
+    <h2>Here you can see all the projects I've worked on.<br>I am currently working on [...], which you can read more about below,<br>or keep scrolling to see everything from the past.</h2>
+
+    <div id="category-list">
+        {% for item in site.data.portfolio-categories %}
+            <a href="/category:{{ item.link }}"><h2>{{ item.name }}</h2></a>
+        {% endfor %}
+    </div>
+</main>
