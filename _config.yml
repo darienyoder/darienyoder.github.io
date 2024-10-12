@@ -9,7 +9,7 @@ description: >
 
 
 # Build settings
-permalink: /bloggg/:title
+permalink: /blog/:title
 
 # If you clone the Minima repo and build locally, use this setting.
 theme: minima
