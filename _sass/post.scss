@@ -70,3 +70,8 @@
     border-radius: 10px;
     tab-size: 4;
 }
+
+.row-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
