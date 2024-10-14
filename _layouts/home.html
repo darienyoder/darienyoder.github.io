@@ -6,7 +6,9 @@ layout: base
 
 <main>
 
-    {{ content }}
+    <div id="post-content" class="wide">
+        {{ content }}
+    </div>
 
     <div id="category-list">
         {% for item in site.data.portfolio-categories %}
