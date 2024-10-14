@@ -8,10 +8,9 @@ This is a [falling sand simulation](https://en.wikipedia.org/wiki/Falling-sand_g
 The user can select an element from the right sidebar and click on the canvas to create particles of that element.
 
 <div class="row-2">
-![Screenshot](https://github.com/darienyoder/sandbox/assets/116597751/20c37825-f73b-4929-bd1a-9a0e200e388c)
+    <img src="https://github.com/darienyoder/sandbox/assets/116597751/20c37825-f73b-4929-bd1a-9a0e200e388c">
 
-![Screenshot](https://github.com/darienyoder/sandbox/assets/116597751/20c37825-f73b-4929-bd1a-9a0e200e388c)
-
+    <img src="https://github.com/darienyoder/sandbox/assets/116597751/20c37825-f73b-4929-bd1a-9a0e200e388c">
 </div>
 
 ## How it works
