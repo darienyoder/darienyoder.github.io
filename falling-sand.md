@@ -1,9 +1,9 @@
 ---
 layout: post-wide
-title: Sandbox
-permalink: /sandbox
+title: Falling Sand
+permalink: /falling-sand
 ---
-This is a [falling sand simulation](https://en.wikipedia.org/wiki/Falling-sand_game) made with SDL.
+This is a [falling sand simulation](https://en.wikipedia.org/wiki/Falling-sand_game) made with C++ and SDL.
 
 The user can select an element from the right sidebar and click on the canvas to create particles of that element.
 

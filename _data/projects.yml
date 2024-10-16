@@ -8,7 +8,7 @@
 
 - name: Sandbox
   type: software
-  link: /sandbox
+  link: /falling-sand
 
 - name: DestroyDog Bookmarklet
   type: software
