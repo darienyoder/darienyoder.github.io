@@ -10,7 +10,7 @@ The user can select an element from the right sidebar and click on the canvas to
 <div class="row-2">
     <img src="https://github.com/darienyoder/sandbox/assets/116597751/20c37825-f73b-4929-bd1a-9a0e200e388c">
 
-    <video controls src="https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4"></video>
+    <video controls src="/assets/video/sand-demo.mp4"></video>
 </div>
 
 ## How it works
