@@ -7,15 +7,28 @@ permalink: /destroydog
 DestroyDog is a javascript bookmarklet for destroying websites. When launched, it aggressively deletes every element on the page until only it remains. Good for dealing with unhelpful forum threads or unskippable YouTube ads.
 
 ## How to use
-- Create a new bookmark in your web browser.
-- Copy the code below and paste it in the URL section.
+- Right click on the link below.
+- Select "Bookmark Link" and name the bookmark "DestroyDog".
 - Click the bookmark whenever a website gets on your nerves.
+
+<a id="dd_link" href="">DestroyDog</a>
+
+<script>
+
+const xhttp = new XMLHttpRequest();
+xhttp.onload = function() {
+    document.getElementById("dd_link").href = this.responseText;
+}
+xhttp.open("GET", "https://raw.githubusercontent.com/darienyoder/destroydog-bookmarklet/refs/heads/main/DestroyDog.js", true);
+xhttp.send();
+
+</script>
 
 <!-- <button id="copy-button" onclick="document.getElementsByTagName('code')[0].select(); document.execCommand('copy'); document.getElementById('copy-confirm').style.display = 'inline';">Copy</button> -->
 
 <!-- <span id="copy-confirm" style="display:none; font-size:16pt; font-weight:bold; color:#4785b2; margin-left: 10px;">Copied!</span> -->
 
-```
+<!-- ```
 javascript:
 
 var dd_canvas;
@@ -209,4 +222,4 @@ if (confirm("Launch DestroyDog?"))
 {
 	dd_main();
 }
-```
+``` -->
