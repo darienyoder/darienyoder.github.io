@@ -4,7 +4,11 @@
 
 - name: Wilted
   type: film
-  link: /wilted
+  link: https://www.imdb.com/title/tt33044549/
+
+- name: Charred Memory
+  type: film
+  link: https://www.imdb.com/title/tt33981582/
 
 - name: Falling Sand
   type: software
