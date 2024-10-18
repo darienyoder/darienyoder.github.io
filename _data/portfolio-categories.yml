@@ -1,8 +1,8 @@
 - name: Software
   link: software
 
-- name: Web Design
-  link: web-design
+# - name: Web Design
+#   link: web-design
 
 - name: Film
   link: film
