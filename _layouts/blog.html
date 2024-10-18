@@ -10,6 +10,9 @@ layout: base
 
     <main id="post-content">
         <div id="post-margin">
+
+            {{ content }}
+
             {% for post in site.posts %}
                 <a class="post-entry" href="{{ post.url }}">
                     <h2>{{ post.title }}</h2>
