@@ -4,9 +4,9 @@ title: About Darien
 permalink: /about
 ---
 
-I'm a lifelong programmer, currently pursuing a bachelor's degree in computer science. When I'm not coding, I'm usually on a film set or .
+I'm a lifelong programmer, currently pursuing a bachelor's degree in computer science. When I'm not coding software, I'm usually on a film set or making a game of some kind.
 
-## My Digital Footprint:
+## My Digital Footprint
 
 Github: [https://github.com/darienyoder](https://github.com/darienyoder)  
 LinkedIn: [https://www.linkedin.com/in/darienyoder](https://www.linkedin.com/in/darienyoder)  
