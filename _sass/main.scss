@@ -64,6 +64,10 @@ nav .nav-submenu:hover div {
     display: none;
 }
 
+.header-br {
+    display: inline;
+}
+
 h1, h2 {
 	text-align: center;
 }
@@ -85,6 +89,10 @@ h1, h2 {
 
     .header-separator {
         display: inline;
+    }
+
+    .header-br {
+        display: none;
     }
 }
 
