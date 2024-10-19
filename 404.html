@@ -3,6 +3,10 @@
     <head>
         <meta charset="utf-8">
         <title>404</title>
+        <script>
+            if (window.location.href.endsWith('/') && window.location.pathname != '/')
+                window.location.href = window.location.href.slice(0, window.location.href.length - 1);
+        </script>
     </head>
     <body>
         <h1>404</h1>
