@@ -60,6 +60,10 @@ nav .nav-submenu:hover div {
     background-color: #e0e0e0;
 }
 
+.header-separator {
+    content: "<br>";
+}
+
 h1, h2 {
 	text-align: center;
 }
@@ -77,6 +81,10 @@ h1, h2 {
         grid-template-columns: 1fr 1fr;
         margin-left: 50px;
         margin-right: 50px;
+    }
+
+    .header-separator {
+        content: " | ";
     }
 }
 
