@@ -29,9 +29,10 @@
     font-family: "Noto Serif", serif;
 }
 
-@media only screen and (min-width: 920px)
-{
-    max-width: 900px;
+@media only screen and (min-width: 920px) {
+    #post-content {
+        max-width: 900px;
+    }
 }
 
 #post-content.wide {
