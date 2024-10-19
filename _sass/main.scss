@@ -60,7 +60,7 @@ nav .nav-submenu:hover div {
     background-color: #e0e0e0;
 }
 
-.header-separator {
+.header-separator::before {
     content: "<br>";
 }
 
@@ -83,7 +83,7 @@ h1, h2 {
         margin-right: 50px;
     }
 
-    .header-separator {
+    .header-separator::before {
         content: " | ";
     }
 }
