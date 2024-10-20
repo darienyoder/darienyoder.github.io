@@ -33,7 +33,8 @@ body {
     width: 100%;
     flex-direction: row;
     justify-content: space-around;
-
+    position: sticky;
+    top: 0px;
 }
 
 #mobile-nav a {
@@ -50,7 +51,6 @@ body {
 
     #mobile-nav {
         display: flex;
-        position: sticky;
     }
 }
 
