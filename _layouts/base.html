@@ -6,7 +6,11 @@
     <body>
         {%- include navigation.html -%}
 
-        {{ content }}
+        <div id="page-content">
+            {{ content }}
+        </div>
+
+        {%- include mobile-nav.html -%}
     </body>
 
 </html>
