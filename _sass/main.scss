@@ -6,7 +6,7 @@ body {
     font-family: "Outfit", sans-serif;
 }
 
-nav {
+#top-nav {
     position: absolute;
     display: flex;
     align-items: center;
@@ -17,16 +17,22 @@ nav {
     z-index: 1000;
 }
 
+@media only screen and (max-width: 550px) {
+    #top-nav {
+        display: none;
+    }
+}
+
 #nav-title {
     height: 200%;
 }
 
-nav > div {
+#top-nav > div {
     flex: 1;
     text-align: right;
 }
 
-nav a, nav .nav-submenu {
+#top-nav a, #top-nav .nav-submenu {
     margin: 10px;
     font-size: 30px;
     color: black;
@@ -34,7 +40,7 @@ nav a, nav .nav-submenu {
     position: relative;
 }
 
-nav .nav-submenu > div {
+#top-nav .nav-submenu > div {
     display: none;
     position: absolute;
     top: 100%;
@@ -43,11 +49,11 @@ nav .nav-submenu > div {
     text-align: left;
 }
 
-nav .nav-submenu a {
+#top-nav .nav-submenu a {
     display: block
 }
 
-nav .nav-submenu:hover div {
+#top-nav .nav-submenu:hover div {
     display: block;
 }
 
