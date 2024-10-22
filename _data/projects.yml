@@ -18,10 +18,18 @@
   type: software
   link: /destroydog
 
-- name: GRAB BAG - Stage Bump
-  type: tv-bumpers
-  link: /stage-bump.mp4
+- name: GRAB BAG - <i>Stage Bump</i>
+  type: tv-bumper
+  link: /assets/video/bumpers/GB-STAGE-BUMP.mp4
 
-- name: GRAB BAG - Gamer Bump
-  type: tv-bumpers
-  link: /degen-bump.mp4
+- name: GRAB BAG - <i>Gamer Bump</i>
+  type: tv-bumper
+  link: /assets/video/bumpers/GB-DEGEN-BUMP_lowquality.mp4
+
+- name: GRAB BAG - Arcade Bump
+  type: tv-bumper
+  link: /assets/video/bumpers/GB-ARCADE-BUMP_lowquality.mp4
+
+- name: GRAB BAG - Highway Bump
+  type: tv-bumper
+  link: /assets/video/bumpers/GB-HIGHWAY-BUMP.mp4
