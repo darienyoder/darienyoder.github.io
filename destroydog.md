@@ -1,6 +1,7 @@
 ---
 layout: post-wide
 title: DestroyDog Bookmarklet
+header: /assets/images/headers/destroydog.png
 permalink: /destroydog
 ---
 

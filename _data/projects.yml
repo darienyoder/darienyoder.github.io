@@ -17,6 +17,7 @@
 
 - name: DestroyDog Bookmarklet
   type: software
+  image: /assets/images/headers/destroydog.png
   link: /destroydog
 
 - name: GRAB BAG - <i>Stage Bump</i>
