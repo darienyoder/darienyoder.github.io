@@ -1,11 +1,13 @@
 - name: Software
   link: /software
+  image: /assets/images/headers/crossword-builder.png
 
 - name: Web Design
   link: /web-design
 
 - name: Film
   link: /film
+  image: /assets/images/headers/wilted.png
 
 - name: Sketch Comedy
   link: /sketches
