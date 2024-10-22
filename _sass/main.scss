@@ -169,7 +169,14 @@ h1, h2 {
     padding: 0px;
 
     background-position: center;
-    background-size: cover;
+    background-size: 100%
+    transition: background-size 0.5s;
+
+    text-shadow: 0 0 5px black;
+}
+
+#category-list a {
+    background-size: 110%;
 }
 
 #category-list a:hover {
