@@ -11,6 +11,7 @@
 - name: Charred Memory
   type: film
   link: https://www.imdb.com/title/tt33981582/
+  image: /assets/images/headers/charred-memory.png
 
 - name: Falling Sand
   type: software
