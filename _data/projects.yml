@@ -17,3 +17,11 @@
 - name: DestroyDog Bookmarklet
   type: software
   link: /destroydog
+
+- name: GRAB BAG - Stage Bump
+  type: tv-bumpers
+  link: /stage-bump.mp4
+
+- name: GRAB BAG - Gamer Bump
+  type: tv-bumpers
+  link: /degen-bump.mp4

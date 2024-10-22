@@ -1,0 +1,16 @@
+---
+layout: base
+---
+
+<main>
+
+    {{ content }}
+
+    <div id="gallery-grid">
+        {% for project in site.data.projects %}
+            {% if project.type == page.filter %}
+                <video src="{{ project.link }}"></video>
+            {% endif %}
+        {% endfor %}
+    </div>
+</main>
