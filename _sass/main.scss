@@ -57,6 +57,11 @@ body {
     color: white;
 }
 
+#mobile-nav a.nav-current-page {
+    border-bottom: solid 6px #f2d100;
+    background-color: #002050;
+}
+
 @media only screen and (max-width: 550px) {
     #top-nav {
         display: none;

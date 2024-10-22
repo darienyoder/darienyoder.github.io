@@ -1,20 +1,20 @@
 <nav id="mobile-nav">
-    <a href="/">
+    <a href="/" {% if page.url == "/" %}class="nav-current-page"{% endif %}>
         <img src="">
         <p>Home</p>
     </a>
 
-    <a href="/projects">
+    <a href="/projects" {% if page.url == "/projects" %}class="nav-current-page"{% endif %}>
         <img src="">
         <p>Projects</p>
     </a>
 
-    <a href="/blog">
+    <a href="/blog" {% if page.url == "/blog" %}class="nav-current-page"{% endif %}>
         <img src="">
         <p>Blog</p>
     </a>
 
-    <a href="/about">
+    <a href="/about" {% if page.url == "/about" %}class="nav-current-page"{% endif %}>
         <img src="">
         <p>About</p>
     </a>
