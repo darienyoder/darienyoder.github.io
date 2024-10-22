@@ -11,7 +11,7 @@ layout: base
             {% if project.type == page.filter %}
                 <div>
                     <h2>{{ project.name }}</h2>
-                    <video src="{{ project.link }}"></video>
+                    <video controls src="{{ project.link }}"></video>
                 </div>
             {% endif %}
         {% endfor %}
