@@ -4,7 +4,7 @@
         <p>Home</p>
     </a>
 
-    <a href="/projects"{% if page.url != "/" and page.url != "/about" %}{% unless page.url contains "/blog" %}class="nav-current-page"{% endif %}{% endif %}>
+    <a href="/projects"{% if page.url != "/" and page.url != "/about" %}{% unless page.url contains "/blog" %}class="nav-current-page"{% endunless %}{% endif %}>
         <img src="">
         <p>Projects</p>
     </a>
