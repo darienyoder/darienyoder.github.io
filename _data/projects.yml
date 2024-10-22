@@ -1,6 +1,7 @@
 - name: Crossword Builder
   type: software
   link: /crossword-builder
+  image: /assets/images/headers/crossword-builder.png
 
 - name: Wilted
   type: film
