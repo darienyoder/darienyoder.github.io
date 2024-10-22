@@ -1,17 +1,17 @@
 - name: Software
-  link: /category:software
+  link: /software
 
 - name: Web Design
-  link: /category:web-design
+  link: /web-design
 
 - name: Film
-  link: /category:film
+  link: /film
 
-# - name: Sketch Comedy
-#   link: sketches
+- name: Sketch Comedy
+  link: /sketches
 
-# - name: Games
-#   link: games
+- name: Games
+  link: /games
 
 - name: TV Bumpers
   link: /tv-bumpers

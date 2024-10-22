@@ -1,7 +1,7 @@
 ---
 layout: project-list
 title: Software
-permalink: /category:software
+permalink: /software
 filter: software
 ---
 

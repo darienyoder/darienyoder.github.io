@@ -1,7 +1,7 @@
 ---
 layout: project-list
 title: Games
-permalink: /category:games
+permalink: /games
 filter: games
 ---
 

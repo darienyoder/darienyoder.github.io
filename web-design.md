@@ -1,7 +1,7 @@
 ---
 layout: project-list
 title: Software
-permalink: /category:web-design
+permalink: /web-design
 filter: software
 ---
 

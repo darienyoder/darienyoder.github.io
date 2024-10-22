@@ -1,7 +1,7 @@
 ---
 layout: project-list
 title: Film
-permalink: /category:film
+permalink: /film
 filter: film
 ---
 
