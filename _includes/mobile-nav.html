@@ -4,12 +4,12 @@
         <p>Home</p>
     </a>
 
-    <a href="/projects"{% if page.url != "/" and page.url != "/about" and page.url | starts_with: "/blog" != true %}class="nav-current-page"{% endif %}>
+    <a href="/projects"{% if page.url != "/" and page.url != "/about" and page.url contains "/blog" != true %}class="nav-current-page"{% endif %}>
         <img src="">
         <p>Projects</p>
     </a>
 
-    <a href="/blog" {% if page.url | starts_with: "/blog" %}class="nav-current-page"{% endif %}>
+    <a href="/blog" {% if page.url contains "/blog" %}class="nav-current-page"{% endif %}>
         <img src="">
         <p>Blog</p>
     </a>
