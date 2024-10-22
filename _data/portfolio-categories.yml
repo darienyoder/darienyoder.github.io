@@ -1,11 +1,11 @@
 - name: Software
-  link: software
+  link: /category:software
 
-# - name: Web Design
-#   link: web-design
+- name: Web Design
+  link: /category:web-design
 
 - name: Film
-  link: film
+  link: /category:film
 
 # - name: Sketch Comedy
 #   link: sketches
@@ -14,4 +14,4 @@
 #   link: games
 
 - name: TV Bumpers
-  link: tv-bumpers
+  link: /tv-bumpers

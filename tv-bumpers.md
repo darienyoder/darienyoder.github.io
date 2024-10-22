@@ -1,7 +1,7 @@
 ---
 layout: gallery
 title: TV Bumpers
-permalink: /category:tv-bumpers
+permalink: /tv-bumpers
 filter: tv-bumper
 ---
 
