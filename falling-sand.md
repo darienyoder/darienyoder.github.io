@@ -1,6 +1,7 @@
 ---
 layout: post-wide
 title: Falling Sand
+header: /assets/images/headers/falling-sand.png
 permalink: /falling-sand
 ---
 
