@@ -13,6 +13,7 @@
 - name: Falling Sand
   type: software
   link: /falling-sand
+  image: /assets/images/headers/falling-sand.png
 
 - name: DestroyDog Bookmarklet
   type: software
