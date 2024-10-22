@@ -26,10 +26,26 @@
   type: tv-bumper
   link: /assets/video/bumpers/GB-DEGEN-BUMP_lowquality.mp4
 
-- name: GRAB BAG - Arcade Bump
+- name: GRAB BAG - <i>Arcade Bump</i>
   type: tv-bumper
   link: /assets/video/bumpers/GB-ARCADE-BUMP_lowquality.mp4
 
-- name: GRAB BAG - Highway Bump
+- name: GRAB BAG - <i>Highway Bump</i>
   type: tv-bumper
   link: /assets/video/bumpers/GB-HIGHWAY-BUMP.mp4
+
+- name: The Agenda - <i>We'll Be Back</i>
+  type: tv-bumper
+  link: /assets/video/bumpers/AG-WellBeBack.mp4
+
+- name: The Agenda - <i>Fruit Bump</i>
+  type: tv-bumper
+  link: /assets/video/bumpers/AG-APPLE-BUMP.mp4
+
+- name: The Agenda - <i>Tree Bump</i>
+  type: tv-bumper
+  link: /assets/video/bumpers/AG-TREE-BUMP.mp4
+
+- name: The Agenda - <i>Static Bump</i>
+  type: tv-bumper
+  link: /assets/video/bumpers/AG-TV-BUMP.mp4
