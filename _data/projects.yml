@@ -6,6 +6,7 @@
 - name: Wilted
   type: film
   link: https://www.imdb.com/title/tt33044549/
+  image: /assets/images/headers/wilted.png
 
 - name: Charred Memory
   type: film
