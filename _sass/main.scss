@@ -27,7 +27,7 @@ body {
 #top-nav {
     position: absolute;
     display: flex;
-    align-items: center;
+    align-items: top;
     top: 0px;
     left: 0px;
     right: 0px;
@@ -84,6 +84,7 @@ body {
     background-color: #000000d0;
     padding-left: 10px;
     border-radius: 0px 0px 0px 10px;
+    display: flex;
 }
 
 #top-nav-link-wrapper * {
@@ -91,11 +92,13 @@ body {
 }
 
 #top-nav a, #top-nav .nav-submenu {
-    margin: 10px;
+    padding: 10px;
     font-size: 30px;
     color: white;
     text-decoration: none;
     position: relative;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 #top-nav .nav-submenu {
