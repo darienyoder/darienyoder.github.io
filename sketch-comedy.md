@@ -1,6 +1,6 @@
 ---
 layout: gallery
-title: TV Bumpers
+title: Sketch Comedy - Darien Yoder
 permalink: /sketch-comedy
 filter: sketch
 ---

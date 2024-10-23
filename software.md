@@ -1,6 +1,6 @@
 ---
 layout: project-list
-title: Software
+title: Software - Darien Yoder
 permalink: /software
 filter: software
 ---

@@ -4,6 +4,7 @@
 
 - name: Web Design
   link: /web-design
+  image: /assets/images/headers/web-design.png
 
 - name: Film
   link: /film
@@ -11,6 +12,7 @@
 
 - name: Sketch Comedy
   link: /sketch-comedy
+  image: /assets/images/headers/sketch-comedy.png
 
 - name: Games
   link: /games

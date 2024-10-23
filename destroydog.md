@@ -1,6 +1,6 @@
 ---
 layout: post-wide
-title: DestroyDog Bookmarklet
+title: DestroyDog Bookmarklet - Darien Yoder
 header: /assets/images/headers/destroydog.png
 permalink: /destroydog
 ---

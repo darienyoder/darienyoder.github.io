@@ -1,6 +1,6 @@
 ---
 layout: project-list
-title: Games
+title: Games - Darien Yoder
 permalink: /games
 filter: game
 ---

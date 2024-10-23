@@ -1,6 +1,6 @@
 ---
 layout: project-list
-title: Film
+title: Film - Darien Yoder
 permalink: /film
 filter: film
 ---

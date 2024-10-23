@@ -1,6 +1,6 @@
 ---
 layout: gallery
-title: TV Bumpers
+title: TV Bumpers - Darien Yoder
 permalink: /tv-bumpers
 filter: tv-bumper
 ---

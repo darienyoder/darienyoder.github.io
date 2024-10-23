@@ -1,6 +1,6 @@
 ---
 layout: base
-title: Projects
+title: Projects - Darien Yoder
 permalink: /projects
 ---
 

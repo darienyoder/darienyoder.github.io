@@ -1,6 +1,6 @@
 ---
 layout: project-list
-title: Software
+title: Web Design - Darien Yoder
 permalink: /web-design
 filter: software
 ---
