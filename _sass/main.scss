@@ -86,12 +86,20 @@ body {
     border-radius: 0px 0px 0px 10px;
 }
 
+#top-nav-link-wrapper * {
+    margin-top: 0px;
+}
+
 #top-nav a, #top-nav .nav-submenu {
     margin: 10px;
     font-size: 30px;
     color: white;
     text-decoration: none;
     position: relative;
+}
+
+#top-nav .nav-submenu {
+    cursor: default;
 }
 
 #top-nav .nav-submenu > div {
@@ -105,10 +113,11 @@ body {
     background-color: #000000d0;
     padding-left: 10px;
     border-radius: 0px 0px 10px 10px;
+    border-top: solid 2px white;
 }
 
 #top-nav .nav-submenu a {
-    display: block
+    display: block;
 }
 
 #top-nav .nav-submenu:hover div {
