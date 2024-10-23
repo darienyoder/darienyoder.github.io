@@ -140,9 +140,14 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: black;
+    // background-color: black;
     color: white;
-    text-shadow: 0 0 5px black;
+    text-shadow: 2px 2px 20px black;
+}
+
+#big-header > div {
+    z-index: 2;
+    cursor: default;
 }
 
 #header-canvas {

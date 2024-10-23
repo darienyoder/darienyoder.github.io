@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="_sass/main.scss">
+  <link rel="stylesheet" href="_sass/post.scss">
+  <title>{{ page.title }}</title>
+</head>
+
+
+    <body onload="headerSetup();">
+        <nav id="top-nav"><a id="nav-title" href="/"
+            >Darien Yoder</a
+            ><div style="flex: 1;"
+            ></div
+            ><div id="top-nav-link-wrapper"
+            ><span class="nav-submenu">
+                <span>Projects</span>
+                <div>
+                    <a href="{{ item.link }}">Software</a>
+                    <a href="{{ item.link }}">Web Design</a>
+                    <a href="{{ item.link }}">Film</a>
+                    <a href="{{ item.link }}">Sketch Comedy</a>
+                    <a href="{{ item.link }}">Games</a>
+                    <a href="{{ item.link }}">TV Bumpers</a>
+                </div>
+            </span
+        ><a
+                href="{{ item.link }}">Blog</a
+            ><a
+                href="{{ item.link }}">About</a
+            ></div></nav>
+
+
+            <nav id="mobile-nav">
+                <a href="/">
+                    <img src="">
+                    <p>Home</p>
+                </a>
+
+                <a href="/projects">
+                    <img src="">
+                    <p>Projects</p>
+                </a>
+
+                <a href="/blog">
+                    <img src="">
+                    <p>Blog</p>
+                </a>
+
+                <a href="/about">
+                    <img src="">
+                    <p>About</p>
+                </a>
+            </nav>
+
+
+        <!-- <div id="page-wrapper"> -->
+            <div id="page-content">
+                <header id="big-header">
+                    <script src="big-header.js" charset="utf-8"></script>
+                    <canvas id="header-canvas"></canvas>
+                    <div>
+                        <h1>Darien Yoder</h1>
+                        <h2>Software Developer<span class="header-separator"> | </span><br class="header-br">Web Designer<span class="header-separator"> | </span><br class="header-br">Filmmaker</h2>
+                    </div>
+                </header>
+
+
+                <main>
+
+                    <div id="post-content" class="wide">
+                        <div id="post-margin">
+                            <h1>Test Page<br>DarienYoder.com</h1>
+                        </div>
+                    </div>
+
+                    <h2>What I've been working on:</h2>
+                    <div id="category-list">
+                        <a href="{{ item.link }}"><h2>{{ item.name }}</h2></a>
+                        <a href="{{ item.link }}"><h2>{{ item.name }}</h2></a>
+                        <a href="{{ item.link }}"><h2>{{ item.name }}</h2></a>
+                        <a href="{{ item.link }}"><h2>{{ item.name }}</h2></a>
+                        <a href="{{ item.link }}"><h2>{{ item.name }}</h2></a>
+                        <a href="{{ item.link }}"><h2>{{ item.name }}</h2></a>
+                    </div>
+                </main>
+            </div>
+        <!-- </div> -->
+    </body>
+
+</html>
