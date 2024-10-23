@@ -3,7 +3,7 @@
 
     {%- include head.html -%}
 
-    <body {{% if page.url == "" %}} onload="headerSetup();" {{% endif %}}>
+    <body {{% if page.url == "/" %}} onload="headerSetup();" {{% endif %}}>
         {%- include navigation.html -%}
 
         {%- include mobile-nav.html -%}

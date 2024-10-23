@@ -44,6 +44,7 @@ body {
     position: sticky;
     top: 0px;
     background-color: #172e4b;
+    z-index: 10;
 }
 
 #mobile-nav a {
@@ -150,6 +151,11 @@ body {
     cursor: default;
 }
 
+#big-header h1 {
+    font-size: 300%;
+    margin: 0px;
+}
+
 #header-canvas {
     position: absolute;
     top: 0px;
@@ -177,6 +183,7 @@ h1, h2 {
     gap: 10px;
     margin-left: 10px;
     margin-right: 10px;
+    margin-bottom: 20px;
 }
 
 #gallery-grid video, #gallery-grid img, #gallery-grid iframe {
