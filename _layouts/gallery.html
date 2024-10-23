@@ -9,10 +9,18 @@ layout: base
     <div id="gallery-grid">
         {% for project in site.data.projects %}
             {% if project.type == page.filter %}
-                <div>
-                    <h2>{{ project.name }}</h2>
-                    <video controls src="{{ project.link }}"></video>
-                </div>
+                {% if project.link contains ".mp4" %}
+                    <div>
+                        <h2>{{ project.name }}</h2>
+                        <video controls src="{{ project.link }}"></video>
+                    </div>
+                {% endif %}
+                {% if project.link contains "https://www.youtube.com/watch" %}
+                    <div>
+                        <h2>{{ project.name }}</h2>
+                         <iframe src="https://www.youtube.com/embed/{{ project.link | replace: "https://www.youtube.com/watch?v=", "" }}" title="The Sludge Factory" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                {% endif %}
             {% endif %}
         {% endfor %}
     </div>
