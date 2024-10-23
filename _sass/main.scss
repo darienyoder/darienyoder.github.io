@@ -164,8 +164,12 @@ h1, h2 {
     margin-right: 10px;
 }
 
-#gallery-grid video {
+#gallery-grid video, #gallery-grid img, #gallery-grid iframe {
     width: 100%;
+}
+
+#gallery-grid iframe {
+    aspect-ratio: 16 / 9;
 }
 
 @media only screen and (min-width: 700px) {
