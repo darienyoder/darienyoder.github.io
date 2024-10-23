@@ -54,3 +54,8 @@
 - name: The Agenda - <i>Static Bump</i>
   type: tv-bumper
   link: /assets/video/bumpers/AG-TV-BUMP.mp4
+
+- name: Roguelike Pac-Man
+  type: game
+  link: https://gridlochgames.itch.io/21st-century-roguelike-pac-man
+  image: /assets/images/headers/pac-man.png

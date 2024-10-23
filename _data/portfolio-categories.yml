@@ -14,6 +14,7 @@
 
 - name: Games
   link: /games
+  image: /assets/images/headers/pac-man.png
 
 - name: TV Bumpers
   link: /tv-bumpers
