@@ -74,6 +74,8 @@ body {
 
 #nav-title {
     height: 200%;
+    background-color: #000000d0;
+    border-radius: 0px 0px 10px 0px;
 }
 
 #top-nav > div {
@@ -89,6 +91,10 @@ body {
 
 #top-nav-link-wrapper * {
     margin-top: 0px;
+}
+
+#top-nav a:hover {
+    color: #fff04c;
 }
 
 #top-nav a, #top-nav .nav-submenu {
