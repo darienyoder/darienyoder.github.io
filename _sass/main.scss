@@ -77,8 +77,13 @@ body {
 }
 
 #top-nav > div {
-    flex: 1;
     text-align: right;
+}
+
+#top-nav-link-wrapper {
+    background-color: #000000d0;
+    padding-left: 10px;
+    border-radius: 0px 0px 0px 10px;
 }
 
 #top-nav a, #top-nav .nav-submenu {
@@ -96,6 +101,10 @@ body {
     left: 0px;
     width: max-content;
     text-align: left;
+
+    background-color: #000000d0;
+    padding-left: 10px;
+    border-radius: 0px 0px 10px 10px;
 }
 
 #top-nav .nav-submenu a {
