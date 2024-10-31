@@ -244,3 +244,10 @@ h1, h2 {
 	background-color: red;
 	cursor: pointer;
 }
+
+.list-break {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    text-align: left;
+    border-bottom: solid 2px black;
+}

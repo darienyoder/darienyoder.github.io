@@ -15,6 +15,8 @@ layout: base
     <h2>What I've been working on:</h2>
     <div id="category-list">
         {% for item in site.data.portfolio-categories %}
+        {% if item.link == "software"}<h2 class="list-break">What I've been working on</h2>{% endif %}
+        {% if item.link == "film"}<h2 class="list-break">Creative Stuff</h2>{% endif %}
             <a href="{{ item.link }}" style="background-image: url('{{ item.image }}');"><h2>{{ item.name }}</h2></a>
         {% endfor %}
     </div>
