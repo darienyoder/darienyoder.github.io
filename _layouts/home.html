@@ -19,7 +19,8 @@ layout: base
                 <h2 class="list-break">What I've been working on</h2>
                 {% for project in site.data.projects %}
                     {% if project.type == "software" %}
-                    <a href="{{ project.link }}" style="background-image: url('{{ project.image }}');"><h2>{{ project.name }}</h2></a>
+                        <a href="{{ project.link }}" style="background-image: url('{{ project.image }}');"><h2>{{ project.name }}</h2></a>
+                    {% endif %}
                 {% endfor %}
 
             {% else %}
