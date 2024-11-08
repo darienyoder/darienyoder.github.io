@@ -10,9 +10,9 @@
   link: /film
   image: /assets/images/headers/wilted.png
 
-- name: Sketch Comedy
-  link: /sketch-comedy
-  image: /assets/images/headers/sketch-comedy.png
+# - name: Sketch Comedy
+#   link: /sketch-comedy
+#   image: /assets/images/headers/sketch-comedy.png
 
 - name: Games
   link: /games

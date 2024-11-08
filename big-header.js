@@ -10,7 +10,7 @@ function headerSetup()
     canvas.setAttribute('width', canvas.offsetWidth);
     canvas.setAttribute('height', canvas.offsetHeight);
 
-    for (var i = 0; i < 15; i++)
+    for (var i = 0; i < 30; i++)
     {
         addParticle();
     }
@@ -37,7 +37,7 @@ function headerUpdate()
         let growSpeed = (0.001 * (particle.seed % 2 + 1));
 
         ctx.beginPath();
-        ctx.arc(particle.x, particle.y, (Math.sin(particle.seed + newDate.getTime() * growSpeed) + 1) * (maxRadius - minRadius) + minRadius, 0, 2 * Math.PI);
+        ctx.arc(particle.x, particle.y - document.getElementsByTagName("html")[0].scrollTop * 0.5, (Math.sin(particle.seed + newDate.getTime() * growSpeed) + 1) * (maxRadius - minRadius) + minRadius, 0, 2 * Math.PI);
         ctx.fill();
     }
 }
@@ -52,7 +52,7 @@ function addParticle()
     {
         good = true;
         newX = Math.floor(Math.random() * canvas.offsetWidth);
-        newY = Math.floor(Math.random() * canvas.offsetHeight);
+        newY = Math.floor(Math.random() * canvas.offsetHeight * 2.0);
         for (var particle of particles)
         {
             if (Math.sqrt(Math.pow(newX - particle.x, 2) + Math.pow(newY - particle.y, 2)) < 120)
