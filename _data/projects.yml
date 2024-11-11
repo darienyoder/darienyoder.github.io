@@ -60,6 +60,11 @@
   link: https://gridlochgames.itch.io/21st-century-roguelike-pac-man
   image: /assets/images/headers/pac-man.png
 
+- name: Echosearch
+  type: game
+  link: https://gridlochgames.itch.io/echosearch
+  image: /assets/images/headers/echosearch.png
+
 - name: <i>Scary Phone</i><br>Writer, Actor
   type: sketch
   link: https://www.youtube.com/watch?v=k2Q--jFRnzE
