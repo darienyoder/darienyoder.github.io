@@ -5,7 +5,7 @@ header: /assets/images/headers/falling-sand.png
 permalink: /falling-sand
 ---
 
-### [Source Code](https://github.com/darienyoder/sandbox)
+### <a href="/releases/FallingSand.exe" download>Download for Windows</a> - [Source Code](https://github.com/darienyoder/sandbox)
 
 This is a [falling sand simulation](https://en.wikipedia.org/wiki/Falling-sand_game) made with C++ and SDL.
 
