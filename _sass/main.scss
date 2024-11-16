@@ -24,6 +24,14 @@ body {
 //     overflow-y: auto;
 // }
 
+a {
+    color: #0066cc;
+}
+
+a:visited {
+    color: #0066cc;
+}
+
 #top-nav {
     position: fixed;
     display: flex;
