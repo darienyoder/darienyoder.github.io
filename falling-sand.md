@@ -39,3 +39,54 @@ Particles will exchange heat with surrounding particles, and can change state de
 | Wood | Wood (Brown) | 200 | * | 200 | Smoke (Dark Gray) |
 
 \* The melting point of wood is the same as its boiling point to give the appearance of smoke coming off the wood as it burns. Because of this, it has no liquid state.
+
+## Development Progress
+
+<div class="row-2">
+    <div>
+        <h3>Initial Prototype</h3>
+        <video controls src="/assets/video/sand-clips/sand_day_0.mp4"></video>
+    </div>
+
+    <div>
+        <h3>Improved rendering with OpenGL shader</h3>
+        <video controls src="/assets/video/sand-clips/lavasteamshader.mp4"></video>
+    </div>
+</div>
+
+<div class="row-2">
+    <div>
+        <h3>Flammable Objects</h3>
+        <video controls src="/assets/video/sand-clips/let-it-burn.mp4"></video>
+    </div>
+
+    <div>
+        <h3>Explosions</h3>
+        <video controls src="/assets/video/sand-clips/kaboom.mp4"></video>
+    </div>
+</div>
+
+
+<div class="row-2">
+    <div>
+        <h3>Explosions launch particles</h3>
+        <video controls src="/assets/video/sand-clips/flyingsand.mp4"></video>
+    </div>
+
+    <div>
+        <h3>Fireworks</h3>
+        <video controls src="/assets/video/sand-clips/happynewyear.mp4"></video>
+    </div>
+</div>
+
+<div class="row-2">
+    <div>
+        <h3>Improved fluid behavior</h3>
+        <video controls src="/assets/video/sand-clips/splash.mp4"></video>
+    </div>
+
+    <div>
+        <h3>Experimenting with abstraction for optimization</h3>
+        <video controls src="/assets/video/sand-clips/abstracted.mp4"></video>
+    </div>
+</div>
