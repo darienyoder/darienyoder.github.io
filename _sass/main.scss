@@ -121,7 +121,8 @@ a:visited {
 }
 
 #top-nav .nav-submenu > div {
-    display: none;
+    display: block;
+    transform: scaleY(0.0);
     position: absolute;
     top: 100%;
     left: 0px;
@@ -132,10 +133,13 @@ a:visited {
     padding-left: 10px;
     border-radius: 0px 0px 10px 10px;
     border-top: solid 2px white;
+
+    transition: scale, 0.4s;
 }
 
 #top-nav .nav-submenu a {
     display: block;
+    transform: scaleY(1.0);
 }
 
 #top-nav .nav-submenu:hover div {
