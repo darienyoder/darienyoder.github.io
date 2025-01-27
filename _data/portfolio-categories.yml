@@ -2,9 +2,9 @@
   link: /software
   image: /assets/images/headers/crossword-builder.png
 
-- name: Web Design
-  link: /DarienYoder_Portfolio.pdf
-  image: /assets/images/headers/web-design.png
+# - name: Web Design
+#   link: /DarienYoder_Portfolio.pdf
+#   image: /assets/images/headers/web-design.png
 
 - name: Film
   link: /film
