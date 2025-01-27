@@ -2,8 +2,6 @@
 layout: base
 ---
 
-{%- include big-header.html -%}
-
 <main>
 
     <div id="post-content" class="wide">
@@ -16,7 +14,7 @@ layout: base
         {% for item in site.data.portfolio-categories %}
 
             {% if item.link == "/software" %}
-                <h2 class="list-break">What I've been working on</h2>
+                <h2 class="list-break">Software</h2>
                 {% for project in site.data.projects %}
                     {% if project.type == "software" %}
                         <a href="{{ project.link }}" style="background-image: url('{{ project.image }}');"><h2>{{ project.name }}</h2></a>
