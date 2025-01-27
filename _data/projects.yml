@@ -3,6 +3,11 @@
   link: /crossword-builder
   image: /assets/images/headers/crossword-builder.png
 
+- name: Livestreaming Website
+  type: software
+  link: /black-squirrel-entertainment
+  image: /assets/images/headers/crossword-builder.png
+
 - name: Wilted
   type: film
   link: https://www.imdb.com/title/tt33044549/
