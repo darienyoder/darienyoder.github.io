@@ -9,7 +9,7 @@
     <span class="nav-submenu">
         <span>{{ item.name }}</span>
         <div>
-            {% for project in site.data.projects %}{% if project.type == "software" %}<a href="{{ item.link }}">{{ item.name }}</a>{% endif %}{% endfor %}
+            {% for project in site.data.projects %}{% if project.type == "software" %}<a href="{{ project.link }}">{{ project.name }}</a>{% endif %}{% endfor %}
         </div>
     </span
 >
