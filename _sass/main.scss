@@ -139,11 +139,11 @@ a:visited {
 
 #top-nav .nav-submenu a {
     display: block;
-    transform: scaleY(1.0);
 }
 
-#top-nav .nav-submenu:hover div {
+#top-nav .nav-submenu:hover > div {
     display: block;
+    transform: scaleY(1.0);
 }
 
 #big-header {
