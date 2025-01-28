@@ -242,6 +242,7 @@ h1, h2 {
     text-decoration: none;
 
     display: inline-flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     vertical-align: top;
@@ -258,6 +259,10 @@ h1, h2 {
     transition: background-size 0.5s;
 
     text-shadow: 0 0 5px black;
+}
+
+#category-list a * {
+    margin: 0px;
 }
 
 #category-list a:hover {

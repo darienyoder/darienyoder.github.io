@@ -9,7 +9,7 @@ layout: base
     <div id="category-list">
     {% for project in site.data.projects %}
         {% if project.type == page.filter %}
-            <a href="{{ project.link }}" style="background-image: url('{{ project.image }}');"><h2>{{ project.name }}</h2>{% if project.subheading %}<h3>{{ project.subheading }}</h3>{% endif %}</a>
+            <a href="{{ project.link }}" style="background-image: url('{{ project.image }}');"><h2>{{ project.name }}</h2>{% if project.subheading %}<h4>{{ project.subheading }}</h4>{% endif %}</a>
         {% endif %}
     {% endfor %}
     </div>
