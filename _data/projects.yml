@@ -14,7 +14,7 @@
 - name: Mood9 Business Card
   type: software
   link: /mood9
-  image:
+  image: /mood9/static_background.png
 
 - name: Crossword Builder
   type: software
