@@ -134,7 +134,8 @@ a:visited {
     border-radius: 0px 0px 10px 10px;
     border-top: solid 2px white;
 
-    transition: scale, 0.4s;
+    transition: scale, 0.2s;
+    transform-origin: 50% 2px;
 }
 
 #top-nav .nav-submenu a {
