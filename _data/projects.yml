@@ -4,15 +4,15 @@
   link: /black-squirrel-entertainment
   image:
 
-- name: Mood9 Business Card
-  type: software
-  link: /mood9
-  image:
-
 - name: Falling Sand
   type: software
   link: /falling-sand
   image: /assets/images/headers/falling-sand.png
+
+- name: Mood9 Business Card
+  type: software
+  link: /mood9
+  image:
 
 - name: Crossword Builder
   type: software
@@ -29,14 +29,29 @@
 
 
 - name: Wilted
+  subheading: Writer
   type: film
   link: https://www.imdb.com/title/tt33044549/
   image: /assets/images/headers/wilted.png
 
 - name: Charred Memory
+  subheading: Writer
   type: film
   link: https://www.imdb.com/title/tt33981582/
   image: /assets/images/headers/charred-memory.png
+
+- name: Bunkers
+  subheading: Script Consultant
+  type: film
+  link: https://www.imdb.com/title/tt33981582/
+  image: /assets/images/headers/charred-memory.png
+
+- name: Powerball
+  subheading: Slate / PA
+  type: film
+  link: https://www.imdb.com/title/tt33981582/
+  image: /assets/images/headers/charred-memory.png
+
 
 - name: GRAB BAG - <i>Stage Bump</i>
   type: tv-bumper
