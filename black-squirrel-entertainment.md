@@ -1,7 +1,7 @@
 ---
 layout: post-wide
 title: Black Squirrel Entertainment - Darien Yoder
-header: /assets/images/headers/falling-sand.png
+image: /assets/images/headers/bse.png
 permalink: /black-squirrel-entertainment
 ---
 
@@ -22,6 +22,8 @@ When I started college I joined a small sketch comedy show as a fun way to spend
 ## The Process
 
 ### What I started with
+
+The organization's two halves had previously been hosted on two separate sites.
 
 ### Wireframing
 
