@@ -1,7 +1,7 @@
 ---
 layout: post-wide
 title: Black Squirrel Entertainment - Darien Yoder
-image: /assets/images/headers/bse.png
+header: /assets/images/headers/bse.png
 permalink: /black-squirrel-entertainment
 ---
 
