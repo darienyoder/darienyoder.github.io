@@ -24,7 +24,7 @@ layout: base
             {% else %}
                 {% if item.link == "/film" %}<h2 class="list-break">Creative Stuff</h2>{% endif %}
 
-                <a href="{{ item.link }}" style="background-image: url('{{ item.image }}');"><h2>{{ item.name }}</h2></a>
+                <a href="{{ item.link }}" style="background-image: url('{{ item.image }}');"><h2 style="z-index:1;">{{ item.name }}</h2><div class="link-hover-highlight"></div></a>
             {% endif %}
 
         {% endfor %}
