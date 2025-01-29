@@ -126,8 +126,8 @@ layout: base
                 let speed = letter.vel_x*letter.vel_x + letter.vel_y*letter.vel_y;
                 const friction = 50.0;
 
-                letter.vel_y = letter.vel_y / speed * (speed - Math.sign(letter.vel_y) * 50.0 / 60.0);
-                letter.vel_x = letter.vel_x / speed * (speed - Math.sign(letter.vel_y) * 50.0 / 60.0);
+                letter.vel_y = letter.vel_y / speed * (speed - Math.sign(letter.vel_y) * 10.0 / 60.0);
+                letter.vel_x = letter.vel_x / speed * (speed - Math.sign(letter.vel_x) * 10.0 / 60.0);
             }
         }
 
