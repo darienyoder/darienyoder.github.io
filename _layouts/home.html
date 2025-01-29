@@ -103,7 +103,7 @@ layout: base
                       && Math.abs(pos.y - event.pageY) < letter.offsetHeight / 2.0
                 )
                 {
-                    const magnitude = 10.0;
+                    const magnitude = 100.0;
                     let length = (event.pageX - pos.x)*(event.pageX - pos.x) + (event.pageY - pos.y)*(event.pageY - pos.y);
                     let dir_x = -(event.pageX - pos.x) / length;
                     let dir_y = -(event.pageY - pos.y) / length;
@@ -121,6 +121,12 @@ layout: base
             {
                 letter.style.top = (Number.parseFloat(letter.style.top.replace("px", "")) + letter.vel_y / 60.0) + "px";
                 letter.style.left = (Number.parseFloat(letter.style.left.replace("px", "")) + letter.vel_x / 60.0) + "px";
+
+                let speed = letter.vel_x*letter.vel_x + letter.vel_y*letter.vel_y;
+                const friction = 50.0;
+
+                letter.vel_y = letter.vel_y / speed * (speed - 50.0 / 60.0);
+                letter.vel_x = letter.vel_x / speed * (speed - 50.0 / 60.0);
             }
         }
 
