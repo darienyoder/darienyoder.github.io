@@ -57,7 +57,8 @@ layout: base
                       const fl = document.createElement('span');
                       fl.textContent = letter;
                       fl.classList.add('free-letter');
-                      fl.style.top = 0;
+                      fl.style.top = "0px";
+                      fl.style.left = "0px";
                       span.appendChild(fl);
                   });
 
@@ -106,7 +107,8 @@ layout: base
                     let length = (event.pageX - old_x)*(event.pageX - old_x) + (event.pageY - old_y)*(event.pageY - old_y);
                     let dir_x = (event.pageX - old_x) / length;
                     let dir_y = (event.pageY - old_y) / length;
-                    letter.style.top = ((letter.style.top.replace("px", "")) + dir_x * length) + "px";
+                    letter.style.top = ((letter.style.top.replace("px", "")) + dir_y * length) + "px";
+                    letter.style.left = ((letter.style.left.replace("px", "")) + dir_x * length) + "px";
                 }
             }
             old_x = event.pageX;
