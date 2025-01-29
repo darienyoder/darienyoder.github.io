@@ -107,13 +107,24 @@ layout: base
                     let length = (event.pageX - pos.x)*(event.pageX - pos.x) + (event.pageY - pos.y)*(event.pageY - pos.y);
                     let dir_x = -(event.pageX - pos.x) / length;
                     let dir_y = -(event.pageY - pos.y) / length;
-                    letter.style.top = (Number.parseFloat(letter.style.top.replace("px", "")) + dir_y * length) + "px";
-                    letter.style.left = (Number.parseFloat(letter.style.left.replace("px", "")) + dir_x * length) + "px";
+                    letter.vel_x = dir_x * length;
+                    letter.vel_y = dir_y * length;
                 }
             }
             old_x = event.pageX;
             old_y = event.pageY;
         });
+
+        function letter_movement()
+        {
+            for (var letter of document.getElementsByClassName("free-letter"))
+            {
+                letter.style.top = (Number.parseFloat(letter.style.top.replace("px", "")) + letter.vel_y / 60.0) + "px";
+                letter.style.left = (Number.parseFloat(letter.style.left.replace("px", "")) + letter.vel_x / 60.0) + "px";
+            }
+        }
+
+        setInterval(letter_movement, 1000.0 / 60.0)
 
     </script>
 
