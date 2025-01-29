@@ -104,11 +104,12 @@ layout: base
                 )
                 {
                     const magnitude = 100.0;
+                    
                     let length = (event.pageX - pos.x)*(event.pageX - pos.x) + (event.pageY - pos.y)*(event.pageY - pos.y);
                     let dir_x = -(event.pageX - pos.x) / length;
                     let dir_y = -(event.pageY - pos.y) / length;
-                    letter.vel_x = dir_x * length;
-                    letter.vel_y = dir_y * length;
+                    letter.vel_x = dir_x * magnitude;
+                    letter.vel_y = dir_y * magnitude;
                 }
             }
             old_x = event.pageX;
