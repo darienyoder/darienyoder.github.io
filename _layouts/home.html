@@ -104,7 +104,7 @@ layout: base
                 )
                 {
                     const magnitude = 100.0;
-                    
+
                     let length = (event.pageX - pos.x)*(event.pageX - pos.x) + (event.pageY - pos.y)*(event.pageY - pos.y);
                     let dir_x = -(event.pageX - pos.x) / length;
                     let dir_y = -(event.pageY - pos.y) / length;
@@ -126,8 +126,8 @@ layout: base
                 let speed = letter.vel_x*letter.vel_x + letter.vel_y*letter.vel_y;
                 const friction = 50.0;
 
-                letter.vel_y = letter.vel_y / speed * (speed - 50.0 / 60.0);
-                letter.vel_x = letter.vel_x / speed * (speed - 50.0 / 60.0);
+                letter.vel_y = letter.vel_y / speed * (speed - Math.sign(letter.vel_y) * 50.0 / 60.0);
+                letter.vel_x = letter.vel_x / speed * (speed - Math.sign(letter.vel_y) * 50.0 / 60.0);
             }
         }
 
