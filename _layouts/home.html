@@ -6,9 +6,104 @@ layout: base
 
     <div id="post-content" class="wide">
         <div id="post-margin">
-            {{ content }}
+            <div id="letter-source">
+                {{ content }}
+            </div>
+            <div id="letter-output"></div>
         </div>
     </div>
+
+    <style>
+        .letter {
+            display: inline-block;
+            position: relative;
+        }
+
+        .free-letter {
+        	position: absolute;
+            top: 0px;
+            left: 0px;
+            color: black;
+        }
+
+        #letter-output {
+        	white-space: pre;
+            position: relative;
+            color: #aaa;
+        }
+    </style>
+    <script>
+
+        function isWhitespaceString(str)
+        {
+        	return !(str.replace(/\s/g, '').length);
+        }
+
+        function separateLetters(node) {
+            // If the node is a text node, split it into letters
+            if (node.nodeType === Node.TEXT_NODE) {
+                const text = node.textContent;
+                const letters = text.split('');
+
+                if (!isWhitespaceString(text))
+                {
+                  letters.forEach(letter => {
+                      const span = document.createElement('span');
+                      span.textContent = letter;
+                      span.classList.add('letter');
+                      container.appendChild(span);
+
+                      const fl = document.createElement('span');
+                      fl.textContent = letter;
+                      fl.classList.add('free-letter');
+                      fl.style.top = 0;
+                      span.appendChild(fl);
+                  });
+
+                  let nl = document.createElement('br');
+                  container.appendChild(nl);
+                }
+
+            } else if (node.nodeType === Node.ELEMENT_NODE) {
+                // If the node is an element, process each child node
+                Array.from(node.childNodes).forEach(child => {
+                    separateLetters(child);
+                });
+            }
+        }
+
+        // Select the paragraph element
+        const paragraph = document.getElementById('letter-source');
+        const container = document.getElementById('letter-output');
+
+        // Start the recursive separation
+        separateLetters(paragraph);
+
+        document.getElementById("letter-source").remove();
+
+        function getPos(el) {
+          const rect = el.getBoundingClientRect();
+          return {
+            x: rect.left + window.scrollX + el.offsetWidth / 2.0,
+            y: rect.top + window.scrollY + el.offsetHeight / 2.0
+          };
+        }
+
+        window.addEventListener("mousemove", event => {
+        	for (var letter of document.getElementsByClassName("free-letter"))
+            {
+            	let pos = getPos(letter);
+            	if (
+                      Math.abs(pos.x - event.pageX) < 10
+                      && Math.abs(pos.y - event.pageY) < 10
+                  )
+                  {
+                  	letter.style.top = ((letter.style.top.replace("px", "")) + 1) + "px";
+                  }
+            }
+        });
+
+    </script>
 
     <div id="category-list">
         {% for item in site.data.portfolio-categories %}

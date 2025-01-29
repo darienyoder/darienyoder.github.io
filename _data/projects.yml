@@ -31,19 +31,19 @@
 # FILM
 
 - name: Wilted
-  subheading: Writer
+  subheading: Writer / PA
   type: film
   link: https://www.imdb.com/title/tt33044549/
   image: /assets/images/headers/wilted.png
 
 - name: Charred Memory
-  subheading: Writer
+  subheading: Writer / PA
   type: film
   link: https://www.imdb.com/title/tt33981582/
   image: /assets/images/headers/charred-memory.png
 
 - name: Bunkers
-  subheading: Script Consultant
+  subheading: Script Consultant / PA
   type: film
   link: https://vimeo.com/940097793
   image: /assets/images/headers/bunkers.png
