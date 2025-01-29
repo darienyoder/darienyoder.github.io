@@ -124,10 +124,15 @@ layout: base
                 letter.style.left = (Number.parseFloat(letter.style.left.replace("px", "")) + letter.vel_x / 60.0) + "px";
 
                 let speed = Math.sqrt(letter.vel_x*letter.vel_x + letter.vel_y*letter.vel_y);
-                const friction = 50.0;
+                const friction = 100.0;
 
                 letter.vel_y = letter.vel_y / speed * (speed - Math.sign(letter.vel_y) * friction / 60.0);
                 letter.vel_x = letter.vel_x / speed * (speed - Math.sign(letter.vel_x) * friction / 60.0);
+
+                if (Math.abs(letter.vel_y) < 0.01)
+                    letter.vel_y = 0.0;
+                if (Math.abs(letter.vel_x) < 0.01)
+                    letter.vel_x = 0.0;
             }
         }
 
