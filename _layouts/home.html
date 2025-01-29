@@ -105,7 +105,7 @@ layout: base
                     const magnitude = 10.0;
                     let length = (event.pageX - old_x)*(event.pageX - old_x) + (event.pageY - old_y)*(event.pageY - old_y);
                     let dir_x = (event.pageX - old_x) / length;
-                    let dir_x = (event.pageY - old_y) / length;
+                    let dir_y = (event.pageY - old_y) / length;
                     letter.style.top = ((letter.style.top.replace("px", "")) + dir_x * length) + "px";
                 }
             }
