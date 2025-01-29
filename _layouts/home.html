@@ -107,8 +107,8 @@ layout: base
                     let length = (event.pageX - old_x)*(event.pageX - old_x) + (event.pageY - old_y)*(event.pageY - old_y);
                     let dir_x = (event.pageX - old_x) / length;
                     let dir_y = (event.pageY - old_y) / length;
-                    letter.style.top = ((letter.style.top.replace("px", "")) + dir_y * length) + "px";
-                    letter.style.left = ((letter.style.left.replace("px", "")) + dir_x * length) + "px";
+                    letter.style.top = (Number.parseFloat(letter.style.top.replace("px", "")) + dir_y * length) + "px";
+                    letter.style.left = (Number.parseFloat(letter.style.left.replace("px", "")) + dir_x * length) + "px";
                 }
             }
             old_x = event.pageX;
