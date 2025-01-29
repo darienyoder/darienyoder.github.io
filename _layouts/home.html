@@ -24,6 +24,7 @@ layout: base
             top: 0px;
             left: 0px;
             color: black;
+            z-index: 10;
         }
 
         #letter-output {
@@ -89,6 +90,9 @@ layout: base
           };
         }
 
+        var old_x = 0.0;
+        var old_y = 0.0;
+
         window.addEventListener("mousemove", event => {
         	for (var letter of document.getElementsByClassName("free-letter"))
             {
@@ -96,11 +100,17 @@ layout: base
             	if (
                       Math.abs(pos.x - event.pageX) < letter.offsetWidth / 2.0
                       && Math.abs(pos.y - event.pageY) < letter.offsetHeight / 2.0
-                  )
-                  {
-                  	letter.style.top = ((letter.style.top.replace("px", "")) + 1) + "px";
-                  }
+                )
+                {
+                    const magnitude = 10.0;
+                    let length = (event.pageX - old_x)*(event.pageX - old_x) + (event.pageY - old_y)*(event.pageY - old_y);
+                    let dir_x = (event.pageX - old_x) / length;
+                    let dir_x = (event.pageY - old_y) / length;
+                    letter.style.top = ((letter.style.top.replace("px", "")) + dir_x * length) + "px";
+                }
             }
+            old_x = event.pageX;
+            old_y = event.pageY;
         });
 
     </script>
