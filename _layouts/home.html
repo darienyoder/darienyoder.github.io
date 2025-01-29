@@ -104,9 +104,9 @@ layout: base
                 )
                 {
                     const magnitude = 10.0;
-                    let length = (event.pageX - old_x)*(event.pageX - old_x) + (event.pageY - old_y)*(event.pageY - old_y);
-                    let dir_x = (event.pageX - old_x) / length;
-                    let dir_y = (event.pageY - old_y) / length;
+                    let length = (event.pageX - pos.x)*(event.pageX - pos.x) + (event.pageY - pos.y)*(event.pageY - pos.y);
+                    let dir_x = -(event.pageX - pos.x) / length;
+                    let dir_y = -(event.pageY - pos.y) / length;
                     letter.style.top = (Number.parseFloat(letter.style.top.replace("px", "")) + dir_y * length) + "px";
                     letter.style.left = (Number.parseFloat(letter.style.left.replace("px", "")) + dir_x * length) + "px";
                 }
