@@ -2,7 +2,7 @@
 layout: base
 ---
 
-<main>
+<main style="overflow-x: hidden;">
 
     <div id="post-content" class="wide">
         <div id="post-margin">
@@ -25,6 +25,12 @@ layout: base
             left: 0px;
             color: black;
             z-index: 10;
+
+            pointer-events: none;
+            cursor: default;
+            -webkit-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
         }
 
         #letter-output {
@@ -103,7 +109,7 @@ layout: base
                       && Math.abs(pos.y - event.pageY) < letter.offsetHeight / 2.0
                 )
                 {
-                    const magnitude = 100.0;
+                    const magnitude = 200.0;
 
                     let length = Math.sqrt((event.pageX - pos.x)*(event.pageX - pos.x) + (event.pageY - pos.y)*(event.pageY - pos.y));
                     let dir_x = -(event.pageX - pos.x) / length;
