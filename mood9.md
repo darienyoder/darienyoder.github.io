@@ -2,7 +2,7 @@
 layout: post-wide
 title: Mood9 Business Card - Darien Yoder
 header: /mood9/static_background.png
-permalink: /mood8/info
+permalink: /mood9-info
 ---
 
 # [Check it out](/mood9)
