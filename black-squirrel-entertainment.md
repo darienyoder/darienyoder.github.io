@@ -23,20 +23,10 @@ When I started college I joined a small sketch comedy show as a fun way to spend
 
 ### What I started with
 
-The organization's two halves had previously been hosted on two separate sites. Radio was made using Wordpress, which is a great tool for creating blogs or personal webpages, but is not ideal for streaming. This resulted in a site that was so full of articles that it became difficult to even find the livestream. [Radio Site Archive](https://web.archive.org/web/20240730232535/https://blacksquirrelradio.com/)
+The organization's two halves had previously been hosted on two separate sites. Radio was made using Wordpress, which is a great tool for creating blogs or personal webpages, but is not ideal for streaming. This resulted in a site that was so full of articles that it became difficult to even find the livestream amid all the clutter. [Radio Site Archive](https://web.archive.org/web/20240730232535/https://blacksquirrelradio.com/)
 
-TV, on the other hand did not have its own site. The TV Entertainment department was considered a suborganization of the TV News department, which was itself a suborganization of the student newspaper. So if I wanted to watch a show as it aired, I would have to go to the student newspaper's website, search for a link to the TV livestream, scroll past all the articles and video clips, before finally finding what I'm looking for. [TV Site Archive](https://web.archive.org/web/20240522193530/https://kentwired.com/)
+TV, on the other hand, did not have its own site. The TV Entertainment department was considered a suborganization of the TV News department, which was itself a suborganization of the student newspaper. So if I wanted to watch a show as it aired, I would have to go to the student newspaper's website, search for a link to the TV livestream, scroll past all the articles and video clips, before finally finding what I'm looking for. [TV Site Archive](https://web.archive.org/web/20240522193530/https://kentwired.com/)
 
 Needless to say, there was room for improvement in many aspects.
 
 ### Wireframing
-
-### Figuring out WordPress
-
-### The issue with livestreams
-
-### Ready for Launch
-
-### Iterations
-
-### Redesign

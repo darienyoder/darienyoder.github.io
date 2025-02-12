@@ -6,6 +6,11 @@
   link: /black-squirrel-entertainment
   image: /assets/images/headers/bse.png
 
+- name: Minigolf Game
+  type: software
+  link: /minigolf
+  image: /assets/images/headers/bse.png
+
 - name: Falling Sand
   type: software
   link: /falling-sand
