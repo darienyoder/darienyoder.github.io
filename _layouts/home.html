@@ -209,9 +209,9 @@ html, body {
             <div class="content-row">
                 <div>
                     {% for item in site.data.projects %}
-                        {% if project.type == "software" %}
+                        {% if item.type == "software" %}
                             <div class="featured-item">
-                                <div class="thumbnail" style="background-image: url({{project.image}});"></div>
+                                <div class="thumbnail" style="background-image: url({{item.image}});"></div>
                                 <div class="content">
                                     <h1>{{ item.title }}</h1>
                                 </div>
@@ -228,9 +228,9 @@ html, body {
             <div class="content-row">
                 <div>
                     {% for item in site.data.projects %}
-                        {% if project.type == "software" %}
+                        {% if item.type == "software" %}
                             <div class="featured-item">
-                                <div class="thumbnail" style="background-image: url({{project.image}});"></div>
+                                <div class="thumbnail" style="background-image: url({{item.image}});"></div>
                                 <div class="content">
                                     <h1>{{ item.title }}</h1>
                                 </div>
@@ -247,9 +247,9 @@ html, body {
             <div class="content-row">
                 <div>
                     {% for item in site.data.projects %}
-                        {% if project.type == "game" %}
+                        {% if item.type == "game" %}
                             <div class="featured-item">
-                                <div class="thumbnail" style="background-image: url({{project.image}});"></div>
+                                <div class="thumbnail" style="background-image: url({{item.image}});"></div>
                                 <div class="content">
                                     <h1>{{ item.title }}</h1>
                                 </div>
@@ -266,9 +266,9 @@ html, body {
             <div class="content-row">
                 <div>
                     {% for item in site.data.projects %}
-                        {% if project.type == "film" %}
+                        {% if item.type == "film" %}
                             <div class="featured-item">
-                                <div class="thumbnail" style="background-image: url({{project.image}});"></div>
+                                <div class="thumbnail" style="background-image: url({{item.image}});"></div>
                                 <div class="content">
                                     <h1>{{ item.title }}</h1>
                                 </div>
