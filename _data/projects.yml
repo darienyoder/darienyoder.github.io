@@ -64,6 +64,19 @@
   type: film
   link: https://www.imdb.com/title/tt33044549/
   image: /assets/images/headers/wilted.png
+  content: |
+    <h1>Wilted</h1> \
+    <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/994656571?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Wilted"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script> \
+    <p>Summer of '24, my friends and I competed in the 48 hour film project, \
+    where you make a short film in a weekend based on a random genre, prop, character, and line of dialogue. \
+    All of our locations fell through, so we had to build a set in the director's backyard. \
+    We ended up winning 3rd best film in Cleveland, which inflated all our egos for a long while afterward.</p> \
+    <ul> \
+      <li>Genre: Tearjerker</li> \
+      <li>Prop: Tomato</li> \
+      <li>Character: An Optomist</li> \
+      <li>Line of Dialogue: What is that supposed to mean?</li> \
+    </ul> \
 
 - name: Charred Memory
   subheading: Writer / PA
@@ -88,12 +101,6 @@
   type: film
   link: https://www.youtube.com/watch?v=XM_e6WPbvAU
   image: /assets/images/headers/how-to-be.png
-
-- name: Buzzer Beater
-  subheading: 2nd AD / Script Supervisor
-  type: film
-  link:
-  # image: /assets/images/headers/powerball.png
 
 - name: Buzzer Beater
   subheading: 2nd AD / Script Supervisor
