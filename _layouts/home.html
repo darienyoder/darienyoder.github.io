@@ -181,6 +181,12 @@ html, body {
     background-color: white;
     border-left: 2px solid silver;
     transition-duration: 0.4s;
+
+    font-size: 150%;
+}
+
+#overlay-pane-content {
+    margin: 30px;
 }
 
 </style>
@@ -189,7 +195,9 @@ html, body {
     <div id="info-overlay">
         <div id="overlay-bg" onclick="close_pane();" class="parent-size" style="background-color:rgb(29, 29, 29); opacity:0%; transition: opacity 0.4s;"></div>
         <div id="overlay-pane" style="right:-100%";>
+            <div id="overlay-pane-content">
 
+            </div>
         </div>
     </div>
     <div class="full-viewport center-flex">
@@ -438,7 +446,7 @@ html, body {
             document.getElementById("info-overlay").style.pointerEvents = "all";
             document.getElementById("overlay-bg").style.opacity = "50%";
             document.getElementById("overlay-pane").style.right = "0%";
-            document.getElementById("overlay-pane").innerHTML = project_data[item];
+            document.getElementById("overlay-pane-content").innerHTML = project_data[item];
         }
 
         function close_pane()
