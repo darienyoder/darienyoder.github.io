@@ -461,7 +461,7 @@ html, body {
         var project_data = {};
 
         {% for item in site.data.projects %}
-            project_data["{{item.link}}"] = "{{item.content}}";
+            project_data["{{item.link}}"] = '{{item.content}}';
         {% endfor %}
     </script>
 </body>

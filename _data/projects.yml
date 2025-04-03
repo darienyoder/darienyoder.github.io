@@ -67,9 +67,9 @@
   content: |
     <h1>Wilted</h1> \
     <div style=\"padding:56.25% 0 0 0;position:relative;\"><iframe src=\"https://player.vimeo.com/video/994656571?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media\" style=\"position:absolute;top:0;left:0;width:100%;height:100%;\" title=\"Wilted\"></iframe></div><script src=\"https://player.vimeo.com/api/player.js\"><\/script> \
-    <p>Summer of '24, my friends and I competed in the 48 hour film project, \
+    <p>Summer of \'24, my friends and I competed in the 48 hour film project, \
     where you make a short film in a weekend based on a random genre, prop, character, and line of dialogue. \
-    All of our locations fell through, so we had to build a set in the director's backyard. \
+    All of our locations fell through, so we had to build a set in the director\'s backyard. \
     We ended up winning 3rd best film in Cleveland, which inflated all our egos for a long while afterward.</p> \
     <ul> \
       <li>Genre: Tearjerker</li> \
@@ -83,6 +83,26 @@
   type: film
   link: https://www.imdb.com/title/tt33981582/
   image: /assets/images/headers/charred-memory.png
+  content: |
+    <h1>Charred Memory</h1> \
+    <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1025972126?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Charred Memory"></iframe></div><script src="https://player.vimeo.com/api/player.js"><\/script> \
+    <p>In the Fall after filming <i>Wilted</i>, there was another 48 hour film project, \
+    this time horror themed for Halloween.</p> \
+    <ul> \
+      <li>Genre: Undead</li> \
+      <li>Prop: Ticket</li> \
+      <li>Character: A Sketch Artist</li> \
+      <li>Line of Dialogue: You need to learn when to zip it!</li> \
+    </ul> \
+    <p>A couple things of note happened on this set:</p> \
+    <ol> \
+      <li>I slipped on an acorn while on set and needed to be taken to urgent care to get stitches in my chin.</li> \
+      <li>While the doctor was sowing my face back together, the lights flickered briefly. This turned out to be a city-wide power outage.</li> \
+      <li>We had a generator to deal with the power outage, but because of how loud it was it needed to taken far down the trail and connected to all our lights by several extension cords.</li> \
+      <li>A man on a bike threatened to break our camera because he thought we were filming him. The camera in question was not a camera, but rather a light bulb that was not pointed towards him.</li> \
+      <li>While cleaning up after shooting in the pitch black of night, our producer tripped with 3 SD cards in his hand. When he stood up there were 2 SD cards in his hand.</li> \
+    </ol> \
+
 
 - name: Bunkers
   subheading: Script Consultant / PA
@@ -165,7 +185,7 @@
     <p>This was an attempt to ruin a beloved cultural icon by adding dozens of unnecessary features as a joke about directionless game development.</p> \
     <p>It gained some popularity after getting a mention in B3TA newsletter, which was then reposted by Andy Baio. \
     A little later it was reviewed on a few Spanish tech websites. \
-    Years later and it's still getting around 10 plays a day.</p> \
+    Years later and it\'s still getting around 10 plays a day.</p> \
     Press: \
     <ul> \
       <li><a href=\"\">B3TA Magazine</a></li> \
@@ -179,9 +199,9 @@
   image: /assets/images/headers/echosearch.png
   content: |
     <h1>Echosearch</h1> \
-    <h2><a href='https://dariengames.itch.io/echosearch'>Play it</a></h2> \
-    <p>This was the first game I published. I'd been playing around with Godot in the months prior, \
-    making stupidly ambitious projects that I couldn't possibly finish. I decided to join a game jam \
+    <h2><a href=\"https://dariengames.itch.io/echosearch\">Play it</a></h2> \
+    <p>This was the first game I published. I\'d been playing around with Godot in the months prior, \
+    making stupidly ambitious projects that I couldn\'t possibly finish. I decided to join a game jam \
     to force myself to actually finish something. This jam was special in that you were only allowed \
     three hours to work on the game. The theme was \"Empty World,\" so I thought it would be fun to make \
     a game with no visuals.</p> \
@@ -193,7 +213,7 @@
   content: |
     <h1>Tiny Submarine</h1> \
     <h2><a href=\"https://dariengames.itch.io/tiny-submarine\">Play it</a></h2> \
-    <p>Another 3 hour game jam. I don't remember much about this one.</p> \
+    <p>Another 3 hour game jam. I don\'t remember much about this one.</p> \
 
 
 # SKETCHES
