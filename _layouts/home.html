@@ -283,7 +283,8 @@ html, body {
         
         <div class="row-wrapper">
             <div class="content-row">
-                {% for item in site.data.projects %}
+                <div>
+                    {% for item in site.data.projects %}
                         {% if item.type == "bonus" %}
                             <div class="featured-item">
                                 <div class="thumbnail" style="background-image: url({{item.image}});"></div>
@@ -293,6 +294,7 @@ html, body {
                             </div>
                         {% endif %}
                     {% endfor %}
+                </div>
             </div>
         </div>
     </div>
