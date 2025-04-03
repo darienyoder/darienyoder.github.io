@@ -246,7 +246,7 @@ html, body {
                         {% endif %}
                     {% endfor %}
                 </div>
-                <div>
+                <div style="margin-top:20px;">
                     {% for item in site.data.projects %}
                         {% if item.type == "website" %}
                             <div class="featured-item" onclick="open_pane({{item.link}})">
