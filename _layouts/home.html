@@ -237,7 +237,7 @@ html, body {
                 <div>
                     {% for item in site.data.projects %}
                         {% if item.type == "software" %}
-                            <div class="featured-item" onclick="open_pane({{item.link}})">
+                            <div class="featured-item" onclick="open_pane('{{item.link}}')">
                                 <div class="thumbnail" style="background-image: url({{item.image}});"></div>
                                 <div class="content">
                                     <h2>{{ item.name }}</h2>
@@ -249,7 +249,7 @@ html, body {
                 <div style="margin-top:20px;">
                     {% for item in site.data.projects %}
                         {% if item.type == "website" %}
-                            <div class="featured-item" onclick="open_pane({{item.link}})">
+                            <div class="featured-item" onclick="open_pane('{{item.link}}')">
                                 <div class="thumbnail" style="background-image: url({{item.image}});"></div>
                                 <div class="content">
                                     <h2>{{ item.name }}</h2>
@@ -268,7 +268,7 @@ html, body {
                 <div>
                     {% for item in site.data.projects %}
                         {% if item.type == "game" %}
-                            <div class="featured-item" onclick="open_pane({{item.link}})">
+                            <div class="featured-item" onclick="open_pane('{{item.link}}')">
                                 <div class="thumbnail" style="background-image: url({{item.image}});"></div>
                                 <div class="content">
                                     <h2>{{ item.name }}</h2>
@@ -287,7 +287,7 @@ html, body {
                 <div>
                     {% for item in site.data.projects %}
                         {% if item.type == "film" %}
-                            <div class="featured-item" onclick="open_pane({{item.link}})">
+                            <div class="featured-item" onclick="open_pane('{{item.link}}')">
                                 <div class="thumbnail" style="background-image: url({{item.image}});"></div>
                                 <div class="content">
                                     <h2>{{ item.name }}</h2>
@@ -306,7 +306,7 @@ html, body {
                 <div>
                     {% for item in site.data.projects %}
                         {% if item.type == "bonus" %}
-                            <div class="featured-item" onclick="open_pane({{item.link}})">
+                            <div class="featured-item" onclick="open_pane('{{item.link}}')">
                                 <div class="thumbnail" style="background-image: url({{item.image}});"></div>
                                 <div class="content">
                                     <h2>{{ item.name }}</h2>
