@@ -438,6 +438,7 @@ html, body {
             document.getElementById("info-overlay").style.pointerEvents = "all";
             document.getElementById("overlay-bg").style.opacity = "50%";
             document.getElementById("overlay-pane").style.right = "0%";
+            document.getElementById("overlay-pane").innerHTML = project_data[item];
         }
 
         function close_pane()
@@ -446,6 +447,14 @@ html, body {
             document.getElementById("overlay-bg").style.opacity = "0%";
             document.getElementById("overlay-pane").style.right = "-100%";
         }
+
+        var project_data = {};
+
+        {% for item in site.data.projects %}
+
+            project_data["{{item.link}}"] = "{{item.content}}";
+
+        {% endfor %}
     </script>
 </body>
 </html>

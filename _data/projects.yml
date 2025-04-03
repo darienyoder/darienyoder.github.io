@@ -52,6 +52,9 @@
   type: website
   link: /
   image: /mood9/static_background.png
+  content: |
+    <h1>This Website</h1>
+    <p>I made this website. It uses Jekyll to render as a static site.</p>
 
 
 # FILM
