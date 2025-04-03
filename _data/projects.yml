@@ -36,7 +36,7 @@
 # FILM
 
 - name: Wilted
-  subheading: Writer / PA
+  subheading: Writer / PA / VFX
   type: film
   link: https://www.imdb.com/title/tt33044549/
   image: /assets/images/headers/wilted.png
@@ -58,6 +58,30 @@
   type: film
   link: https://vimeo.com/822537020
   image: /assets/images/headers/powerball.png
+
+- name: How to be...
+  subheading: Boom Operator
+  type: film
+  link: https://www.youtube.com/watch?v=XM_e6WPbvAU
+  image: /assets/images/headers/how-to-be.png
+
+- name: Buzzer Beater
+  subheading: 2nd AD / Script Supervisor
+  type: film
+  link:
+  # image: /assets/images/headers/powerball.png
+
+- name: Buzzer Beater
+  subheading: 2nd AD / Script Supervisor
+  type: film
+  link:
+  # image: /assets/images/headers/powerball.png
+
+- name: Timebomb
+  subheading: PA
+  type: film
+  link:
+  # image: /assets/images/headers/powerball.png
 
 
 
