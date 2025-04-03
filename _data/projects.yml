@@ -154,15 +154,15 @@
   image: /assets/images/headers/pac-man.png
   content: |
     <h1>21st Century Roguelike Pac-Man</h1> \
-    <h2><a href="https://dariengames.itch.io/21st-century-roguelike-pac-man">Play it</a></h2> \
+    <h2><a href=\"https://dariengames.itch.io/21st-century-roguelike-pac-man\">Play it</a></h2> \
     <p>This was an attempt to ruin a beloved cultural icon by adding dozens of unnecessary features as a joke about directionless game development.</p> \
     <p>It gained some popularity after getting a mention in B3TA newsletter, which was then reposted by Andy Baio. \
     A little later it was reviewed on a few Spanish tech websites. \
     Years later and it's still getting around 10 plays a day.</p> \
     Press: \
     <ul> \
-      <li><a href="">B3TA Magazine</a></li> \
-      <li><a href="">Review by Microsiervos</a></li> \
+      <li><a href=\"\">B3TA Magazine</a></li> \
+      <li><a href=\"\">Review by Microsiervos</a></li> \
     </ul> \
   
 
@@ -172,11 +172,11 @@
   image: /assets/images/headers/echosearch.png
   content: |
     <h1>Echosearch</h1> \
-    <h2><a href="https://dariengames.itch.io/echosearch">Play it</a></h2> \
+    <h2><a href='https://dariengames.itch.io/echosearch'>Play it</a></h2> \
     <p>This was the first game I published. I'd been playing around with Godot in the months prior, \
     making stupidly ambitious projects that I couldn't possibly finish. I decided to join a game jam \
     to force myself to actually finish something. This jam was special in that you were only allowed \
-    three hours to work on the game. The theme was "Empty World," so I thought it would be fun to make \
+    three hours to work on the game. The theme was \"Empty World,\" so I thought it would be fun to make \
     a game with no visuals.</p> \
 
 - name: Tiny Submarine
@@ -185,7 +185,7 @@
   image: /assets/images/headers/tiny-submarine.png
   content: |
     <h1>Tiny Submarine</h1> \
-    <h2><a href="https://dariengames.itch.io/tiny-submarine">Play it</a></h2> \
+    <h2><a href=\"https://dariengames.itch.io/tiny-submarine\">Play it</a></h2> \
     <p>Another 3 hour game jam. I don't remember much about this one.</p> \
 
 
