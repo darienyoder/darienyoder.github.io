@@ -283,7 +283,16 @@ html, body {
         
         <div class="row-wrapper">
             <div class="content-row">
-                
+                {% for item in site.data.projects %}
+                        {% if item.type == "bonus" %}
+                            <div class="featured-item">
+                                <div class="thumbnail" style="background-image: url({{item.image}});"></div>
+                                <div class="content">
+                                    <h2>{{ item.name }}</h2>
+                                </div>
+                            </div>
+                        {% endif %}
+                    {% endfor %}
             </div>
         </div>
     </div>

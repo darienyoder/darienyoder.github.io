@@ -1,4 +1,17 @@
 
+# BONUS
+
+- name: About
+  type: bonus
+  link: /about
+  image: assets/images/bio.png
+
+- name: Resume
+  type: bonus
+  link: /resume
+  image: assets/images/bio.png
+
+
 # SOFTWARE
 
 - name: Livestreaming Website
