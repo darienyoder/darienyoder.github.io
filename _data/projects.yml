@@ -22,7 +22,7 @@
 - name: Minigolf Game
   type: software
   link: /minigolf
-  image: /assets/images/headers/bse.png
+  image: /assets/images/headers/minigolf.png
 
 - name: Falling Sand
   type: software
