@@ -69,14 +69,14 @@
 
 - name: Mood9 Business Card
   type: website
-  link: /mood9-info
+  link: /mood9
   image: /mood9/static_background.png
   content: |
     <h1>Mood9</h1> \
     <h2><a href="https://darienyoder.com/mood9">Check it out</a></h2> \
-    <p>A friend of mine started his own film production company, titled "mood9," \
-    so I offered to make him a website for it. Since the company was in its early stage \
-    and hadn't yet produced anything, I didn't worry about appealing to potential audiences. \
+    <p>A friend of mine started his own film production company, titled "<a href="https://mood9.studio">mood9</a>," \
+    so I offered to make him a website for it. Since the company was in its early stages \
+    and hadn\'t yet produced anything, I didn't worry about appealing to potential audiences. \
     I instead designed it as a sort of interactive business card, \
     something you could scan off a QR code and quickly get the jist of what they do. \
     I put everything on one page and allowed navigation between subpages via snappy scrolling.</p> \
@@ -96,7 +96,7 @@
   subheading: Writer / PA / VFX
   type: film
   link: https://www.imdb.com/title/tt33044549/
-  image: /assets/images/headers/wilted.png
+  image: /wilted
   content: |
     <h1>Wilted</h1> \
     <div style=\"padding:56.25% 0 0 0;position:relative;\"><iframe src=\"https://player.vimeo.com/video/994656571?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media\" style=\"position:absolute;top:0;left:0;width:100%;height:100%;\" title=\"Wilted\"></iframe></div><script src=\"https://player.vimeo.com/api/player.js\"><\/script> \
@@ -114,7 +114,7 @@
 - name: Charred Memory
   subheading: Writer / PA
   type: film
-  link: https://www.imdb.com/title/tt33981582/
+  link: /charred-memory
   image: /assets/images/headers/charred-memory.png
   content: |
     <h1>Charred Memory</h1> \
@@ -140,32 +140,57 @@
 - name: Bunkers
   subheading: Script Consultant / PA
   type: film
-  link: https://vimeo.com/940097793
+  link: /bunkers
   image: /assets/images/headers/bunkers.png
+  content: |
+    <h1>Bunkers</h1> \
+    <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1025972126?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Charred Memory"></iframe></div><script src="https://player.vimeo.com/api/player.js"><\/script> \
+    <p>This was the first project I got to be in the writer\'s room for. \
+    My friend was preparing for her capstone project, \
+    and decided that instead of a 10 minute short film she would shoot a 30 minute \
+    TV pilot. We naively planned to make five episodes, but had to cut it down to only one \
+    for time and budget reasons.</p> \
 
 - name: Powerball
   subheading: Slate / PA
   type: film
-  link: https://vimeo.com/822537020
+  link: /powerball
   image: /assets/images/headers/powerball.png
 
 - name: How to be...
   subheading: Boom Operator
   type: film
   link: https://www.youtube.com/watch?v=XM_e6WPbvAU
-  image: /assets/images/headers/how-to-be.png
+  image: /how-to-be-a-productive-member-of-society
+  content: |
+    <h1>How to be a Productive Member of Society</h1> \
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/XM_e6WPbvAU?si=mmzSS3I8t3BUsiDL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <p>Yes, that is the full title. I held a boom mic during the gym and date scenes.</p> \
 
 - name: Buzzer Beater
   subheading: 2nd AD / Script Supervisor
   type: film
   link:
-  # image: /assets/images/headers/powerball.png
+  image: /assets/images/headers/powerball.png
+  content: |
+    <h1>Buzzer Beater</h1> \
+    <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1055594533?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Buzzer Beater"></iframe></div><script src="https://player.vimeo.com/api/player.js"><\/script> \
+    <p>Made for the College 48 Hour Film Project. I was the 2nd AD and script supervisor, which means I spent the entire shoot scrutinizing the continuity of silverware placement.</p> \
 
 - name: Timebomb
   subheading: PA
   type: film
-  link:
-  # image: /assets/images/headers/powerball.png
+  link: /timebomb
+  image: /assets/images/headers/powerball.png
+  content: |
+    <h1>Timebomb</h1> \
+    <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/937083567?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="TIMEBOMB | Short Film"></iframe></div><script src="https://player.vimeo.com/api/player.js"><\/script> \
+    <p>The folks at Brimfield Bread Oven were delightful. \
+    They gave us the entire place to ourselves, \
+    let us unplug any refridgerators while we were filming, \
+    and offered us any cookies that were leftover from the past week. \
+    Hearing the owner talk about his four-day workweek and coming in each morning \
+    to the smell of cooked bread made me regret some of my own career choices.</p> \
 
 
 
