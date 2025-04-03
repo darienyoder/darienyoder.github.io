@@ -11,6 +11,11 @@
   link: /resume
   image: assets/images/bio.png
 
+- name: Contact
+  type: bonus
+  link: /contact
+  image: assets/images/bio.png
+
 
 # SOFTWARE
 
