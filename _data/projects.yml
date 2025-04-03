@@ -2,7 +2,7 @@
 # SOFTWARE
 
 - name: Livestreaming Website
-  type: software
+  type: website
   link: /black-squirrel-entertainment
   image: /assets/images/headers/bse.png
 
@@ -17,7 +17,7 @@
   image: /assets/images/headers/falling-sand.png
 
 - name: Mood9 Business Card
-  type: software
+  type: website
   link: /mood9-info
   image: /mood9/static_background.png
 
