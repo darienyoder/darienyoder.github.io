@@ -1,50 +1,292 @@
----
-layout: base
----
+<!DOCTYPE html>
+<html lang="en">
 
-<main style="overflow-x: hidden;">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title }}</title>
+  <style>
+    .letter {
+        display: inline-block;
+        position: relative;
+        white-space: pre;
 
-    <div id="post-content" class="wide">
-        <div id="post-margin">
-            <div id="letter-source">
-                {{ content }}
+        pointer-events: none;
+        cursor: default;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+
+    .free-letter {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        color: black;
+        z-index: 10;
+
+        pointer-events: none;
+        cursor: default;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+
+    #title-output {
+        position: relative;
+        color: #aaa;
+    }
+
+    #title-output > * {
+        margin: 0px;
+        text-align: center;
+    }
+
+</style>
+<style>
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+html, body {
+    margin: 0px;
+    font-family: "Outfit", sans-serif;
+}
+
+.full-viewport {
+    width: 100%;
+    height: 100vh;
+    overflow-x: none;
+}
+
+.center-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.parent-size {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.featured-section {
+    gap: 2vh;
+    min-width: 100%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.row-wrapper {
+    position: relative;
+	overflow-y: visible;
+}
+
+.content-row {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding: 20px 0px;
+}
+
+.content-row > div {
+    width: min-content;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-left: 50px;
+}
+
+.featured-item {
+    height: 30vh;
+    width: 50vh;
+    aspect-ratio: 5/3;
+    border: 2px solid silver;
+    box-shadow: 5px 5px 20px;
+    border-radius: 2vh;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+    
+    z-index: 0;
+
+    transition: scale 0.3s, z-index 0.3s;
+
+    cursor: pointer;
+}
+
+.featured-item:hover {
+    scale: 1.05;
+    z-index: 100;
+}
+
+.featured-item .thumbnail {
+    flex: 1;
+    background-position: center;
+    background-size: cover;
+}
+
+.featured-item .content {
+    border-top: 2px solid silver;
+    text-align: center;
+    background-color: #fff;
+}
+
+.featured-item h2 {
+    margin: 5px;
+    font-size: 5vh;
+}
+
+#more-button {
+    border-radius: 100%;
+    border: 10px solid black;
+    padding: 5px;
+    cursor: pointer;
+    position: relative;
+    transition: top 0.2s;
+    top: 0px;
+}
+
+#more-button:hover {
+    top: 10px;
+}
+
+#more-content h1 {
+    padding-top: 50px;
+    padding-left: 50px;
+    margin: 0px;
+    font-size: 3vw;
+}
+
+</style>
+</head>
+<body>
+    <div class="full-viewport center-flex">
+        <div style="flex: 1;"></div>
+        <div style="position:relative;">
+            <div style="position: relative;">
+                <div id="title-input" class="">
+                    <h1 id="title-h1-in">Darien Yoder</h1>
+                    <h2 id="title-h2-in">I make software, games, and short films.</h2>
+                    <p id="title-p-in"></p>
+                </div>
+                <div id="title-output" class="">
+                    <h1 style="font-size:8vw;" id="title-h1-out"></h1>
+                    <h2 style="font-size:2vw;" id="title-h2-out"></h2>
+                    <p id="title-p-out"></p>
+                </div>
             </div>
-            <h1 id="letter-output" style="font-size:8vw;"></h1>
+
+            <!-- <div style="max-width:100%; overflow-x: auto;">
+                <div class="featured-section" style="margin-top: 10vh;">
+                    <div class="featured-item">
+
+                    </div>
+                    <div class="featured-item">
+
+                    </div>
+                    <div class="featured-item">
+                        <div class="thumbnail" style="background-image: url(assets/images/headers/wilted.png);"></div>
+                        <div class="content">
+                            <h1>Wilted</h1>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+        <div style="flex: 1;" class="center-flex">
+            <svg height="100px" width="100px" onclick="document.getElementById('more-content').scrollIntoView({ behavior: 'smooth'});" id="more-button" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/></svg>
         </div>
     </div>
+    <div id="more-content" class="full-viewport">
+        <h1>Software</h1>
+        
+        <div class="row-wrapper">
+            <div class="content-row">
+                <div>
+                    {% for item in site.data.portfolio-categories %}
+                        {% if project.type == "software" %}
+                            <div class="featured-item">
+                                <div class="thumbnail" style="background-image: url({{project.image}});"></div>
+                                <div class="content">
+                                    <h1>{{ item.title }}</h1>
+                                </div>
+                            </div>
+                        {% endif %}
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
 
-    <style>
-        .letter {
-            display: inline-block;
-            position: relative;
+        <h1>Websites I've designed</h1>
+        
+        <div class="row-wrapper">
+            <div class="content-row">
+                <div>
+                    {% for item in site.data.portfolio-categories %}
+                        {% if project.type == "software" %}
+                            <div class="featured-item">
+                                <div class="thumbnail" style="background-image: url({{project.image}});"></div>
+                                <div class="content">
+                                    <h1>{{ item.title }}</h1>
+                                </div>
+                            </div>
+                        {% endif %}
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
 
-            pointer-events: none;
-            cursor: default;
-            -webkit-user-select: none;
-            -ms-user-select: none;
-            user-select: none;
-        }
+        <h1>Games</h1>
+        
+        <div class="row-wrapper">
+            <div class="content-row">
+                <div>
+                    {% for item in site.data.portfolio-categories %}
+                        {% if project.type == "game" %}
+                            <div class="featured-item">
+                                <div class="thumbnail" style="background-image: url({{project.image}});"></div>
+                                <div class="content">
+                                    <h1>{{ item.title }}</h1>
+                                </div>
+                            </div>
+                        {% endif %}
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
 
-        .free-letter {
-        	position: absolute;
-            top: 0px;
-            left: 0px;
-            color: black;
-            z-index: 10;
+        <h1>Film Credits</h1>
+        
+        <div class="row-wrapper">
+            <div class="content-row">
+                <div>
+                    {% for item in site.data.portfolio-categories %}
+                        {% if project.type == "film" %}
+                            <div class="featured-item">
+                                <div class="thumbnail" style="background-image: url({{project.image}});"></div>
+                                <div class="content">
+                                    <h1>{{ item.title }}</h1>
+                                </div>
+                            </div>
+                        {% endif %}
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
 
-            pointer-events: none;
-            cursor: default;
-            -webkit-user-select: none;
-            -ms-user-select: none;
-            user-select: none;
-        }
-
-        #letter-output {
-        	white-space: pre;
-            position: relative;
-            color: #aaa;
-        }
-    </style>
+        <h1>Bonus Content</h1>
+        
+        <div class="row-wrapper">
+            <div class="content-row">
+                
+            </div>
+        </div>
+    </div>
     <script>
 
         function isWhitespaceString(str)
@@ -52,7 +294,7 @@ layout: base
         	return !(str.replace(/\s/g, '').length);
         }
 
-        function separateLetters(node) {
+        function separateLetters(node, outNode) {
             // If the node is a text node, split it into letters
             if (node.nodeType === Node.TEXT_NODE) {
                 const text = node.textContent;
@@ -64,7 +306,7 @@ layout: base
                       const span = document.createElement('span');
                       span.textContent = letter;
                       span.classList.add('letter');
-                      container.appendChild(span);
+                      outNode.appendChild(span);
 
                       const fl = document.createElement('span');
                       fl.textContent = letter;
@@ -75,25 +317,33 @@ layout: base
                   });
 
                   let nl = document.createElement('br');
-                  container.appendChild(nl);
+                  outNode.appendChild(nl);
                 }
 
             } else if (node.nodeType === Node.ELEMENT_NODE) {
                 // If the node is an element, process each child node
                 Array.from(node.childNodes).forEach(child => {
-                    separateLetters(child);
+                    separateLetters(child, outNode);
                 });
             }
+            node.remove();
         }
 
         // Select the paragraph element
-        const paragraph = document.getElementById('letter-source');
-        const container = document.getElementById('letter-output');
+        // for (var i = 0; i < document.getElementById("title-input").children.length; i++)
+        // {
+        //     separateLetters(document.getElementById('title-input').children[i], document.getElementById('title-output').children[i]);
+        // }
+        separateLetters(document.getElementById('title-h1-in'), document.getElementById('title-h1-out'));
+        separateLetters(document.getElementById('title-h2-in'), document.getElementById('title-h2-out'));
+        separateLetters(document.getElementById('title-p-in'), document.getElementById('title-p-out'));
+        // let paragraph = document.getElementById('letter-source');
+        // let container = document.getElementById('letter-output');
 
-        // Start the recursive separation
-        separateLetters(paragraph);
+        // // Start the recursive separation
+        // separateLetters(paragraph, container);
 
-        document.getElementById("letter-source").remove();
+        // document.getElementById("letter-source").remove();
 
         function getPos(el) {
           const rect = el.getBoundingClientRect();
@@ -151,24 +401,5 @@ layout: base
         setInterval(letter_movement, 1000.0 / 60.0)
 
     </script>
-
-    <div id="category-list">
-        {% for item in site.data.portfolio-categories %}
-
-            {% if item.link == "/software" %}
-                <h2 class="list-break">Software</h2>
-                {% for project in site.data.projects %}
-                    {% if project.type == "software" %}
-                        <a href="{{ project.link }}" style="background-image: url('{{ project.image }}');"><h2 style="z-index:1;">{{ project.name }}</h2><div class="link-hover-highlight"></div></a>
-                    {% endif %}
-                {% endfor %}
-
-            {% else %}
-                {% if item.link == "/film" %}<h2 class="list-break">Creative Stuff</h2>{% endif %}
-
-                <a href="{{ item.link }}" style="background-image: url('{{ item.image }}');"><h2 style="z-index:1;">{{ item.name }}</h2><div class="link-hover-highlight"></div></a>
-            {% endif %}
-
-        {% endfor %}
-    </div>
-</main>
+</body>
+</html>
