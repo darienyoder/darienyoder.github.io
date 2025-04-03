@@ -71,14 +71,23 @@
   type: website
   link: /mood9-info
   image: /mood9/static_background.png
+  content: |
+    <h1>Mood9</h1> \
+    <h2><a href="https://darienyoder.com/mood9">Check it out</a></h2> \
+    <p>A friend of mine started his own film production company, titled "mood9," \
+    so I offered to make him a website for it. Since the company was in its early stage \
+    and hadn't yet produced anything, I didn't worry about appealing to potential audiences. \
+    I instead designed it as a sort of interactive business card, \
+    something you could scan off a QR code and quickly get the jist of what they do. \
+    I put everything on one page and allowed navigation between subpages via snappy scrolling.</p> \
 
 - name: This Website
   type: website
   link: /
   image: /mood9/static_background.png
   content: |
-    <h1>This Website</h1>\
-    <p>I made this website. It uses Jekyll to render as a static site.</p>\
+    <h1>This Website</h1> \
+    <p>I made this website. It uses Jekyll to render as a static site.</p> \
 
 
 # FILM
