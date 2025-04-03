@@ -14,11 +14,6 @@
 
 # SOFTWARE
 
-- name: Livestreaming Website
-  type: website
-  link: /black-squirrel-entertainment
-  image: /assets/images/headers/bse.png
-
 - name: Minigolf Game
   type: software
   link: /minigolf
@@ -28,11 +23,6 @@
   type: software
   link: /falling-sand
   image: /assets/images/headers/falling-sand.png
-
-- name: Mood9 Business Card
-  type: website
-  link: /mood9-info
-  image: /mood9/static_background.png
 
 - name: Crossword Builder
   type: software
@@ -44,6 +34,24 @@
   image: /assets/images/headers/destroydog.png
   link: /destroydog
 
+
+
+# WEBSITE
+
+- name: Livestreaming Website
+  type: website
+  link: /black-squirrel-entertainment
+  image: /assets/images/headers/bse.png
+
+- name: Mood9 Business Card
+  type: website
+  link: /mood9-info
+  image: /mood9/static_background.png
+
+- name: This one
+  type: website
+  link: /
+  image: /mood9/static_background.png
 
 
 # FILM
