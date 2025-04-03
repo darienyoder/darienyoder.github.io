@@ -29,7 +29,7 @@
   link: /crossword-builder
   image: /assets/images/headers/crossword-builder.png
 
-- name: DestroyDog Bookmarklet
+- name: DestroyDog
   type: software
   image: /assets/images/headers/destroydog.png
   link: /destroydog
@@ -48,7 +48,7 @@
   link: /mood9-info
   image: /mood9/static_background.png
 
-- name: This one
+- name: This Website
   type: website
   link: /
   image: /mood9/static_background.png

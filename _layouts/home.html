@@ -116,16 +116,13 @@ html, body {
 
     transition: scale 0.3s, z-index 0.3s;
 
+
     cursor: pointer;
 }
 
 .featured-item:hover {
     scale: 1.05;
     z-index: 100;
-}
-
-.featured-item * {
-    pointer-events: none;
 }
 
 .featured-item .thumbnail {
@@ -240,7 +237,7 @@ html, body {
                 <div>
                     {% for item in site.data.projects %}
                         {% if item.type == "software" %}
-                            <div class="featured-item">
+                            <div class="featured-item" onclick="open_pane({{item.link}})">
                                 <div class="thumbnail" style="background-image: url({{item.image}});"></div>
                                 <div class="content">
                                     <h2>{{ item.name }}</h2>
@@ -249,13 +246,6 @@ html, body {
                         {% endif %}
                     {% endfor %}
                 </div>
-            </div>
-        </div>
-
-        <h1>Websites I've designed</h1>
-        
-        <div class="row-wrapper">
-            <div class="content-row">
                 <div>
                     {% for item in site.data.projects %}
                         {% if item.type == "website" %}
