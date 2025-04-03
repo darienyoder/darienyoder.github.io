@@ -208,7 +208,7 @@ html, body {
         <div class="row-wrapper">
             <div class="content-row">
                 <div>
-                    {% for item in site.data.portfolio-categories %}
+                    {% for item in site.data.projects %}
                         {% if project.type == "software" %}
                             <div class="featured-item">
                                 <div class="thumbnail" style="background-image: url({{project.image}});"></div>
@@ -227,7 +227,7 @@ html, body {
         <div class="row-wrapper">
             <div class="content-row">
                 <div>
-                    {% for item in site.data.portfolio-categories %}
+                    {% for item in site.data.projects %}
                         {% if project.type == "software" %}
                             <div class="featured-item">
                                 <div class="thumbnail" style="background-image: url({{project.image}});"></div>
@@ -246,7 +246,7 @@ html, body {
         <div class="row-wrapper">
             <div class="content-row">
                 <div>
-                    {% for item in site.data.portfolio-categories %}
+                    {% for item in site.data.projects %}
                         {% if project.type == "game" %}
                             <div class="featured-item">
                                 <div class="thumbnail" style="background-image: url({{project.image}});"></div>
@@ -265,7 +265,7 @@ html, body {
         <div class="row-wrapper">
             <div class="content-row">
                 <div>
-                    {% for item in site.data.portfolio-categories %}
+                    {% for item in site.data.projects %}
                         {% if project.type == "film" %}
                             <div class="featured-item">
                                 <div class="thumbnail" style="background-image: url({{project.image}});"></div>
