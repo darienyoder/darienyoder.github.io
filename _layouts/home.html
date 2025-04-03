@@ -172,10 +172,6 @@ html, body {
     pointer-events: none;
 }
 
-#info-overlay {
-    pointer-events: all;
-}
-
 #overlay-pane {
     position: absolute;
     top: 0px;
@@ -439,12 +435,14 @@ html, body {
     <script>
         function open_pane(item)
         {
+            document.getElementById("info-overlay").style.pointerEvents = "all";
             document.getElementById("overlay-bg").style.opacity = "20%";
             document.getElementById("overlay-pane").style.right = "0%";
         }
 
         function close_pane()
         {
+            document.getElementById("info-overlay").style.pointerEvents = "none";
             document.getElementById("overlay-bg").style.opacity = "0%";
             document.getElementById("overlay-pane").style.right = "-100%";
         }
