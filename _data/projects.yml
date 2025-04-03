@@ -39,7 +39,7 @@
   image: /assets/images/headers/destroydog.png
   link: /destroydog
   content: |
-    <h1>DestroyDog Bookmarklet</h1>
+    <h1>DestroyDog Bookmarklet</h1> \
     <p>DestroyDog is a javascript bookmarklet for destroying websites \
     When launched, it aggressively deletes every element on the page \
     until only it remains. Good for dealing with unhelpful forum threads \
