@@ -87,7 +87,7 @@
   link: /mood9
   image: /mood9/static_background.png
   content: |
-    <h1>Mood9</h1> \
+    <h1>Mood9 Business Card</h1> \
     <h2><a href="https://darienyoder.com/mood9">Check it out</a></h2> \
     <p>A friend of mine started his own film production company, titled "<a href="https://mood9.studio">mood9</a>," \
     so I offered to make him a website for it. Since the company was in its early stages \
@@ -95,6 +95,8 @@
     I instead designed it as a sort of interactive business card, \
     something you could scan off a QR code and quickly get the jist of what they do. \
     I put everything on one page and allowed navigation between subpages via snappy scrolling.</p> \
+    <p>The owner decided during development that he would just design the site himself using WordPress, \
+    so it\'s not fully finished.</p>
 
 - name: This Website
   type: website
@@ -266,8 +268,13 @@
     Years later and it\'s still getting around 10 plays a day.</p> \
     Press: \
     <ul> \
-      <li><a href=\"\">B3TA Magazine</a></li> \
-      <li><a href=\"\">Review by Microsiervos</a></li> \
+      <li><a href="https://b3ta.com/newsletter/issue878/">B3TA Magazine</a></li> \
+      <li><a href="https://waxy.org/2023/09/21st-century-roguelike-pac-man/">Andy Baio</a></li> \
+      <li><a href="https://www.microsiervos.com/archivo/juegos-y-diversion/pac-man-modernizado-siglo-xxi.html">Microsiervos</a></li> \
+      <li><a href="https://setsideb.com/romhackish-thursday-21st-century-roguelike-pac-man/">Set Side B</a></li> \
+      <li><a href="https://wwwhatsnew.com/2023/10/06/llega-un-nuevo-pac-man-el-clasico-arcade-se-adapta-a-la-era-digital/#more-452996">WWWHATSNEW</a></li> \
+      <li><a href="https://descargar-gratis.es/pac-man">Descargar Gratis</a></li> \
+      <li><a href="https://www.audacy.com/podcast/momentous-live-c55e2/episodes/quizzical-media-98c30">MOMENTOUS Podcast</a></li> \
     </ul> \
   
 
