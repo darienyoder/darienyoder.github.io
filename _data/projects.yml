@@ -439,5 +439,5 @@
   link: https://www.youtube.com/watch?v=3w2_20uB6gQ
   image: https://i.ytimg.com/vi/3w2_20uB6gQ/maxresdefault.jpg
   content: |
-    <h1>Pyramid's Curse</h1> \
+    <h1>Pyramid\'s Curse</h1> \
     <iframe style="width:100%; aspect-ratio:16/9;" src="https://www.youtube.com/embed/3w2_20uB6gQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> \
