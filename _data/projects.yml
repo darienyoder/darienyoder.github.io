@@ -52,8 +52,8 @@
     <h1>Crossword Builder</h1> \
     <h2><a href="/crossword-builder">Check it out</a></h2> \
     <p>My grandma has this Scrabble board hanging in her kitchen wih all of the grandkids\' names on it. \
-    At least, she did until my cousins had a few more kids, rendering, the board severely outdated. \
-    None of us could figure out a way to make all the names fit in a 15x15 grid, \
+    At least, she did until my cousins had a few more kids, rendering the board severely outdated. \
+    None of us could find a way to make all the names fit in a 15x15 grid, \
     so I made this program to help.</p> \
 
 - name: DestroyDog
@@ -367,3 +367,77 @@
   content: |
     <h1>Uneven Superpowers</h1> \
     <iframe style="width:100%; aspect-ratio:16/9;" src="https://www.youtube.com/embed/aW1DVJiKAkg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> \
+
+# Acting
+
+- name: Tribal Challenge
+  type: sketch-acting
+  link: https://www.youtube.com/watch?v=XlgFS2goEVg
+  image: https://i.ytimg.com/vi/XlgFS2goEVg/maxresdefault.jpg
+  content: |
+    <h1>Tribal Challenge</h1> \
+    <iframe style="width:100%; aspect-ratio:16/9;" src="https://www.youtube.com/embed/XlgFS2goEVg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> \
+
+- name: The Rat
+  type: sketch-acting
+  link: https://www.youtube.com/watch?v=F14mh0iASTE
+  image: https://i.ytimg.com/vi/F14mh0iASTE/maxresdefault.jpg
+  content: |
+    <h1>The Rat</h1> \
+    <iframe style="width:100%; aspect-ratio:16/9;" src="https://www.youtube.com/embed/F14mh0iASTE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> \
+
+- name: Hackermen
+  type: sketch-acting
+  link: https://www.youtube.com/watch?v=1HZ32i7udA8
+  image: https://i.ytimg.com/vi/1HZ32i7udA8/maxresdefault.jpg
+  content: |
+    <h1>Hackermen</h1> \
+    <iframe style="width:100%; aspect-ratio:16/9;" src="https://www.youtube.com/embed/1HZ32i7udA8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> \
+
+- name: The Title Match
+  type: sketch-acting
+  link: https://www.youtube.com/watch?v=DZQYKcmIfC0
+  image: https://i.ytimg.com/vi/DZQYKcmIfC0/maxresdefault.jpg
+  content: |
+    <h1>The Title Match</h1> \
+    <iframe style="width:100%; aspect-ratio:16/9;" src="https://www.youtube.com/embed/DZQYKcmIfC0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> \
+
+- name: Pitbull Addicts
+  type: sketch-acting
+  link: https://www.youtube.com/watch?v=l3Y3hNSKQtg
+  image: https://i.ytimg.com/vi/l3Y3hNSKQtg/maxresdefault.jpg
+  content: |
+    <h1>Pitbull Addicts Anonymous</h1> \
+    <iframe style="width:100%; aspect-ratio:16/9;" src="https://www.youtube.com/embed/l3Y3hNSKQtg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> \
+
+- name: Divorce Court
+  type: sketch-acting
+  link: https://www.youtube.com/watch?v=gDLM6r7l2O8
+  image: https://i.ytimg.com/vi/gDLM6r7l2O8/maxresdefault.jpg
+  content: |
+    <h1>Pitbull Addicts Anonymous</h1> \
+    <iframe style="width:100%; aspect-ratio:16/9;" src="https://www.youtube.com/embed/gDLM6r7l2O8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> \
+
+- name: Married for Views
+  type: sketch-acting
+  link: https://www.youtube.com/watch?v=4OJZ2HxWH-0
+  image: https://i.ytimg.com/vi/4OJZ2HxWH-0/maxresdefault.jpg
+  content: |
+    <h1>Married for Views</h1> \
+    <iframe style="width:100%; aspect-ratio:16/9;" src="https://www.youtube.com/embed/4OJZ2HxWH-0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> \
+
+- name: Not on the List
+  type: sketch-acting
+  link: https://www.youtube.com/watch?v=NnmdwvHX-KY
+  image: https://i.ytimg.com/vi/NnmdwvHX-KY/maxresdefault.jpg
+  content: |
+    <h1>Not on the List</h1> \
+    <iframe style="width:100%; aspect-ratio:16/9;" src="https://www.youtube.com/embed/NnmdwvHX-KY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> \
+
+- name: Pyramid's Curse
+  type: sketch-acting
+  link: https://www.youtube.com/watch?v=3w2_20uB6gQ
+  image: https://i.ytimg.com/vi/3w2_20uB6gQ/maxresdefault.jpg
+  content: |
+    <h1>Pyramid's Curse</h1> \
+    <iframe style="width:100%; aspect-ratio:16/9;" src="https://www.youtube.com/embed/3w2_20uB6gQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> \
