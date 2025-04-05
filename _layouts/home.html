@@ -372,6 +372,25 @@ html, body {
             </div>
         </div>
 
+        <h1>Sketch Comedy</h1>
+        
+        <div class="row-wrapper">
+            <div class="content-row">
+                <div>
+                    {% for item in site.data.projects %}
+                        {% if item.type == "sketch" %}
+                            <div class="featured-item" onclick="open_pane('{{item.link}}')">
+                                <div class="thumbnail" style="background-image: url({{item.image}});"></div>
+                                <div class="content">
+                                    <h2>{{ item.name }}</h2>
+                                </div>
+                            </div>
+                        {% endif %}
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+
         <h1>Bonus Content</h1>
         
         <div class="row-wrapper">
