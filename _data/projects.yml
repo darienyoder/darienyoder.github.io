@@ -15,6 +15,21 @@
   type: bonus
   link: /contact
   image: assets/images/bio.png
+  content: |
+    <h1>Contact</h1> \
+    <p>Send me a message!</p> \
+    <form> \
+      <div> \
+        <input placeholder="Name"> \
+        <input placeholder="Email"> \
+      </div> \
+      <div> \
+        <input placeholder="Subject"> \
+      </div> \
+      <div> \
+        <input placeholder="Message"> \
+      </div> \
+    </form> \
 
 
 # SOFTWARE
@@ -156,6 +171,11 @@
   type: film
   link: /powerball
   image: /assets/images/headers/powerball.png
+  content: |
+    <h1>Powerball</h1> \
+    <div style="padding:42.81% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/822537020?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="POWERBALL | Short Film"></iframe></div><script src="https://player.vimeo.com/api/player.js"><\/script> \
+    <p>Yes, that is the full title. I held a boom mic during the gym and date scenes.</p> \
+
 
 - name: How to be...
   subheading: Boom Operator
@@ -164,7 +184,7 @@
   image: /assets/images/headers/how-to-be.png
   content: |
     <h1>How to be a Productive Member of Society</h1> \
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/XM_e6WPbvAU?si=mmzSS3I8t3BUsiDL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> \
+    <iframe style="width:100%; aspect-ratio:16/9;" src="https://www.youtube.com/embed/XM_e6WPbvAU?si=mmzSS3I8t3BUsiDL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> \
     <p>Yes, that is the full title. I held a boom mic during the gym and date scenes.</p> \
 
 - name: Buzzer Beater
