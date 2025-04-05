@@ -306,7 +306,7 @@
 - name: Info
   type: sketch
   link: /sketch-comedy-info
-  image: 
+  image: /assets/images/headers/sketch-comedy.png
 
 - name: Scary Phone
   type: sketch
