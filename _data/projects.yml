@@ -89,6 +89,20 @@
   link: /black-squirrel-entertainment
   image: /assets/images/headers/bse.png
 
+- name: AssetHoarder
+  type: website
+  link: /crossword-builder
+  image: /assets/images/headers/crossword-builder.png
+  content: |
+    <h1>AssetHoarder</h1> \
+    <h2 style="color:red;">Coming 2025</h2> \
+    <p>AssetHoarder is an asset aggregation tool \
+    that gathers public domain assets from across the web \
+    and displays them in an easily searchable list. \
+    Intended for video editors, game developers, \
+    and anyone else who's wasted hours \
+    just to find a 30 second audio track.</p> \
+
 - name: Mood9 Business Card
   type: website
   link: /mood9
