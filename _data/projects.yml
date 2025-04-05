@@ -89,12 +89,12 @@
   link: /black-squirrel-entertainment
   image: /assets/images/headers/bse.png
 
-- name: AssetHoarder
+- name: Asset Hoarder
   type: website
-  link: /crossword-builder
-  image: /assets/images/headers/crossword-builder.png
+  link: /asset-hoarder
+  image: https://as1.ftcdn.net/jpg/02/91/50/24/220_F_291502443_1h4oDbxKdgGavtlcNkQYwFquJKB2l9bd.jpg
   content: |
-    <h1>AssetHoarder</h1> \
+    <h1>Asset Hoarder</h1> \
     <h2 style="color:red;">Coming 2025</h2> \
     <p>AssetHoarder is an asset aggregation tool \
     that gathers public domain assets from across the web \
