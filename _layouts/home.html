@@ -53,6 +53,12 @@
     --margin-size: 50px;
 }
 
+@media only screen and (max-width: 600px) { 
+    :root {
+        --margin-size: 10px;
+    }
+}
+
 html, body {
     margin: 0px;
     font-family: "Outfit", sans-serif;
@@ -102,7 +108,7 @@ html, body {
     display: flex;
     flex-direction: row;
     gap: 20px;
-    padding: 0px 50px;
+    padding: 0px var(--margin-size);
 }
 
 .featured-item {
@@ -160,8 +166,8 @@ html, body {
 }
 
 #more-content h1 {
-    padding-top: 50px;
-    padding-left: 50px;
+    padding-top: var(--margin-size);
+    padding-left: var(--margin-size);
     margin: 0px;
     font-size: calc(var(--box-height) / 5);
     cursor: default;
