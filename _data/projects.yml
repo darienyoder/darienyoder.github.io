@@ -95,7 +95,7 @@
     I instead designed it as a sort of interactive business card, \
     something you could scan off a QR code and quickly get the jist of what they do. \
     I put everything on one page and allowed navigation between subpages via snappy scrolling.</p> \
-    <p>The owner decided during development that he would just design the site himself using WordPress, \
+    <p>The owner decided during development that he would design the site himself using WordPress, \
     so it was never fully finished.</p> \
 
 - name: This Website
@@ -176,7 +176,7 @@
   content: |
     <h1>Powerball</h1> \
     <div style="padding:42.81% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/822537020?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="POWERBALL | Short Film"></iframe></div><script src="https://player.vimeo.com/api/player.js"><\/script> \
-    <p>This was the first set I worked on. In most of the shots I'm hidden right behind a counter or wall corner.</p> \
+    <p>This was the first set I worked on. In most of the shots I\'m hidden right behind a counter or wall corner.</p> \
 
 
 - name: How to be...
@@ -264,8 +264,8 @@
     <h2><a href=\"https://dariengames.itch.io/21st-century-roguelike-pac-man\">Play it</a></h2> \
     <p>This was an attempt to ruin a beloved cultural icon by adding dozens of unnecessary features as a joke about directionless game development.</p> \
     <p>It gained some popularity after getting a mention in B3TA newsletter, which was then reposted by Andy Baio. \
-    A little later it was reviewed on a few Spanish tech websites. \
-    Years later and it\'s still getting around 10 plays a day.</p> \
+    A little later it was reviewed on a few Spanish tech websites, which has kept daily traffic to the game \
+    even two years later.</p> \
     Press: \
     <ul> \
       <li><a href="https://b3ta.com/newsletter/issue878/">B3TA Magazine</a></li> \
