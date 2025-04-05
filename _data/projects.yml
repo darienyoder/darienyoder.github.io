@@ -304,36 +304,54 @@
 # SKETCHES
 
 - name: Info
-  type: sketch
+  type: sketch-writing
   link: /sketch-comedy-info
   image: /assets/images/headers/sketch-comedy.png
 
 - name: Scary Phone
-  type: sketch
+  type: sketch-writing
   link: https://www.youtube.com/watch?v=k2Q--jFRnzE
   image: https://i.ytimg.com/vi/k2Q--jFRnzE/maxresdefault.jpg
+  content: |
+    <h1>Scary Phone</h1>
+    <iframe style="width:100%; aspect-ratio:16/9;" src="https://www.youtube.com/watch?v=k2Q--jFRnzE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> \
 
 - name: Infinite Riddle
-  type: sketch
+  type: sketch-writing
   link: https://www.youtube.com/watch?v=Ln2_uvfFAnM
   image: https://i.ytimg.com/vi/Ln2_uvfFAnM/maxresdefault.jpg
+  content: |
+    <h1>Infinite Riddle</h1>
+    <iframe style="width:100%; aspect-ratio:16/9;" src="https://www.youtube.com/watch?v=Ln2_uvfFAnM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> \
 
 - name: The Sludge Factory
-  type: sketch
+  type: sketch-writing
   link: https://www.youtube.com/watch?v=Fm_RXgvLm4M
   image: https://i.ytimg.com/vi/Fm_RXgvLm4M/maxresdefault.jpg
+  content: |
+    <h1>The Sludge Factory</h1>
+    <iframe style="width:100%; aspect-ratio:16/9;" src="https://www.youtube.com/watch?v=Fm_RXgvLm4M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> \
 
 - name: Water for Men
-  type: sketch
+  type: sketch-writing
   link: https://www.youtube.com/watch?v=AiCySG-MU7E
   image: https://i.ytimg.com/vi/AiCySG-MU7E/maxresdefault.jpg
+  content: |
+    <h1>Water for Men</h1>
+    <iframe style="width:100%; aspect-ratio:16/9;" src="https://www.youtube.com/watch?v=AiCySG-MU7E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> \
 
 - name: Apocalypse Bunker
-  type: sketch
+  type: sketch-writing
   link: https://www.youtube.com/watch?v=Zrtw_fU-afE
   image: https://i.ytimg.com/vi/Zrtw_fU-afE/maxresdefault.jpg
+  content: |
+    <h1>Apocalypse Bunker</h1>
+    <iframe style="width:100%; aspect-ratio:16/9;" src="https://www.youtube.com/watch?v=Zrtw_fU-afE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> \
 
 - name: Uneven Superpowers
-  type: sketch
+  type: sketch-writing
   link: https://www.youtube.com/watch?v=aW1DVJiKAkg
   image: https://i.ytimg.com/vi/aW1DVJiKAkg/maxresdefault.jpg
+  content: |
+    <h1>Uneven Superpowers</h1>
+    <iframe style="width:100%; aspect-ratio:16/9;" src="https://www.youtube.com/watch?v=aW1DVJiKAkg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> \
