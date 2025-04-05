@@ -351,6 +351,8 @@
   content: |
     <h1>Water for Men</h1> \
     <iframe style="width:100%; aspect-ratio:16/9;" src="https://www.youtube.com/embed/AiCySG-MU7E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> \
+    <p>I wrote this sketch after seeing a package at the grocery store titled "MANicure set," \
+    which consisted of clippers and a black nail file.</p> \
 
 - name: Apocalypse Bunker
   type: sketch-writing
@@ -393,6 +395,8 @@
   content: |
     <h1>Hackermen</h1> \
     <iframe style="width:100%; aspect-ratio:16/9;" src="https://www.youtube.com/embed/1HZ32i7udA8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> \
+    <p>This is the sequel to a previous video which introduced the two main hackers. \
+    Most of our lines were made up on the spot.</p> \
 
 - name: The Title Match
   type: sketch-acting
@@ -401,6 +405,13 @@
   content: |
     <h1>The Title Match</h1> \
     <iframe style="width:100%; aspect-ratio:16/9;" src="https://www.youtube.com/embed/DZQYKcmIfC0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> \
+    <p>Will underdog Joe "Twiggy" Valdez beat reigning champion Buford the Obliterator? \
+    Well, the thumbnail sort of gives it away. \
+    We turned the studio into a wrestling ring for an episode \
+    and made every sketch a wrestling match. \
+    When our producer asked for a volunteer to get \
+    battered around the ring nonstop for five minutes, \
+    I knew my time had come.</p> \
 
 - name: Pitbull Addicts
   type: sketch-acting
@@ -415,7 +426,7 @@
   link: https://www.youtube.com/watch?v=gDLM6r7l2O8
   image: https://i.ytimg.com/vi/gDLM6r7l2O8/maxresdefault.jpg
   content: |
-    <h1>Pitbull Addicts Anonymous</h1> \
+    <h1>Divorce Court</h1> \
     <iframe style="width:100%; aspect-ratio:16/9;" src="https://www.youtube.com/embed/gDLM6r7l2O8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> \
 
 - name: Married for Views
@@ -425,6 +436,7 @@
   content: |
     <h1>Married for Views</h1> \
     <iframe style="width:100%; aspect-ratio:16/9;" src="https://www.youtube.com/embed/4OJZ2HxWH-0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> \
+    <p>I got to play an Irish priest on St. Patrick\'s Day. I also made the fake YouTube graphic that they show at the pub scene.</p> \
 
 - name: Not on the List
   type: sketch-acting
@@ -433,7 +445,8 @@
   content: |
     <h1>Not on the List</h1> \
     <iframe style="width:100%; aspect-ratio:16/9;" src="https://www.youtube.com/embed/NnmdwvHX-KY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> \
-
+    <p>Me and my stunt double:</p> \
+    <img width="100%" src="/assets/images/stunt-double.jpg"> \
 - name: Pyramid's Curse
   type: sketch-acting
   link: https://www.youtube.com/watch?v=3w2_20uB6gQ
