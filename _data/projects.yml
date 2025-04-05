@@ -307,6 +307,10 @@
   type: sketch-writing
   link: /sketch-comedy-info
   image: /assets/images/headers/sketch-comedy.png
+  content: |
+    <h1>Sketch Comedy</h1> \
+    <img src="/assets/images/headers/sketch-comedy.png" width="100%"> \
+    <p></p> \
 
 - name: Scary Phone
   type: sketch-writing
