@@ -250,7 +250,7 @@ html, body {
         </div>
     </div>
     <div class="full-viewport center-flex" style="overflow: hidden;">
-        <canvas id="cover-canvas" class="parent-size"></canvas>
+        <canvas id="cover-canvas" class="parent-size" style="z-index:20; pointer-events: none;"></canvas>
         <script>
             const canvas = document.getElementById("cover-canvas");
             var gl = canvas.getContext('webgl');
@@ -324,7 +324,7 @@ html, body {
                     const vec2 center = vec2(0.5);
                     float angle = get_angle(uv);
 
-                    vec3 color = mix(hsv2rgb(vec3(angle - c_time * 0.05, 1.0, 1.0)), vec3(uv.x, uv.y, 1.0), 0.1 );
+                    vec4 color = vec4(mix(hsv2rgb(vec3(angle - c_time * 0.05, 1.0, 1.0)), vec3(uv.x, uv.y, 1.0), 0.1 ), 1.0 );
 
                     float limit = fill_distance(angle);
                     if (abs(angle) > 1.6)
@@ -333,12 +333,15 @@ html, body {
                     if (uv.y < 0.3)
                     {
                         limit += 0.3 - uv.y;
-                        color = mix(color, vec3(1.0), (0.3 - uv.y) * 3.333 * (0.3 - uv.y) * 3.333);
+                        color.a = mix(color.a, 0.0, (0.3 - uv.y) * 3.333 * (0.3 - uv.y) * 3.333);
                     }
 
-                    color = mix(color, vec3(1.0), (limit - distance(center, uv)) / 0.2);
+                    color.a = mix(color.a, 0.0, (limit - distance(center, uv)) / 0.2);
 
-                    gl_FragColor = vec4(color, 1.0);
+                    if (color.a <= 0.0)
+                        color = vec4(0.0);
+
+                    gl_FragColor = vec4(color);
                 }
             `);
             gl.compileShader(fragmentShader);
@@ -385,9 +388,10 @@ html, body {
                 </div>
             </div>
         </div>
-        <div style="flex: 1;" class="center-flex">
+        <div style="flex: 1; z-index:20;" class="center-flex">
             <svg height="100px" width="100px" onclick="document.getElementById('more-content').scrollIntoView({ behavior: 'smooth'});" id="more-button" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/></svg>
         </div>
+        <div id="letter-fade" style="z-index:15; position:absolute; bottom:0px; left:0px; width:100%; height:10vw; background: linear-gradient(to bottom, #ffffff00 0%, #ffffff 90%); pointer-events: none;"></div>
     </div>
     <div id="more-content" class="full-viewport">
         <div class="indented-content">
