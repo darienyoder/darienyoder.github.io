@@ -95,7 +95,7 @@
   content: |
     <h1>Black Squirrel Entertainment</h1> \
     <h2><a href="https://blacksquirrelentertainment.com">Check it out</a></h2> \
-    <p>Black Squirrel Entertainment is Kent State University's entertainment streaming platform. \
+    <p>Black Squirrel Entertainment is Kent State University\'s entertainment streaming platform. \
     I built them a web app to display their livestreams, schedules, and episode archives.</p> \
 
 - name: Asset Hoarder
