@@ -317,7 +317,7 @@
       <li><a href="https://descargar-gratis.es/pac-man">Descargar Gratis</a></li> \
       <li><a href="https://www.audacy.com/podcast/momentous-live-c55e2/episodes/quizzical-media-98c30">MOMENTOUS Podcast</a></li> \
     </ul> \
-  
+
 
 - name: Echosearch
   type: game
@@ -363,6 +363,7 @@
   content: |
     <h1>Scary Phone</h1> \
     <iframe style="width:100%; aspect-ratio:16/9;" src="https://www.youtube.com/embed/k2Q--jFRnzE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> \
+    <p>This was a parody of Black Mirror, set in a dystopian future where phones are bad and fashion is worse.</p> \
 
 - name: Infinite Riddle
   type: sketch-writing
@@ -397,6 +398,9 @@
   content: |
     <h1>Apocalypse Bunker</h1> \
     <iframe style="width:100%; aspect-ratio:16/9;" src="https://www.youtube.com/embed/Zrtw_fU-afE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> \
+    <p>This sketch was the first time any of us had tried shooting against a random wall \
+    instead of the green screen or couch set. It\'s a little clunky, \
+    but I think the dialogue is funny.</p>
 
 - name: Uneven Superpowers
   type: sketch-writing
@@ -408,6 +412,16 @@
 
 # Acting
 
+- name: Pitbull Addicts
+  type: sketch-acting
+  link: https://www.youtube.com/watch?v=l3Y3hNSKQtg
+  image: https://i.ytimg.com/vi/l3Y3hNSKQtg/maxresdefault.jpg
+  content: |
+    <h1>Pitbull Addicts Anonymous</h1> \
+    <iframe style="width:100%; aspect-ratio:16/9;" src="https://www.youtube.com/embed/l3Y3hNSKQtg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> \
+    <p>This one was nominated for a student Emmy, \
+    which is impressive considering none of us could do the Pitbull voice right.</p> \
+
 - name: Tribal Challenge
   type: sketch-acting
   link: https://www.youtube.com/watch?v=XlgFS2goEVg
@@ -415,14 +429,6 @@
   content: |
     <h1>Tribal Challenge</h1> \
     <iframe style="width:100%; aspect-ratio:16/9;" src="https://www.youtube.com/embed/XlgFS2goEVg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> \
-
-- name: The Rat
-  type: sketch-acting
-  link: https://www.youtube.com/watch?v=F14mh0iASTE
-  image: https://i.ytimg.com/vi/F14mh0iASTE/maxresdefault.jpg
-  content: |
-    <h1>The Rat</h1> \
-    <iframe style="width:100%; aspect-ratio:16/9;" src="https://www.youtube.com/embed/F14mh0iASTE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> \
 
 - name: Hackermen
   type: sketch-acting
@@ -449,14 +455,6 @@
     battered around the ring nonstop for five minutes, \
     I knew my time had come.</p> \
 
-- name: Pitbull Addicts
-  type: sketch-acting
-  link: https://www.youtube.com/watch?v=l3Y3hNSKQtg
-  image: https://i.ytimg.com/vi/l3Y3hNSKQtg/maxresdefault.jpg
-  content: |
-    <h1>Pitbull Addicts Anonymous</h1> \
-    <iframe style="width:100%; aspect-ratio:16/9;" src="https://www.youtube.com/embed/l3Y3hNSKQtg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> \
-
 - name: Divorce Court
   type: sketch-acting
   link: https://www.youtube.com/watch?v=gDLM6r7l2O8
@@ -464,6 +462,14 @@
   content: |
     <h1>Divorce Court</h1> \
     <iframe style="width:100%; aspect-ratio:16/9;" src="https://www.youtube.com/embed/gDLM6r7l2O8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> \
+
+- name: Who's the Rat?
+  type: sketch-acting
+  link: https://www.youtube.com/watch?v=F14mh0iASTE
+  image: https://i.ytimg.com/vi/F14mh0iASTE/maxresdefault.jpg
+  content: |
+    <h1>Who\'s the Rat?</h1> \
+    <iframe style="width:100%; aspect-ratio:16/9;" src="https://www.youtube.com/embed/F14mh0iASTE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> \
 
 - name: Married for Views
   type: sketch-acting
@@ -483,6 +489,7 @@
     <iframe style="width:100%; aspect-ratio:16/9;" src="https://www.youtube.com/embed/NnmdwvHX-KY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> \
     <p>Me and my stunt double:</p> \
     <img width="100%" src="/assets/images/stunt-double.jpg"> \
+
 - name: Pyramid's Curse
   type: sketch-acting
   link: https://www.youtube.com/watch?v=3w2_20uB6gQ
