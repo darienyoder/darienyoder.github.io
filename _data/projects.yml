@@ -34,10 +34,31 @@
 
 # SOFTWARE
 
-- name: Minigolf Game
-  type: software
+- name: College Minigolf
+  type: game
   link: /minigolf
   image: /assets/images/headers/minigolf.png
+  content: |
+    <h1>College Minigolf</h1> \
+    <h2><a href="/software-engineering-team-beta/minigolf">Check it out</a></h2> \
+    <h3><a href="https://github.com/darienyoder/software-engineering-team-beta/">Source Code</a></h3> \
+    <p>This one should go in the game section, \
+    but because this is a career portfolio it fits here as well.</p> \
+    <p>In my college Software Engineering class, we split into groups \
+    and made a small browser game to practice AGILE development. \
+    I was the project manager on a team of 11 developers, managing our \
+    burndown charts and leading the weekly standup meetings. \
+    For the project itself, I made a custom scripting language \
+    that my team used to rapidly create and iterate upon level designs. \
+    The language performs boolean operations on primitive shapes \
+    to create complex polygons. For example:</p> \
+    <code> \
+    // This creates a square with a circular hole in the center \
+    ADD rect 0, 0, 100, 100; \
+    SUB circ 50, 50, 20; \
+    </code> \
+
+    
 
 - name: Falling Sand Sim
   type: software
@@ -45,7 +66,8 @@
   image: /assets/images/headers/falling-sand.png
   content: |
     <h1>Falling Sand Sim</h1> \
-    <p>This is a cellular automata powder simulation written in C++. \
+    <h2><a href="https://github.com/darienyoder/new-sand/">Source Code</a></h2> \
+    <p>This is a cellular automata powder simulation written in C++, rendered in OpenGL. \
     Each particle on a pixel grid simulates gravity, \
     density, and temperature as it interacts with surrounding particles.</p> \
 
@@ -56,6 +78,7 @@
   content: |
     <h1>Crossword Builder</h1> \
     <h2><a href="/crossword-builder">Check it out</a></h2> \
+    <h3><a href="https://github.com/darienyoder/crossword-builder/">Source Code</a></h3> \
     <p>My grandma has this Scrabble board hanging in her kitchen wih all of the grandkids\' names on it. \
     At least, she did until my cousins had a few more kids, rendering the board severely outdated. \
     None of us could find a way to make all the names fit in a 15x15 grid, \
@@ -67,6 +90,7 @@
   link: /destroydog
   content: |
     <h1>DestroyDog Bookmarklet</h1> \
+    <h3><a href="https://github.com/darienyoder/destroydog/">Source Code</a></h3> \
     <p>DestroyDog is a javascript bookmarklet for destroying websites. \
     When launched, it aggressively deletes every element on the page \
     until only it remains. Good for dealing with unhelpful forum threads \
