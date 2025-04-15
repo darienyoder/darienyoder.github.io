@@ -140,7 +140,7 @@
 - name: Mood9 Business Card
   type: website
   link: /mood9
-  image: /mood9/static_background.png
+  image: /assets/images/headers/mood9.png
   content: |
     <h1>Mood9 Business Card</h1> \
     <h2><a href="/mood9">Check it out</a></h2> \
