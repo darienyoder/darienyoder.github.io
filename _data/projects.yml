@@ -35,7 +35,7 @@
 # SOFTWARE
 
 - name: College Minigolf
-  type: game
+  type: software
   link: /minigolf
   image: /assets/images/headers/minigolf.png
   content: |
@@ -53,9 +53,9 @@
     The language performs boolean operations on primitive shapes \
     to create complex polygons. For example:</p> \
     <code> \
-    // This creates a square with a circular hole in the center \
-    ADD rect 0, 0, 100, 100; \
-    SUB circ 50, 50, 20; \
+    // This creates a square with a circular hole in the center; \
+    ADD rect 0, 0, 100, 100; <br> \
+    SUB circ 50, 50, 20; <br> \
     </code> \
 
     
