@@ -53,12 +53,10 @@
     The language performs boolean operations on primitive shapes \
     to create complex polygons. For example:</p> \
     <code> \
-    // This creates a square with a circular hole in the center; \
+    // This creates a square with a circular hole in the center; <br> \
     ADD rect 0, 0, 100, 100; <br> \
     SUB circ 50, 50, 20; <br> \
     </code> \
-
-    
 
 - name: Falling Sand Sim
   type: software
