@@ -57,6 +57,8 @@
     ADD rect 0, 0, 100, 100; <br> \
     SUB circ 50, 50, 20; <br> \
     </code> \
+    <p>There are some more advanced features like elevation and boolean order-of-operations. \
+    The full documentation on the language can be found <a href="https://github.com/darienyoder/software-engineering-team-beta/blob/main/minigolf/HowToBuildLevels.md">here</a>.</p> \
 
 - name: Falling Sand Sim
   type: software
