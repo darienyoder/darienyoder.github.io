@@ -40,8 +40,8 @@
   image: /assets/images/headers/minigolf.png
   content: |
     <h1>College Minigolf</h1> \
-    <h2><a href="/software-engineering-team-beta/minigolf">Check it out</a></h2> \
-    <h3><a href="https://github.com/darienyoder/software-engineering-team-beta/">Source Code</a></h3> \
+    <h2><a href="/software-engineering-team-beta/minigolf">Check it out</a></h2> - \
+    <a href="https://github.com/darienyoder/software-engineering-team-beta/">Source Code</a></h2> \
     <p>This one should go in the game section, \
     but because this is a career portfolio it fits here as well.</p> \
     <p>In my college Software Engineering class, we split into groups \
@@ -77,8 +77,8 @@
   image: /assets/images/headers/crossword-builder.png
   content: |
     <h1>Crossword Builder</h1> \
-    <h2><a href="/crossword-builder">Check it out</a></h2> \
-    <h3><a href="https://github.com/darienyoder/crossword-builder/">Source Code</a></h3> \
+    <h2><a href="/crossword-builder">Check it out</a> - \
+    <a href="https://github.com/darienyoder/crossword-builder/">Source Code</a></h2> \
     <p>My grandma has this Scrabble board hanging in her kitchen wih all of the grandkids\' names on it. \
     At least, she did until my cousins had a few more kids, rendering the board severely outdated. \
     None of us could find a way to make all the names fit in a 15x15 grid, \
@@ -90,7 +90,7 @@
   link: /destroydog
   content: |
     <h1>DestroyDog Bookmarklet</h1> \
-    <h3><a href="https://github.com/darienyoder/destroydog/">Source Code</a></h3> \
+    <h2><a href="https://github.com/darienyoder/destroydog/">Source Code</a></h2> \
     <p>DestroyDog is a javascript bookmarklet for destroying websites. \
     When launched, it aggressively deletes every element on the page \
     until only it remains. Good for dealing with unhelpful forum threads \
