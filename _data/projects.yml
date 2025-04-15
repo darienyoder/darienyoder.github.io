@@ -40,7 +40,7 @@
   image: /assets/images/headers/minigolf.png
   content: |
     <h1>College Minigolf</h1> \
-    <h2><a href="/software-engineering-team-beta/minigolf">Check it out</a></h2> - \
+    <h2><a href="/software-engineering-team-beta/minigolf">Check it out</a> - \
     <a href="https://github.com/darienyoder/software-engineering-team-beta/">Source Code</a></h2> \
     <p>This one should go in the game section, \
     but because this is a career portfolio it fits here as well.</p> \
