@@ -141,7 +141,7 @@
 - name: OliviaDalPra.com
   type: website
   link: /oliviadalpra
-  image: /mood9/static_background.png
+  image: /assets/images/headers/olivia-website.png
   content: >-
     <h1>OliviaDalPra.com</h1>
     <h2><a href="https://oliviadalpra.com">Check it out</a></h2>
