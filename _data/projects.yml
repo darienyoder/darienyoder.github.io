@@ -138,6 +138,15 @@
     just to find the right 30 second audio track \
     for a project.</p> \
 
+- name: OliviaDalPra.com
+  type: website
+  link: /oliviadalpra
+  image: /mood9/static_background.png
+  content: >-
+    <h1>OliviaDalPra.com</h1>
+    <h2><a href="https://oliviadalpra.com">Check it out</a></h2>
+    <p>A portfolio site for my friend.</p>
+
 - name: Mood9 Business Card
   type: website
   link: /mood9
