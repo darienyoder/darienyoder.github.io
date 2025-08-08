@@ -30,6 +30,26 @@
         <input placeholder="Message"> \
       </div> \
     </form> \
+    <style> \
+      \
+      form { \
+      display: flex; \
+      flex-direction: column; \
+      gap: 10px; \
+      } \
+      \
+      form div { \
+      display: flex; \
+      flex-direction: row; \
+      gap: 10px; \
+      } \
+      \
+      form div input { \
+      flex: 1; \
+      font-size: 150%; \
+      } \
+      \
+    </style> \
 
 
 # SOFTWARE
