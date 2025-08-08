@@ -442,7 +442,7 @@ a:hover {
             <div class="content-row">
                 <div>
                     {% for item in site.data.projects %}
-                        {% if item.type == "website" %}
+                        {% if item.type == "software" %}
                             <div class="featured-item" onclick="open_pane('{{item.link}}')">
                                 <div class="thumbnail" style="background-image: url({{item.image}});"></div>
                                 <div class="content">
