@@ -6,10 +6,10 @@
   link: /about
   image: assets/images/bio.png
 
-- name: Resume
-  type: bonus
-  link: /resume
-  image: assets/images/bio.png
+# - name: Resume
+#   type: bonus
+#   link: /resume
+#   image: assets/images/bio.png
 
 - name: Contact
   type: bonus
