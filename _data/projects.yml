@@ -91,6 +91,10 @@
     <p>This is a cellular automata powder simulation written in C++, rendered in OpenGL. \
     Each particle on a pixel grid simulates gravity, \
     density, and temperature as it interacts with surrounding particles.</p> \
+    <h3>Initial Prototype</h3> \
+    <video style="width:100%;" src="/assets/video/sand-clips/sand_day_0.mp4"></video> \
+    <h3>Improved rendering with OpenGL</h3> \
+    <video style="width:100%;" src="/assets/video/sand-clips/lavasteamshader.mp4"></video> \
 
 - name: Crossword Builder
   type: software
