@@ -91,10 +91,20 @@
     <p>This is a cellular automata powder simulation written in C++, rendered in OpenGL. \
     Each particle on a pixel grid simulates gravity, \
     density, and temperature as it interacts with surrounding particles.</p> \
-    <h3>Initial Prototype</h3> \
-    <video style="width:100%;" src="/assets/video/sand-clips/sand_day_0.mp4"></video> \
-    <h3>Improved rendering with OpenGL</h3> \
-    <video style="width:100%;" src="/assets/video/sand-clips/lavasteamshader.mp4"></video> \
+    <h3>Initial prototype with gravity and temperature</h3> \
+    <video controls style="width:100%;" src="/assets/video/sand-clips/sand_day_0.mp4"></video> \
+    <h3>Improved rendering for lava and steam</h3> \
+    <video controls style="width:100%;" src="/assets/video/sand-clips/lavasteamshader.mp4"></video> \
+    <h3>Flammable materials</h3> \
+    <video controls style="width:100%;" src="/assets/video/sand-clips/let-it-burn.mp4"></video> \
+    <h3>Explosions</h3> \
+    <video controls style="width:100%;" src="/assets/video/sand-clips/kaboom.mp4"></video> \
+    <h3>Particles react to explosions</h3> \
+    <video controls style="width:100%;" src="/assets/video/sand-clips/flyingsand.mp4"></video> \
+    <h3>Fireworks</h3> \
+    <video controls style="width:100%;" src="/assets/video/sand-clips/happynewyear.mp4"></video> \
+    <h3>Improved fluid behavior</h3> \
+    <video controls style="width:100%;" src="/assets/video/sand-clips/splash.mp4"></video> \
 
 - name: Crossword Builder
   type: software
