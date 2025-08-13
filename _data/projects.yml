@@ -157,12 +157,12 @@
 - name: Pixel Sorter
   type: software
   link: /pixel-sort
-  image: /assets/images/headers/olivia-website.png
+  image: /assets/images/pixel-sort/wavy.png
   content: >-
     <h1>Pixel Sorter</h1>
     <h2><a href="https://github.com/darienyoder/pixel-sort/">Source Code</a></h2>
     <p>I saw some videos on YouTube about pixel sorting and wanted to give it a try.
-    Here're some of the results I got:</p>
+    Here\'re some of the results I got:</p>
     <h2>Input Image</h2>
     <img src="/assets/images/pixel-sort/me.png">
     <h2>Output</h2>
