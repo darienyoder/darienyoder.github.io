@@ -144,6 +144,35 @@
       xhttp.send(); \
     <\/script> \
 
+- name: Wordle Assistant
+  type: software
+  link: /wordle-assistant
+  image: /assets/images/headers/olivia-website.png
+  content: >-
+    <h1>Wordle Assistant</h1>
+    <h2><a href="https://github.com/darienyoder/wordle-assistant/">Source Code</a></h2>
+    <p>A command line application that suggests <a href="https://www.nytimes.com/games/wordle">Wordle</a> guesses based on previous hints.
+    Wins with 99.15% accuracy based on 14,855 sample words.</p>
+
+- name: Pixel Sorter
+  type: software
+  link: /pixel-sort
+  image: /assets/images/headers/olivia-website.png
+  content: >-
+    <h1>Pixel Sorter</h1>
+    <h2><a href="https://github.com/darienyoder/pixel-sort/">Source Code</a></h2>
+    <p>I saw some videos on YouTube about pixel sorting and wanted to give it a try.
+    Here're some of the results I got:</p>
+    <h2>Input Image</h2>
+    <img src="/assets/images/pixel-sort/me.png">
+    <h2>Output</h2>
+    <img src="/assets/images/pixel-sort/smear.png">
+    <img src="/assets/images/pixel-sort/ladder.png">
+    <img src="/assets/images/pixel-sort/accordian.png">
+    <img src="/assets/images/pixel-sort/lightning.png">
+    <img src="/assets/images/pixel-sort/wavy.png">
+    <img src="/assets/images/pixel-sort/windy.png">
+
 
 # WEBSITE
 
