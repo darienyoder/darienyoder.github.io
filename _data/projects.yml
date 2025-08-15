@@ -134,7 +134,7 @@
     <ol> \
       <li>Click and drag the link below into your bookmarks toolbar.</li> \
       <li>Click the bookmark whenever a website gets on your nerves.</li> \
-      <a id="dd_link" href="">DestroyDog</a> \
+      <a id="dd_link" href="">Loading...</a> \
       <script> \
       function load_dd() \
       { \
