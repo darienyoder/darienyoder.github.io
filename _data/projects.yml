@@ -214,25 +214,19 @@
   type: website
   link: /mood9
   image: /assets/images/headers/mood9.png
-  content: |
-    <h1>Mood9 Business Card</h1> \
-    <h2><a href="/mood9">Check it out</a></h2> \
-    <p>A friend of mine started his own film production company, titled "<a href="https://mood9.studio">mood9</a>," \
-    so I offered to make him a website for it. Since the company was in its early stages \
-    and hadn\'t yet produced anything, I didn\'t worry about appealing to potential audiences. \
-    I instead designed it as a sort of interactive business card, \
-    something you could scan off a QR code and quickly get the jist of what they do. \
-    I put everything on one page and allowed navigation between subpages via snappy scrolling.</p> \
-    <p>The owner decided during development that he would design the site himself using WordPress, \
-    so it was never fully finished.</p> \
+  content: >-
+    <h1>Mood9</h1>
+    <h2><a href="/mood9">Check it out</a></h2>
+    <p>A friend of mine started his own film production company, titled "<a href="https://mood9.studio">mood9</a>,"
+    so I offered to make him a website for it.</p>
 
 - name: This Website
   type: website
   link: /
   image: /assets/images/headers/here.png
-  content: |
-    <h1>This Website</h1> \
-    <p>I made this website. It uses Jekyll to render as a static site.</p> \
+  content: >-
+    <h1>This Website</h1>
+    <p>I made this website. It uses Jekyll to render as a static site.</p>
 
 
 # FILM
