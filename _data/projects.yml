@@ -136,13 +136,17 @@
       <li>Click the bookmark whenever a website gets on your nerves.</li> \
       <a id="dd_link" href="">DestroyDog</a> \
       <script> \
-      const xhttp = new XMLHttpRequest(); \
-      xhttp.onload = function() { \
-          document.getElementById("dd_link").href = this.responseText; \
+      function load_dd() \
+      { \
+        const xhttp = new XMLHttpRequest(); \
+        xhttp.onload = function() { \
+            document.getElementById("dd_link").href = this.responseText; \
+        } \
+        xhttp.open("GET", "https://raw.githubusercontent.com/darienyoder/destroydog-bookmarklet/refs/heads/main/DestroyDog.js", true); \
+        xhttp.send(); \
       } \
-      xhttp.open("GET", "https://raw.githubusercontent.com/darienyoder/destroydog-bookmarklet/refs/heads/main/DestroyDog.js", true); \
-      xhttp.send(); \
     <\/script> \
+    <img src="assets\images\pixel-sort\me.png" style="display:none;" onload="load_dd();"> \
 
 - name: Wordle Assistant
   type: software
