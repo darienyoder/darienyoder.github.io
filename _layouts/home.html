@@ -769,7 +769,7 @@ a svg:hover {
         const xhttp = new XMLHttpRequest();
         xhttp.onload = function() {
             document.getElementById("dd_link").href = this.responseText;
-            document.getElementById("dd_link").innerText == "DestroyDog"
+            document.getElementById("dd_link").innerText = "DestroyDog";
         }
         xhttp.open("GET", "https://raw.githubusercontent.com/darienyoder/destroydog-bookmarklet/refs/heads/main/DestroyDog.js", true);
         xhttp.send();
