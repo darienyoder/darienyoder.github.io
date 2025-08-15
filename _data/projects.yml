@@ -146,7 +146,7 @@
         xhttp.send(); \
       } \
     <\/script> \
-    <img src="assets\images\pixel-sort\me.png" style="display:none;" onload="load_dd();"> \
+    <img src="assets\/images\/pixel-sort\/me.png" style="display:none;" onload="load_dd();"> \
 
 - name: Wordle Assistant
   type: software
