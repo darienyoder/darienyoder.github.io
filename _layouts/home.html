@@ -53,10 +53,28 @@
     --box-height: calc((100vw - var(--margin-size) * 2.0) / 5 * 3 / 3 - 20px);/*min(30vh, 45vw);*/
 }
 
+#title-h1-out {
+    font-size: 8vw;
+}
+
+#title-h2-out {
+    font-size: 2vw;
+}
+
 @media only screen and (max-width: 900px) {
     :root {
         --margin-size: 10px;
         --box-height: calc((100vw - var(--margin-size) * 2.0) / 5 * 3 - 20px)
+    }
+
+    #title-h1-out {
+        font-size: 16vw;
+        margin-inline: 20vw;
+    }
+
+    #title-h2-out {
+        font-size: 6vw;
+        margin-inline: 18vw;
     }
 }
 
@@ -390,6 +408,8 @@ a svg:hover {
 
             function draw_cover()
             {
+                canvas.setAttribute('width', window.innerWidth);
+                canvas.setAttribute('height', window.innerHeight);
                 cover_time += 0.03;
                 gl.uniform2f(gl.getUniformLocation(program, "window_size"), window.innerWidth, window.innerHeight);
                 gl.uniform1f(gl.getUniformLocation(program, "c_time"), cover_time);
@@ -411,8 +431,8 @@ a svg:hover {
                     <p id="title-p-in"></p>
                 </div>
                 <div id="title-output" class="">
-                    <h1 style="font-size:8vw;" id="title-h1-out"></h1>
-                    <h2 style="font-size:2vw;" id="title-h2-out"></h2>
+                    <h1 id="title-h1-out"></h1>
+                    <h2 id="title-h2-out"></h2>
                     <p id="title-p-out"></p>
                 </div>
             </div>
