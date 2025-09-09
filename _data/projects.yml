@@ -395,23 +395,29 @@
   type: game
   link: /21st-century-roguelike-pac-man
   image: /assets/images/headers/pac-man.png
-  content: |
-    <h1>21st Century Roguelike Pac-Man</h1> \
-    <h2><a href=\"https://dariengames.itch.io/21st-century-roguelike-pac-man\">Play it</a></h2> \
-    <p>This was an attempt to ruin a beloved cultural icon by adding dozens of unnecessary features as a joke about directionless game development.</p> \
-    <p>It gained some popularity after getting a mention in B3TA newsletter, which was then reposted by Andy Baio. \
-    A little later it was reviewed on a few Spanish tech websites, which has kept daily traffic to the game \
-    even two years later.</p> \
-    Press: \
-    <ul> \
-      <li><a href="https://b3ta.com/newsletter/issue878/">B3TA Magazine</a></li> \
-      <li><a href="https://waxy.org/2023/09/21st-century-roguelike-pac-man/">Andy Baio</a></li> \
-      <li><a href="https://www.microsiervos.com/archivo/juegos-y-diversion/pac-man-modernizado-siglo-xxi.html">Microsiervos</a></li> \
-      <li><a href="https://setsideb.com/romhackish-thursday-21st-century-roguelike-pac-man/">Set Side B</a></li> \
-      <li><a href="https://wwwhatsnew.com/2023/10/06/llega-un-nuevo-pac-man-el-clasico-arcade-se-adapta-a-la-era-digital/#more-452996">WWWHATSNEW</a></li> \
-      <li><a href="https://descargar-gratis.es/pac-man">Descargar Gratis</a></li> \
-      <li><a href="https://www.audacy.com/podcast/momentous-live-c55e2/episodes/quizzical-media-98c30">MOMENTOUS Podcast</a></li> \
-    </ul> \
+  content: >-
+    <h1>21st Century Roguelike Pac-Man</h1>
+    <h2><a href=\"https://dariengames.itch.io/21st-century-roguelike-pac-man\">Play it</a></h2>
+    <p>This was an attempt to ruin a beloved cultural icon by adding dozens of unnecessary features as a joke about directionless game development.</p>
+    <p>It gained some popularity after getting a mention in B3TA newsletter, which was then reposted by Andy Baio.
+    A little later it was reviewed on a few Spanish tech websites, which has kept daily traffic to the game
+    even two years later.</p>
+    Press:
+    <ul>
+      <li><a href="https://b3ta.com/newsletter/issue878/">B3TA Magazine</a></li>
+      <li><a href="https://waxy.org/2023/09/21st-century-roguelike-pac-man/">Andy Baio</a></li>
+      <li><a href="https://www.microsiervos.com/archivo/juegos-y-diversion/pac-man-modernizado-siglo-xxi.html">Microsiervos</a></li>
+      <li><a href="https://setsideb.com/romhackish-thursday-21st-century-roguelike-pac-man/">Set Side B</a></li>
+      <li><a href="https://wwwhatsnew.com/2023/10/06/llega-un-nuevo-pac-man-el-clasico-arcade-se-adapta-a-la-era-digital/#more-452996">WWWHATSNEW</a></li>
+      <li><a href="https://descargar-gratis.es/pac-man">Descargar Gratis</a></li>
+      <li><a href="https://www.audacy.com/podcast/momentous-live-c55e2/episodes/quizzical-media-98c30">MOMENTOUS Podcast</a></li>
+    </ul>
+    <h2>Screenshots</h2>
+    <img src="/assets/images/pacman/1.png">
+    <img src="/assets/images/pacman/2.png">
+    <img src="/assets/images/pacman/3.png">
+    <img src="/assets/images/pacman/4.png">
+    <img src="/assets/images/pacman/5.png">
 
 
 - name: Echosearch
