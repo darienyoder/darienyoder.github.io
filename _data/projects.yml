@@ -114,7 +114,7 @@
     <h1>Crossword Builder</h1> \
     <h2><a href="/crossword-builder">Check it out</a> - \
     <a href="https://github.com/darienyoder/crossword-builder/">Source Code</a></h2> \
-    <p>My grandma has this Scrabble board hanging in her kitchen wih all of the grandkids\' names on it. \
+    <p>My grandma has this Scrabble board hanging in her kitchen with all of the grandkids\' names on it. \
     At least, she did until my cousins had a few more kids, rendering the board severely outdated. \
     None of us could find a way to make all the names fit in a 15x15 grid, \
     so I made this program to help.</p> \
@@ -140,12 +140,13 @@
 - name: Wordle Assistant
   type: software
   link: /wordle-assistant
-  image: /assets/images/headers/olivia-website.png
+  image: /assets/images/wordle.png
   content: >-
     <h1>Wordle Assistant</h1>
     <h2><a href="https://github.com/darienyoder/wordle-assistant/">Source Code</a></h2>
     <p>A command line application that suggests <a href="https://www.nytimes.com/games/wordle">Wordle</a> guesses based on previous hints.
     Wins with 99.15% accuracy based on 14,855 sample words.</p>
+    <img src="/assets/images/wordle.png">
 
 - name: Pixel Sorter
   type: software
@@ -220,6 +221,7 @@
   image: /assets/images/headers/here.png
   content: >-
     <h1>This Website</h1>
+    <h2><a href="/">Check it out</a></h2>
     <p>I made this website. It uses Jekyll to render as a static site.</p>
 
 
