@@ -173,26 +173,27 @@
   type: website
   link: /black-squirrel-entertainment
   image: /assets/images/headers/bse.png
-  content: |
-    <h1>Black Squirrel Entertainment</h1> \
-    <h2><a href="https://blacksquirrelentertainment.com">Check it out</a></h2> \
-    <p>Black Squirrel Entertainment is Kent State University\'s entertainment streaming platform. \
-    I built them a web app to display their livestreams, schedules, and episode archives.</p> \
+  content: >-
+    <h1>Black Squirrel Entertainment</h1>
+    <h2><a href="https://blacksquirrelentertainment.com">Check it out</a></h2>
+    <img src="/assets/images/bse.png">
+    <p>Black Squirrel Entertainment is Kent State University\'s entertainment streaming platform.
+    I built them a web app to display their livestreams, schedules, and episode archives.</p>
 
 - name: Asset Hoarder
   type: website
   link: /asset-hoarder
   image: https://as1.ftcdn.net/jpg/02/91/50/24/220_F_291502443_1h4oDbxKdgGavtlcNkQYwFquJKB2l9bd.jpg
-  content: |
-    <h1>Asset Hoarder</h1> \
-    <h2 style="color:red;">Coming 2025</h2> \
-    <p>AssetHoarder is an asset aggregation tool \
-    that gathers public domain assets from across the web \
-    and displays them in an easily searchable list. \
-    Intended for video editors, game developers, \
-    and anyone else who\'s wasted hours \
-    just to find the right 30 second audio track \
-    for a project.</p> \
+  content: >-
+    <h1>Asset Hoarder</h1>
+    <h2 style="color:red;">Coming 2025</h2>
+    <p>AssetHoarder is an asset aggregation tool
+    that gathers public domain assets from across the web
+    and displays them in an easily searchable list.
+    Intended for video editors, game developers,
+    and anyone else who\'s wasted hours
+    just to find the right 30 second audio track
+    for a project.</p>
 
 - name: OliviaDalPra.com
   type: website
