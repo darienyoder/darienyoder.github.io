@@ -181,6 +181,36 @@
     <p>Black Squirrel Entertainment is Kent State University\'s entertainment streaming platform.
     I built them a web app to display their livestreams, schedules, and episode archives.</p>
 
+- name: Lurker
+  type: website
+  link: /lurker
+  image: /assets/images/headers/bse.png
+  content: >-
+    <h1>Black Squirrel Entertainment</h1>
+    <h2><a href="https://lurker.darien.ink">Check it out</a></h2>
+    <img src="">
+    <p>I made this to learn Next.js</p>
+
+- name: 3D Business Card
+  type: website
+  link: /darien.ink
+  image: /assets/images/headers/bse.png
+  content: >-
+    <h1>Black Squirrel Entertainment</h1>
+    <h2><a href="https://darien.ink">Check it out</a></h2>
+    <img src="">
+    <p></p>
+
+- name: Homepage
+  type: website
+  link: /homepage
+  image: /assets/images/headers/bse.png
+  content: >-
+    <h1>Black Squirrel Entertainment</h1>
+    <h2><a href="https://start.darien.ink">Check it out</a></h2>
+    <img src="">
+    <p></p>
+
 - name: Asset Hoarder
   type: website
   link: /asset-hoarder
