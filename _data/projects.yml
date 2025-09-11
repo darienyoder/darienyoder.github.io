@@ -5,6 +5,9 @@
   type: bonus
   link: /about
   image: assets/images/bio.png
+  content: >-
+      <h1>About</h1>
+      <p></p>
 
 # - name: Resume
 #   type: bonus
@@ -21,6 +24,8 @@
     <form> \
       <div> \
         <input placeholder="Name"> \
+      </div> \
+      <div> \
         <input placeholder="Email"> \
       </div> \
       <div> \
@@ -184,12 +189,16 @@
 - name: Lurker
   type: website
   link: /lurker
-  image: /assets/images/headers/bse.png
+  image: /assets/images/wireframes/lurker/wireframe_1.png
   content: >-
     <h1>Black Squirrel Entertainment</h1>
     <h2><a href="https://lurker.darien.ink">Check it out</a></h2>
     <img src="">
     <p>I made this to learn Next.js</p>
+    <h2>Wireframes</h2>
+    <img src="/assets/images/wireframes/lurker/wireframe_2.png">
+    <img src="/assets/images/wireframes/lurker/wireframe_1.png">
+    <img src="/assets/images/wireframes/lurker/wireframe_3.png">
 
 - name: 3D Business Card
   type: website
