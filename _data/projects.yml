@@ -181,7 +181,7 @@
   image: /assets/images/headers/bse.png
   content: >-
     <h1>Black Squirrel Entertainment</h1>
-    <h2><a href="https://blacksquirrelentertainment.com">Check it out</a></h2>
+    <h2><a href="https://blacksquirrelentertainment.com" target="_blank">Check it out</a></h2>
     <img src="/assets/images/bse.png">
     <p>Black Squirrel Entertainment is Kent State University\'s entertainment streaming platform.
     I built them a web app to display their livestreams, schedules, and episode archives.</p>
@@ -192,7 +192,7 @@
   image: /assets/images/lurker-cover.png
   content: >-
     <h1>Lurker</h1>
-    <h2><a href="https://lurker-app.vercel.app">Check it out</a></h2>
+    <h2><a href="https://lurker-app.vercel.app" target="_blank">Check it out</a></h2>
     <img src="/assets/images/lurker-feed.png">
     <p>I made this in two weeks to learn Next.js. It\'s a prototype for a social media aggregator that lets you combine posts from multiple platforms into one central feed.
     I initially wanted to include more popular sites like Youtube or Instagram, but for now it only has platforms with publicly available APIs.</p>
@@ -227,14 +227,12 @@
   image: https://as1.ftcdn.net/jpg/02/91/50/24/220_F_291502443_1h4oDbxKdgGavtlcNkQYwFquJKB2l9bd.jpg
   content: >-
     <h1>Asset Hoarder</h1>
-    <h2 style="color:red;">Coming 2025</h2>
-    <p>AssetHoarder is an asset aggregation tool
-    that gathers public domain assets from across the web
-    and displays them in an easily searchable list.
-    Intended for video editors, game developers,
-    and anyone else who\'s wasted hours
-    just to find the right 30 second audio track
-    for a project.</p>
+    <p>AssetHoarder was my college capstone project.
+    The goal of the project was to create a tool that could crawl the web
+    to find public domain assets for digital creators to use. We experimented with
+    different ways of querying for assets, like automatically tagging by color and using
+    cosine similarity to include relevant results that did not perfectly match the search keyword.</p>
+    <p>It was stored on the university\'s servers, but they removed it a few months after I graduated. The source codes\'s all there if you want to check it out, though.</p>
 
 - name: OliviaDalPra.com
   type: website
@@ -243,7 +241,10 @@
   content: >-
     <h1>OliviaDalPra.com</h1>
     <h2><a href="https://oliviadalpra.com">Check it out</a></h2>
-    <p>A portfolio site for my friend.</p>
+    <img src="/assets/images/headers/olivia-website.png">
+    <p>A video portfolio site for a local filmmaker. It features embedded movies and filters for each role she held on a project.</p>
+    <h2>Wireframes</h2>
+    <img src="/assets/images/wireframes/olivia_wireframe.png">
 
 - name: Mood9
   type: website
@@ -262,7 +263,7 @@
   content: >-
     <h1>This Website</h1>
     <h2><a href="/">Check it out</a></h2>
-    <p>I made this website. It uses Jekyll to render as a static site.</p>
+    <p>I made this website. It uses Jekyll to render as a static site. You should try to click on the letters in the header if you haven't already.</p>
 
 
 # FILM
