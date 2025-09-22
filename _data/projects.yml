@@ -189,12 +189,13 @@
 - name: Lurker
   type: website
   link: /lurker
-  image: /assets/images/wireframes/lurker/wireframe_1.png
+  image: /assets/images/lurker-cover.png
   content: >-
-    <h1>Black Squirrel Entertainment</h1>
-    <h2><a href="https://lurker.darien.ink">Check it out</a></h2>
-    <img src="">
-    <p>I made this to learn Next.js</p>
+    <h1>Lurker</h1>
+    <h2><a href="https://lurker-app.vercel.app">Check it out</a></h2>
+    <img src="/assets/images/lurker-feed.png">
+    <p>I made this in two weeks to learn Next.js. It's a prototype for a social media aggregator that lets you combine posts from multiple platforms into one central feed.
+    I initially wanted to include more popular sites like Youtube or Instagram, but for now it only has platforms with publicly available APIs.</p>
     <h2>Wireframes</h2>
     <img src="/assets/images/wireframes/lurker/wireframe_2.png">
     <img src="/assets/images/wireframes/lurker/wireframe_1.png">
