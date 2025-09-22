@@ -252,9 +252,11 @@
   image: /assets/images/headers/mood9.png
   content: >-
     <h1>Mood9</h1>
-    <h2><a href="/mood9">Check it out</a></h2>
-    <p>A friend of mine started his own film production company, titled "<a href="https://mood9.studio">mood9</a>,"
-    so I offered to make him a website for it.</p>
+    <h2><a href="/mood9">Check it out</a> <span style="color:red;">(In progress)</span></h2>
+    <p>Mood9 is a new film production company created by a friend of mine. I offered to make him a website as a favor.</p>
+    <h2>Wireframes</h2>
+    <img src="/assets/images/wireframes/mood9_wireframe.png">
+
 
 - name: This Website
   type: website
@@ -263,7 +265,7 @@
   content: >-
     <h1>This Website</h1>
     <h2><a href="/">Check it out</a></h2>
-    <p>I made this website. It uses Jekyll to render as a static site. You should try to click on the letters in the header if you haven't already.</p>
+    <p>I made this website. It uses Jekyll to render as a static site. You should try to click on the letters in the header if you haven\'t already.</p>
 
 
 # FILM
