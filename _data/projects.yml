@@ -83,8 +83,12 @@
     SUB circ 50, 50, 20; <br> \
     </code> \
     <p>There are some more advanced features like elevation and boolean order-of-operations. \
-    The full documentation on the language can be found <a href="https://github.com/darienyoder/software-engineering-team-beta/blob/main/minigolf/HowToBuildLevels.md">here</a>.</p> \
-    <p>An official description of all the systems I made for the project can be found in <a href="/MinigolfArchitecturalDocument.pdf">this architectural document</a>.</p> \
+    The full documentation on the language can be found <a href="https://github.com/darienyoder/software-engineering-team-beta/blob/main/minigolf/HowToBuildLevels.md" target="_blank">here</a>.</p> \
+    <p>An official description of all the systems I made for the project can be found in <a href="/MinigolfArchitecturalDocument.pdf" target="_blank">this architectural document</a>.</p> \
+    <h3>Slope demo</h3> \
+    <video controls style="width:100%;" src="/assets/video/minigolf/golf-topography.mp4"></video> \
+    <h3>Menu demo</h3> \
+    <video controls style="width:100%;" src="/assets/video/minigolf/menus.mp4"></video> \
 
 - name: Falling Sand Sim
   type: software
