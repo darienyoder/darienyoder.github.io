@@ -190,6 +190,8 @@
     <img src="/assets/images/bse.png">
     <p>Black Squirrel Entertainment is Kent State University\'s entertainment streaming platform.
     I built them a web app to display their livestreams, schedules, and episode archives.</p>
+    <h2>Wireframes</h2>
+    <img src="/assets/images/wireframes/bse/tv-show.png">
 
 - name: Lurker
   type: website
@@ -240,6 +242,9 @@
     different ways of querying for assets, like automatically tagging by color and using
     cosine similarity to include relevant results that did not perfectly match the search keyword.</p>
     <p>It was stored on the university\'s servers, but they removed it a few months after I graduated. The source codes\'s all there if you want to check it out, though.</p>
+    <h3>Frontend demo</h3>
+    <video controls style="width:100%;" src="/assets/video/asset-hoarder.mp4"></video>
+    <p>I made the interface way more experimental than it needed to be.</p>
 
 - name: OliviaDalPra.com
   type: website
