@@ -239,12 +239,17 @@
 - name: Homepage
   type: website
   link: /homepage
-  image: /assets/images/headers/bse.png
+  image: /assets/images/start.png
   content: >-
-    <h1>Black Squirrel Entertainment</h1>
-    <h2><a href="https://start.darien.ink" target="_blank">Check it out</a></h2>
-    <img src="">
-    <p></p>
+    <h1>Homepage</h1>
+    <h2><a href="https://github.com/darienyoder/start" target="_blank">Source Code</a></h2>
+    <img src="/assets/images/start.png">
+    <p>I made a custom homepage for when I open my web browser.
+    It\'s just a Search bar with some RSS feeds and a ToDo list,
+    but it\'s miles more efficient than the standard new tab page. It runs locally using Flask.</p>
+    <h2>Wireframes</h2>
+    <img src="/assets/images/wireframes/start.png">
+
 
 - name: OliviaDalPra.com
   type: website
