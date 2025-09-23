@@ -84,6 +84,7 @@
     </code> \
     <p>There are some more advanced features like elevation and boolean order-of-operations. \
     The full documentation on the language can be found <a href="https://github.com/darienyoder/software-engineering-team-beta/blob/main/minigolf/HowToBuildLevels.md">here</a>.</p> \
+    <p>An official description of all the systems I made for the project can be found in <a href="/MinigolfArchitecturalDocument.pdf">this architectural document</a>.</p> \
 
 - name: Falling Sand Sim
   type: software
@@ -228,6 +229,7 @@
   content: >-
     <h1>Asset Hoarder</h1>
     <h2><a href="https://github.com/darienyoder/asset-hoarder/" target="_blank">Source Code</a></h2>
+    <img src="/assets/images/asset-hoarder.png">
     <p>AssetHoarder was my college capstone project.
     The goal of the project was to create a tool that could crawl the web
     to find public domain assets for digital creators to use. We experimented with
