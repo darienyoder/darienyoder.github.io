@@ -18,43 +18,53 @@
   type: bonus
   link: /contact
   image: assets/images/bio.png
-  content: |
-    <h1>Contact</h1> \
-    <p>Send me a message!</p> \
-    <form> \
-      <div> \
-        <input placeholder="Name"> \
-      </div> \
-      <div> \
-        <input placeholder="Email"> \
-      </div> \
-      <div> \
-        <input placeholder="Subject"> \
-      </div> \
-      <div> \
-        <input placeholder="Message"> \
-      </div> \
-    </form> \
-    <style> \
-      \
-      form { \
-      display: flex; \
-      flex-direction: column; \
-      gap: 10px; \
-      } \
-      \
-      form div { \
-      display: flex; \
-      flex-direction: row; \
-      gap: 10px; \
-      } \
-      \
-      form div input { \
-      flex: 1; \
-      font-size: 150%; \
-      } \
-      \
-    </style> \
+  content: >-
+      <h1>Contact</h1>
+      <p>Feel free to send me a message! But before I give you my email, answer this question to prove you\'re not a robot:</p>
+      <h2>What is the word shown below></h2>
+      <img src="/assets/images/captcha.png">
+      <button onclick="email1();" id="email-option-1">Eaten... uh, nifty?</button>
+      <button onclick="email2();" id="email-option-2">I have no idea</button>
+      <div id="email-zone">
+
+      </div>
+  # content: |
+  #   <h1>Contact</h1> \
+  #   <p>Send me a message!</p> \
+  #   <form> \
+  #     <div> \
+  #       <input placeholder="Name"> \
+  #     </div> \
+  #     <div> \
+  #       <input placeholder="Email"> \
+  #     </div> \
+  #     <div> \
+  #       <input placeholder="Subject"> \
+  #     </div> \
+  #     <div> \
+  #       <input placeholder="Message"> \
+  #     </div> \
+  #   </form> \
+  #   <style> \
+  #     \
+  #     form { \
+  #     display: flex; \
+  #     flex-direction: column; \
+  #     gap: 10px; \
+  #     } \
+  #     \
+  #     form div { \
+  #     display: flex; \
+  #     flex-direction: row; \
+  #     gap: 10px; \
+  #     } \
+  #     \
+  #     form div input { \
+  #     flex: 1; \
+  #     font-size: 150%; \
+  #     } \
+  #     \
+  #   </style> \
 
 
 # SOFTWARE

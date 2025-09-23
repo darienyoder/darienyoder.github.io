@@ -790,6 +790,7 @@ a svg:hover {
 
     </script>
     <script>
+    
     function load_dd()
     {
         const xhttp = new XMLHttpRequest();
@@ -800,6 +801,38 @@ a svg:hover {
         xhttp.open("GET", "https://raw.githubusercontent.com/darienyoder/destroydog-bookmarklet/refs/heads/main/DestroyDog.js", true);
         xhttp.send();
     }
+
+    function do_thing()
+    {
+        const term = "64v1cyn26cvl3v2b2yu41@ke2u";
+        const alpha = "1234567890.@qwertyuiopasdfghjklzxcvbnm";
+        let new_term = "";
+        for (var i = 0; i < term.length; i++)
+            new_term += alpha[(alpha.indexOf(term[i]) + 19) % 38];
+        document.getElementById("liam-scramb").innerText = new_term;
+        document.getElementById("liam-scramb").href = "mailto:" + new_term;
+    }
+
+    function email1()
+    {
+        document.getElementById("email-option-2").disabled = true;
+        document.getElementById("email-zone").innerHTML = `
+            <h2>Sure, your guess is as good as mine.</h2>
+            <p>Message me at <a id="liam-scramb"></a></p>
+        `;
+        do_thing();
+    }
+
+    function email2()
+    {
+        document.getElementById("email-option-1").disabled = true;
+        document.getElementById("email-zone").innerHTML = `
+            <h2>Correct, that was a trick question.</h2>
+            <p>Message me at <a id="liam-scramb"></a></p>
+        `;
+        do_thing();
+    }
+
   </script>
 </body>
 </html>
