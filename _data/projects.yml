@@ -65,8 +65,8 @@
   image: /assets/images/headers/minigolf.png
   content: |
     <h1>College Minigolf</h1> \
-    <h2><a href="/software-engineering-team-beta/minigolf">Check it out</a> - \
-    <a href="https://github.com/darienyoder/software-engineering-team-beta/">Source Code</a></h2> \
+    <h2><a href="/software-engineering-team-beta/minigolf" target="_blank">Check it out</a> - \
+    <a href="https://github.com/darienyoder/software-engineering-team-beta/" target="_blank">Source Code</a></h2> \
     <p>This one should go in the game section, \
     but because this is a career portfolio it fits here as well.</p> \
     <p>In my college Software Engineering class, we split into groups \
@@ -117,7 +117,7 @@
   image: /assets/images/headers/crossword-builder.png
   content: |
     <h1>Crossword Builder</h1> \
-    <h2><a href="/crossword-builder">Check it out</a> - \
+    <h2><a href="/crossword-builder" target="_blank">Check it out</a> - \
     <a href="https://github.com/darienyoder/crossword-builder/">Source Code</a></h2> \
     <p>My grandma has this Scrabble board hanging in her kitchen with all of the grandkids\' names on it. \
     At least, she did until my cousins had a few more kids, rendering the board severely outdated. \
@@ -130,7 +130,7 @@
   link: /destroydog
   content: |
     <h1>DestroyDog Bookmarklet</h1> \
-    <h2><a href="https://github.com/darienyoder/destroydog/">Source Code</a></h2> \
+    <h2><a href="https://github.com/darienyoder/destroydog/" target="_blank">Source Code</a></h2> \
     <p>DestroyDog is a javascript bookmarklet for destroying websites. \
     When launched, it aggressively deletes every element on the page \
     until only it remains. Good for dealing with unhelpful forum threads \
@@ -148,7 +148,7 @@
   image: /assets/images/wordle.png
   content: >-
     <h1>Wordle Assistant</h1>
-    <h2><a href="https://github.com/darienyoder/wordle-assistant/">Source Code</a></h2>
+    <h2><a href="https://github.com/darienyoder/wordle-assistant/" target="_blank">Source Code</a></h2>
     <p>A command line application that suggests <a href="https://www.nytimes.com/games/wordle">Wordle</a> guesses based on previous hints.
     Wins with 99.15% accuracy based on 14,855 sample words.</p>
     <img src="/assets/images/wordle.png">
@@ -159,7 +159,7 @@
   image: /assets/images/pixel-sort/wavy.png
   content: >-
     <h1>Pixel Sorter</h1>
-    <h2><a href="https://github.com/darienyoder/pixel-sort/">Source Code</a></h2>
+    <h2><a href="https://github.com/darienyoder/pixel-sort/" target="_blank">Source Code</a></h2>
     <p>I saw some videos on YouTube about pixel sorting and wanted to give it a try.
     Here\'re some of the results I got:</p>
     <h2>Input Image</h2>
@@ -207,7 +207,7 @@
   image: /assets/images/headers/bse.png
   content: >-
     <h1>Black Squirrel Entertainment</h1>
-    <h2><a href="https://darien.ink">Check it out</a></h2>
+    <h2><a href="https://darien.ink" target="_blank">Check it out</a></h2>
     <img src="">
     <p></p>
 
@@ -217,16 +217,17 @@
   image: /assets/images/headers/bse.png
   content: >-
     <h1>Black Squirrel Entertainment</h1>
-    <h2><a href="https://start.darien.ink">Check it out</a></h2>
+    <h2><a href="https://start.darien.ink" target="_blank">Check it out</a></h2>
     <img src="">
     <p></p>
 
 - name: Asset Hoarder
   type: website
   link: /asset-hoarder
-  image: https://as1.ftcdn.net/jpg/02/91/50/24/220_F_291502443_1h4oDbxKdgGavtlcNkQYwFquJKB2l9bd.jpg
+  image: /assets/images/headers/asset-hoarder.png
   content: >-
     <h1>Asset Hoarder</h1>
+    <h2><a href="https://github.com/darienyoder/asset-hoarder/" target="_blank">Source Code</a></h2>
     <p>AssetHoarder was my college capstone project.
     The goal of the project was to create a tool that could crawl the web
     to find public domain assets for digital creators to use. We experimented with
@@ -240,7 +241,7 @@
   image: /assets/images/headers/olivia-website.png
   content: >-
     <h1>OliviaDalPra.com</h1>
-    <h2><a href="https://oliviadalpra.com">Check it out</a></h2>
+    <h2><a href="https://oliviadalpra.com" target="_blank">Check it out</a></h2>
     <img src="/assets/images/headers/olivia-website.png">
     <p>A video portfolio site for a local filmmaker. It features embedded movies and filters for each role she held on a project.</p>
     <h2>Wireframes</h2>
@@ -252,7 +253,7 @@
   image: /assets/images/headers/mood9.png
   content: >-
     <h1>Mood9</h1>
-    <h2><a href="/mood9">Check it out</a> <span style="color:red;">(In progress)</span></h2>
+    <h2><a href="/mood9" target="_blank">Check it out</a> <span style="color:red;">(In progress)</span></h2>
     <p>Mood9 is a new film production company created by a friend of mine. I offered to make him a website as a favor.</p>
     <h2>Wireframes</h2>
     <img src="/assets/images/wireframes/mood9_wireframe.png">
@@ -265,7 +266,8 @@
   content: >-
     <h1>This Website</h1>
     <h2><a href="/">Check it out</a></h2>
-    <p>I made this website. It uses Jekyll to render as a static site. You should try to click on the letters in the header if you haven\'t already.</p>
+    <p>I made this website. It uses Jekyll to render as a static site.
+    You should try to click on the letters in the header if you haven\'t already.</p>
 
 
 # FILM
@@ -320,7 +322,7 @@
       <li>I slipped on an acorn while on set and needed to be taken to urgent care to get stitches in my chin.</li> \
       <li>While the doctor was sowing my face back together, the lights flickered briefly. This turned out to be a city-wide power outage.</li> \
       <li>We had a generator to deal with the power outage, but because of how loud it was it needed to taken far down the trail and connected to all our lights by several extension cords.</li> \
-      <li>A man on a bike threatened to break our camera because he thought we were filming him. The camera in question was not a camera, but rather a light bulb that was not pointed towards him.</li> \
+      <li>A man on a bike threatened to break one of our lights because he thought it was a camera that we were trying to film him with.</li> \
       <li>While cleaning up after shooting in the pitch black of night, our producer tripped with 3 SD cards in his hand. When he stood up there were 2 SD cards in his hand.</li> \
     </ol> \
 
@@ -349,6 +351,7 @@
     <p>The film had a few scenes cut due to time constraints. \
     For one scene I made a robot bounty hunter character. \
     He never made it to the big screen, so now he lives on my shelf.</p> \
+    <img src="/assets/images/robot.jpg"> \
 
 - name: Buzzer Beater
   subheading: 2nd AD / Script Supervisor
