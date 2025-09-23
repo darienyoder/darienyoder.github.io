@@ -191,7 +191,14 @@
     <p>Black Squirrel Entertainment is Kent State University\'s entertainment streaming platform.
     I built them a web app to display their livestreams, schedules, and episode archives.</p>
     <h2>Wireframes</h2>
+    <h3>TV Show Page</h3>
     <img src="/assets/images/wireframes/bse/tv-show.png">
+    <h3>TV Schedule</h3>
+    <img src="/assets/images/wireframes/bse/tv-schedule.png">
+    <img src="/assets/images/wireframes/bse/schedule.png">
+    <h3>Radio Player</h3>
+    <img src="/assets/images/wireframes/bse/radio.png">
+    <img src="/assets/images/wireframes/bse/radio-player.png">
 
 - name: Lurker
   type: website
