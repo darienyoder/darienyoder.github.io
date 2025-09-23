@@ -208,25 +208,15 @@
     <img src="/assets/images/wireframes/lurker/wireframe_1.png">
     <img src="/assets/images/wireframes/lurker/wireframe_3.png">
 
-- name: 3D Business Card
-  type: website
-  link: /darien.ink
-  image: /assets/images/headers/bse.png
-  content: >-
-    <h1>Black Squirrel Entertainment</h1>
-    <h2><a href="https://darien.ink" target="_blank">Check it out</a></h2>
-    <img src="">
-    <p></p>
-
-- name: Homepage
-  type: website
-  link: /homepage
-  image: /assets/images/headers/bse.png
-  content: >-
-    <h1>Black Squirrel Entertainment</h1>
-    <h2><a href="https://start.darien.ink" target="_blank">Check it out</a></h2>
-    <img src="">
-    <p></p>
+# - name: 3D Business Card
+#   type: website
+#   link: /darien.ink
+#   image: /assets/images/headers/bse.png
+#   content: >-
+#     <h1>Black Squirrel Entertainment</h1>
+#     <h2><a href="https://darien.ink" target="_blank">Check it out</a></h2>
+#     <img src="">
+#     <p></p>
 
 - name: Asset Hoarder
   type: website
@@ -241,10 +231,20 @@
     to find public domain assets for digital creators to use. We experimented with
     different ways of querying for assets, like automatically tagging by color and using
     cosine similarity to include relevant results that did not perfectly match the search keyword.</p>
-    <p>It was stored on the university\'s servers, but they removed it a few months after I graduated. The source codes\'s all there if you want to check it out, though.</p>
+    <p>It was hosted on the university\'s servers, but they removed it a few months after I graduated. The source codes\'s all there if you want to check it out, though.</p>
     <h3>Frontend demo</h3>
-    <video controls style="width:100%;" src="/assets/video/asset-hoarder.mp4"></video>
     <p>I made the interface way more experimental than it needed to be.</p>
+    <video controls style="width:100%;" src="/assets/video/asset-hoarder.mp4"></video>
+
+- name: Homepage
+  type: website
+  link: /homepage
+  image: /assets/images/headers/bse.png
+  content: >-
+    <h1>Black Squirrel Entertainment</h1>
+    <h2><a href="https://start.darien.ink" target="_blank">Check it out</a></h2>
+    <img src="">
+    <p></p>
 
 - name: OliviaDalPra.com
   type: website
