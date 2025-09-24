@@ -24,8 +24,12 @@
       <h2>What is the word shown below?</h2> \
       <img width="100%" src="/assets/images/captcha.png"> \
       <div style="display: flex; flex-direction: row;"> \
-          <button class="contact-button" onclick="email1();" id="email-option-1">Eaten... uh, nifty?</button> \
-          <button class="contact-button" onclick="email2();" id="email-option-2">I have no idea</button> \
+          <button class="contact-button" onclick="email(1);" id="email-option-1">Gottenify</button> \
+          <button class="contact-button" onclick="email(2);" id="email-option-2">Sofenjrift</button> \
+      </div> \
+      <div style="display: flex; flex-direction: row;"> \
+          <button class="contact-button" onclick="email(3);" id="email-option-3">Eating nifty</button> \
+          <button class="contact-button" onclick="email(4);" id="email-option-4">Motenimity</button> \
       </div> \
       <div id="email-zone"></div> \
   # content: |

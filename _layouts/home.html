@@ -288,6 +288,8 @@ a svg:hover {
 .contact-button {
     flex: 1;
     font-size: 30px;
+    padding-block: 20px;
+    margin: 10px;
 }
 
 </style>
@@ -818,21 +820,14 @@ a svg:hover {
         document.getElementById("liam-scramb").href = "mailto:" + new_term;
     }
 
-    function email1()
+    function email(answer)
     {
-        document.getElementById("email-option-2").disabled = true;
+        document.getElementById("email-option-1").disabled = answer != 1;
+        document.getElementById("email-option-2").disabled = answer != 2;
+        document.getElementById("email-option-3").disabled = answer != 3;
+        document.getElementById("email-option-4").disabled = answer != 4;
         document.getElementById("email-zone").innerHTML = `
             <h2>Sure, your guess is as good as mine.</h2>
-            <p>Message me at <a id="liam-scramb"></a></p>
-        `;
-        do_thing();
-    }
-
-    function email2()
-    {
-        document.getElementById("email-option-1").disabled = true;
-        document.getElementById("email-zone").innerHTML = `
-            <h2>Correct, that was a trick question.</h2>
             <p>Message me at <a id="liam-scramb"></a></p>
         `;
         do_thing();
