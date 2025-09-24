@@ -26,7 +26,7 @@
       <div style="display: flex; flex-direction: row;"> \
           <button class="contact-button" onclick="email1();" id="email-option-1">Eaten... uh, nifty?</button> \
           <button class="contact-button" onclick="email2();" id="email-option-2">I have no idea</button> \
-      </div>
+      </div> \
       <div id="email-zone"></div> \
   # content: |
   #   <h1>Contact</h1> \
