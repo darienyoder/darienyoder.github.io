@@ -1,14 +1,14 @@
 
 # BONUS
 
-- name: About
-  type: bonus
-  link: /about
-  image: assets/images/headers/about.png
-  content: >-
-      <h1>About</h1>
-      <p>Hi! </p>
-      <p>Thanks for stopping by!</p>
+# - name: About
+#   type: bonus
+#   link: /about
+#   image: assets/images/bio.png
+#   content: >-
+#       <h1>About</h1>
+#       <p>Hi, welcome to my website. </p>
+#       <p>Thanks for stopping by!</p>
 
 # - name: Resume
 #   type: bonus
@@ -18,7 +18,7 @@
 - name: Contact
   type: bonus
   link: /contact
-  image: assets/images/bio.png
+  image: assets/images/headers/about.png
   content: |
       <h1>Contact</h1> \
       <p>Feel free to send me a message! But before I give you my email, answer this question to prove you\'re not a robot:</p> \
