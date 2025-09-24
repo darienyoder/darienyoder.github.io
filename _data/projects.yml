@@ -4,10 +4,11 @@
 - name: About
   type: bonus
   link: /about
-  image: assets/images/bio.png
+  image: assets/images/headers/about.png
   content: >-
       <h1>About</h1>
-      <p></p>
+      <p>Hi! </p>
+      <p>Thanks for stopping by!</p>
 
 # - name: Resume
 #   type: bonus
