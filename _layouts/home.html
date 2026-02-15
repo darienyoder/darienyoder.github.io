@@ -84,6 +84,11 @@ html, body {
     background-color: white;
 }
 
+body {
+    height: min-content;
+    background-image: url(/assets/images/fridge_wall.jpg);
+}
+
 .full-viewport {
     width: 100%;
     height: 100vh;
@@ -159,6 +164,7 @@ html, body {
     flex: 1;
     background-position: center;
     background-size: cover;
+    background-color: white;
 }
 
 .featured-item .content {
@@ -184,6 +190,11 @@ html, body {
 
 #more-button:hover {
     top: 10px;
+}
+
+#more-content {
+    height: inherit;
+    min-height: 100vh;
 }
 
 #more-content > h1, .indented-content {
